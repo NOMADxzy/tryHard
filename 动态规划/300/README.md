@@ -1,4 +1,4 @@
-[题目](https://leetcode.cn/problems/longest-increasing-subsequence/submissions/)
+[题目](https://leetcode.cn/problems/longest-increasing-subsequence/description/)
 ![pic](img.png)
 结果：
 ![pic](result.png)
