@@ -1,4 +1,4 @@
-### [题目](https://leetcode.cn/problems/string-compression/?envType=study-plan-v2&envId=leetcode-75)
+### [题目](https://leetcode.cn/problems/smallest-string-with-a-given-numeric-value/)
 
 ![pic](img.png)
 
