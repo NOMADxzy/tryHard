@@ -16,7 +16,7 @@ func numSubarraysWithSum(nums []int, goal int) int {
 		if l == len(nums) {
 			break
 		}
-		if sum == goal && r >= l {
+		if sum == goal && r >= l { //goal==0时，不加r>=l会多算空数组
 			cnt++
 			for j := l - 1; j >= 0 && nums[j] == 0; j-- {
 				cnt++
