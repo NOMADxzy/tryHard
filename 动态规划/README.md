@@ -26,11 +26,21 @@
 | [764. 最大加号标志](https://leetcode.cn/problems/largest-plus-sign/description/) | 分成四个方向分别求解 | [我的提交](https://leetcode.cn/problems/largest-plus-sign/submissions/473771185/) |
 
 > 2> 使用两个变量滚动记录 dp，优化空间
-> 
+>
+| 题目          | 说明       | 实现                                                                            |
+|-------------|----------|-------------------------------------------------------------------------------|
+| [70. 爬楼梯](https://leetcode.cn/problems/climbing-stairs/description/) | 只记录上一个状态 | [我的提交](https://leetcode.cn/problems/climbing-stairs/submissions/464582419/) |
 
 
+> 3> 一个状态划分两个或以上的子状态，分别对每个子状态进行转移，合并得到结果
+>
+| 题目                                                                                               | 说明            | 实现                                                                            |
+|--------------------------------------------------------------------------------------------------|---------------|-------------------------------------------------------------------------------|
+| [357. 统计各位数字都不同的数字个数](https://leetcode.cn/problems/count-numbers-with-unique-digits/description/) | 划分是/否含0两个状态   | [我的提交](https://leetcode.cn/problems/count-numbers-with-unique-digits/submissions/473822249/) |
+| [714. 买卖股票的最佳时机含手续费](https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/description/) | 划分是/否持有股票两个状态 | [我的提交](https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/submissions/466212396/) |
 
-**有限制的从最后枚举 j**
+
+### 3. 更多练习
 
 | 题目                                                         | 说明                                                         | 题解                                                         |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -41,15 +51,8 @@
 
 
 
-**思考**
 
-这种题比较困难的就是找递推关系，根据题目意思从 i = 0 或者 i = n-1 开始找**递推关系** dfs(i)，很多题目从后往前也就是 i = n-1 开始递推比较简单入手，然后再根据限制条件得到具体的 dfs(j) ，注意**边界条件**的返回值，写一个记忆化搜索，然后再到具体的递推
-
-说白还是要多联系，很多题拿到之后没有题感也是很难找到递推的，比如 LC1043/LC1105 拿到题还不知道从**最后一段可能的情况**开始枚举也是比较难思考的
-
-
-
-### 3. 参考
+### 4. 参考
 
 - [动态规划入门：从记忆化搜索到递推【基础算法精讲 17】](https://www.bilibili.com/video/BV1Xj411K7oF)
 - [教你一步步思考动态规划！（Python/Java/C++/Go）](https://leetcode.cn/problems/partition-array-for-maximum-sum/solution/jiao-ni-yi-bu-bu-si-kao-dong-tai-gui-hua-rq5i/)
