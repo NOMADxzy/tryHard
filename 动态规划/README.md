@@ -39,6 +39,13 @@
 | [357. 统计各位数字都不同的数字个数](https://leetcode.cn/problems/count-numbers-with-unique-digits/description/) | 划分是/否含0两个状态   | [我的提交](https://leetcode.cn/problems/count-numbers-with-unique-digits/submissions/473822249/) |
 | [714. 买卖股票的最佳时机含手续费](https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/description/) | 划分是/否持有股票两个状态 | [我的提交](https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/submissions/466212396/) |
 
+> 4> 可对状态进行分类（26个字母等）从而大大降低算法复杂度
+>
+| 题目                                                                    | 说明            | 实现                                                                          |
+|-----------------------------------------------------------------------|---------------|-----------------------------------------------------------------------------|
+| [467. 爬楼梯](https://leetcode.cn/problems/unique-substrings-in-wraparound-string/description/) | 针对26个字母分类巧妙去重 | [我的题解](https://leetcode.cn/problems/unique-substrings-in-wraparound-string/solutions/2481172/ji-lu-26ge-zi-mu-jie-wei-de-zi-chuan-de-4v1uf/) |
+
+
 
 ### 3. 更多练习
 
