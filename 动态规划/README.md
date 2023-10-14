@@ -46,11 +46,12 @@
 |-----------------------------------------------------------------------|---------------|-----------------------------------------------------------------------------|
 | [467. 爬楼梯](https://leetcode.cn/problems/unique-substrings-in-wraparound-string/description/) | 针对26个字母分类巧妙去重 | [我的题解](https://leetcode.cn/problems/unique-substrings-in-wraparound-string/solutions/2481172/ji-lu-26ge-zi-mu-jie-wei-de-zi-chuan-de-4v1uf/) |
 
-> 5> 对数组，不能忘了区间类型的动态规划
+> 5> 区间类型的动态规划
 >
-| 题目                                                                     | 说明             | 实现                                                                            |
-|------------------------------------------------------------------------|----------------|-------------------------------------------------------------------------------|
-| [553. 最优除法](https://leetcode.cn/problems/optimal-division/submissions/474107247/) | 除法 = 左区间 / 右区间 | [我的提交](https://leetcode.cn/problems/optimal-division/submissions/474107247/) |
+| 题目                                                                                | 说明                     | 实现                                                                            |
+|-----------------------------------------------------------------------------------|------------------------|-------------------------------------------------------------------------------|
+| [553. 最优除法](https://leetcode.cn/problems/optimal-division/submissions/474107247/) | 除法 = 左区间 / 右区间         | [我的提交](https://leetcode.cn/problems/optimal-division/submissions/474107247/) |
+| [516. 最优除法](https://leetcode.cn/problems/longest-palindromic-subsequence/description/) | 当前区间 = 左端点 + 子区间 + 右端点 | [我的提交](https://leetcode.cn/problems/longest-palindromic-subsequence/submissions/474136039/) |
 
 
 
