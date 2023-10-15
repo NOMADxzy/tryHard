@@ -34,12 +34,13 @@
 
 > 3> 一个状态划分两个或以上的子状态，分别对每个子状态进行转移，合并得到结果
 >
-| 题目                                                                                                          | 说明                        | 实现                                                                            |
-|-------------------------------------------------------------------------------------------------------------|---------------------------|-------------------------------------------------------------------------------|
-| [357. 统计各位数字都不同的数字个数](https://leetcode.cn/problems/count-numbers-with-unique-digits/description/)           | 划分是/否含0两个状态               | [我的提交](https://leetcode.cn/problems/count-numbers-with-unique-digits/submissions/473822249/) |
+| 题目                                                                             | 说明                        | 实现                                                                            |
+|--------------------------------------------------------------------------------|---------------------------|-------------------------------------------------------------------------------|
+| [357. 统计各位数字都不同的数字个数](https://leetcode.cn/problems/count-numbers-with-unique-digits/description/) | 划分是/否含0两个状态               | [我的提交](https://leetcode.cn/problems/count-numbers-with-unique-digits/submissions/473822249/) |
 | [714. 买卖股票的最佳时机含手续费](https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/description/) | 划分是/否持有股票两个状态             | [我的提交](https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/submissions/466212396/) |
-| [576. 出界的路径数](https://leetcode.cn/problems/out-of-boundary-paths/description/)                              | 划分网格位置 m*n 个状态            | [我的提交](https://leetcode.cn/problems/out-of-boundary-paths/submissions/474130421/) |
-| [494. 目标和](https://leetcode.cn/problems/target-sum/)                                 | 划分当前和 1000 + 1 + 1000 个状态 | [我的提交](https://leetcode.cn/problems/target-sum/submissions/474145931/) |
+| [576. 出界的路径数](https://leetcode.cn/problems/out-of-boundary-paths/description/) | 划分网格位置 m*n 个状态            | [我的提交](https://leetcode.cn/problems/out-of-boundary-paths/submissions/474130421/) |
+| [494. 目标和](https://leetcode.cn/problems/target-sum/)                           | 划分当前和 1000 + 1 + 1000 个状态 | [我的提交](https://leetcode.cn/problems/target-sum/submissions/474145931/) |
+| [740. 删除并获得点数](https://leetcode.cn/problems/delete-and-earn/description/)      | 排序后划分 是/否 选择当前数 2 个状态     | [我的提交](https://leetcode.cn/problems/delete-and-earn/submissions/474333479/) |
 
 > 4> 可对状态进行分类（26个字母等）从而大大降低算法复杂度
 >
