@@ -1,23 +1,34 @@
 package main
 
-func countSquares(matrix [][]int) (ans int) {
-	n := len(matrix)
-	m := len(matrix[0])
+import "fmt"
 
-	for i := 0; i < n; i++ {
-		for j := 0; j < m; j++ {
-			if i > 0 && j > 0 && matrix[i][j] == 1 {
-				matrix[i][j] = min(matrix[i-1][j], min(matrix[i][j-1], matrix[i-1][j-1])) + 1
+func countSquares(matrix [][]int) int {
+	m, n := len(matrix), len(matrix[0])
+	dp := make([][]int, m)
+	for i := 0; i < m; i++ {
+		dp[i] = make([]int, n)
+	}
+
+	cnt := 0
+	for size := 1; ; size++ {
+
+		curCnt := 0
+		for i := size - 1; i < m; i++ {
+			for j := size - 1; j < n; j++ {
+				if matrix[i][j] == 1 && (size == 1 || dp[i-1][j-1] >= size-1 && dp[i-1][j] >= size-1 && dp[i][j-1] >= size-1) {
+					dp[i][j] = size
+					curCnt++
+				}
 			}
-			ans += matrix[i][j]
+		}
+		cnt += curCnt
+		if curCnt == 0 {
+			break
 		}
 	}
-	return
+	return cnt
 }
 
-func min(a, b int) int {
-	if a < b {
-		return a
-	}
-	return b
+func main() {
+	fmt.Println(countSquares([][]int{{0, 1, 1, 1}, {1, 1, 1, 1}, {0, 1, 1, 1}}))
 }
