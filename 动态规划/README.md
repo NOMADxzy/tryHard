@@ -55,7 +55,11 @@
 | [553. 最优除法](https://leetcode.cn/problems/optimal-division/submissions/474107247/) | 除法 = 左区间 / 右区间         | [我的提交](https://leetcode.cn/problems/optimal-division/submissions/474107247/) |
 | [516. 最优除法](https://leetcode.cn/problems/longest-palindromic-subsequence/description/) | 当前区间 = 左端点 + 子区间 + 右端点 | [我的提交](https://leetcode.cn/problems/longest-palindromic-subsequence/submissions/474136039/) |
 
-
+> 6> 根据题意使用多维动态规划
+>
+| 题目          | 说明                    | 实现                                                                            |
+|-------------|-----------------------|-------------------------------------------------------------------------------|
+| [873. 最长的斐波那契子序列的长度](https://leetcode.cn/problems/length-of-longest-fibonacci-subsequence/description/) | 使用二维状态表示以i和j位置结尾的最长长度 | [我的提交](https://leetcode.cn/problems/length-of-longest-fibonacci-subsequence/submissions/475668428/) |
 
 ### 3. 更多练习
 
