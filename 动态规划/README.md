@@ -21,9 +21,10 @@
 
 > 1> 复杂问题无法一次性状态转移的可以分成多个子问题，分别进行状态转移，最后合并结果
 > 
-| 题目                                                                         | 说明         | 实现                                                                            |
-|----------------------------------------------------------------------------|------------|-------------------------------------------------------------------------------|
-| [764. 最大加号标志](https://leetcode.cn/problems/largest-plus-sign/description/) | 分成四个方向分别求解 | [我的提交](https://leetcode.cn/problems/largest-plus-sign/submissions/473771185/) |
+| 题目                                                                         | 说明          | 实现                                                                            |
+|----------------------------------------------------------------------------|-------------|-------------------------------------------------------------------------------|
+| [764. 最大加号标志](https://leetcode.cn/problems/largest-plus-sign/description/) | 分成四个方向分别求解  | [我的提交](https://leetcode.cn/problems/largest-plus-sign/submissions/473771185/) |
+| [838. 推多米诺](https://leetcode.cn/problems/push-dominoes/description/)   | 分成两个个方向分别转移 | [我的提交](https://leetcode.cn/problems/push-dominoes/submissions/476039969/) |
 
 > 2> 使用两个变量滚动记录 dp，优化空间
 >
