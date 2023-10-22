@@ -75,11 +75,12 @@
 | [486. 预测赢家](https://leetcode.cn/problems/predict-the-winner/description/) | 抽象成当前用户和下一用户之间的状态转移，利用区间类型动态规划 | [我的提交](https://leetcode.cn/problems/predict-the-winner/submissions/476010042/) |
 | [464. 我能赢吗](https://leetcode.cn/problems/can-i-win/description/) | 类似的思路，使用记忆化搜索的方法  | [我的提交](https://leetcode.cn/problems/can-i-win/submissions/466755816/) |
 
-> 9> 当前状态可能由前面所有状态转移得到
+> 9> 当前状态可能由前面多个状态转移得到
 >
-| 题目                                                                                          | 说明                 | 实现                                                                            |
-|---------------------------------------------------------------------------------------------|--------------------|-------------------------------------------------------------------------------|
-| [823. 带因子的二叉树](https://leetcode.cn/problems/binary-trees-with-factors/description/) | 排序数组，依次求每个节点为树根的情况 | [我的提交](https://leetcode.cn/problems/binary-trees-with-factors/submissions/476022723/) |
+| 题目                                                                                  | 说明                                 | 实现                                                                            |
+|-------------------------------------------------------------------------------------|------------------------------------|-------------------------------------------------------------------------------|
+| [823. 带因子的二叉树](https://leetcode.cn/problems/binary-trees-with-factors/description/) | 排序数组，依次求每个节点为树根的情况，它的子节点可能为前面所有的节点 | [我的提交](https://leetcode.cn/problems/binary-trees-with-factors/submissions/476022723/) |
+| [799. 香槟塔](https://leetcode.cn/problems/champagne-tower/description/)     | 当前曾由上一层两个位置转化而来（此题考虑由当前态计算下个状态更简单） | [我的提交](https://leetcode.cn/problems/binary-trees-with-factors/submissions/476022723/) |
 
 
 ### 3. 更多练习
