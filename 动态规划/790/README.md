@@ -1,12 +1,12 @@
-[题目](https://leetcode.cn/problems/domino-and-tromino-tiling/description/?envType=study-plan-v2&envId=leetcode-75)
+##### [题目](https://leetcode.cn/problems/domino-and-tromino-tiling/description/?envType=study-plan-v2&envId=leetcode-75)
 ![pic](img.png)
 
-# 思路
+##### 思路
 **动态规划**
 定义dp[i][j]表示第i列的状态为j的方案数，j=0或1，其中j=0表示该列全满，j=1表示该列半满，如下图所示：
 ![WX20230914-212616@2x.png](https://pic.leetcode.cn/1694697989-snPVvw-WX20230914-212616@2x.png)
 
-# 解题方法
+##### 解题方法
 因为题目中的方块只能跨越两列，所以我们只需考虑状态dp[i] 与 dp[i-1]、dp[i-2]之间的关系，显然：
 欲使i列全满我们有三种情况：
 ![WX20230914-213021@2x.png](https://pic.leetcode.cn/1694698382-nzuxmJ-WX20230914-213021@2x.png)
@@ -54,5 +54,5 @@ func numTilings(n int) int {
 	return dp[n][1]
 }
 ```
-结果：
+##### 结果：
 ![pic](result.png)
