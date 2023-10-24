@@ -75,11 +75,12 @@
 | [486. 预测赢家](https://leetcode.cn/problems/predict-the-winner/description/) | 抽象成当前用户和下一用户之间的状态转移，利用区间类型动态规划 | [我的提交](https://leetcode.cn/problems/predict-the-winner/submissions/476010042/) |
 | [464. 我能赢吗](https://leetcode.cn/problems/can-i-win/description/) | 类似的思路，使用记忆化搜索的方法  | [我的提交](https://leetcode.cn/problems/can-i-win/submissions/466755816/) |
 
-> 9> 当前状态可能由前面所有状态转移得到
+> 9> 当前状态可能由前面一个或多个特定状态转移得到，根据题目条件分析
 >
-| 题目                                                                                          | 说明                 | 实现                                                                            |
-|---------------------------------------------------------------------------------------------|--------------------|-------------------------------------------------------------------------------|
-| [823. 带因子的二叉树](https://leetcode.cn/problems/binary-trees-with-factors/description/) | 排序数组，依次求每个节点为树根的情况 | [我的提交](https://leetcode.cn/problems/binary-trees-with-factors/submissions/476022723/) |
+| 题目                                                                                  | 说明                                                    | 实现                                                                            |
+|-------------------------------------------------------------------------------------|-------------------------------------------------------|-------------------------------------------------------------------------------|
+| [823. 带因子的二叉树](https://leetcode.cn/problems/binary-trees-with-factors/description/) | 排序数组，依次求每个节点为树根的情况                                    | [我的提交](https://leetcode.cn/problems/binary-trees-with-factors/submissions/476022723/) |
+| [907. 子数组的最小值之和](https://leetcode.cn/problems/sum-of-subarray-minimums/description/) | i为右端点的所有子数组最小值之和 = 上一个更小元素(位置j)为右...之和 + arr[i]*(i-j) | [我的提交](https://leetcode.cn/problems/sum-of-subarray-minimums/submissions/476941357/) |
 
 
 ### 3. 更多练习
