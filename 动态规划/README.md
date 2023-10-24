@@ -79,10 +79,11 @@
 
 > 9> 当前状态可能由前面一个或多个特定状态转移得到，根据题目条件分析
 >
-| 题目                                                                                  | 说明                                                    | 实现                                                                            |
-|-------------------------------------------------------------------------------------|-------------------------------------------------------|-------------------------------------------------------------------------------|
-| [823. 带因子的二叉树](https://leetcode.cn/problems/binary-trees-with-factors/description/) | 排序数组，依次求每个节点为树根的情况                                    | [我的提交](https://leetcode.cn/problems/binary-trees-with-factors/submissions/476022723/) |
-| [907. 子数组的最小值之和](https://leetcode.cn/problems/sum-of-subarray-minimums/description/) | i为右端点的所有子数组最小值之和 = 上一个更小元素(位置j)为右...之和 + arr[i]*(i-j) | [我的提交](https://leetcode.cn/problems/sum-of-subarray-minimums/submissions/476941357/) |
+| 题目                                                                                   | 说明                                                                 | 实现                                                                            |
+|--------------------------------------------------------------------------------------|--------------------------------------------------------------------|-------------------------------------------------------------------------------|
+| [823. 带因子的二叉树](https://leetcode.cn/problems/binary-trees-with-factors/description/)  | 排序数组，依次求每个节点为树根的情况                                                 | [我的提交](https://leetcode.cn/problems/binary-trees-with-factors/submissions/476022723/) |
+| [907. 子数组的最小值之和](https://leetcode.cn/problems/sum-of-subarray-minimums/description/) | i为右端点的所有子数组最小值之和 = 上一个更小元素(位置j)为右...之和 + arr[i]*(i-j)              | [我的提交](https://leetcode.cn/problems/sum-of-subarray-minimums/submissions/476941357/) |
+| [983. 最低票价](https://leetcode.cn/problems/minimum-cost-for-tickets/description/)      | 第i天最低消费 = min( (1天票+前i-1天最低消费),(7天票+前i-7天最低消费),(30天票+前i-30天最低消费) ) | [我的提交](https://leetcode.cn/problems/minimum-cost-for-tickets/submissions/476968274/) |
 
 
 ### 3. 更多练习
