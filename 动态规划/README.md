@@ -58,6 +58,7 @@
 |-----------------------------------------------------------------------------------|------------------------|-------------------------------------------------------------------------------|
 | [553. 最优除法](https://leetcode.cn/problems/optimal-division/submissions/474107247/) | 除法 = 左区间 / 右区间         | [我的提交](https://leetcode.cn/problems/optimal-division/submissions/474107247/) |
 | [516. 最优除法](https://leetcode.cn/problems/longest-palindromic-subsequence/description/) | 当前区间 = 左端点 + 子区间 + 右端点 | [我的提交](https://leetcode.cn/problems/longest-palindromic-subsequence/submissions/474136039/) |
+| [1039. 多边形三角剖分的最低得分](https://leetcode.cn/problems/minimum-score-triangulation-of-polygon/description/) | 当前区间 = 左区间 + 三角形 + 右区间 | [我的提交](https://leetcode.cn/problems/minimum-score-triangulation-of-polygon/submissions/477127316/) |
 
 > 6> 根据题意使用多维动态规划
 >
