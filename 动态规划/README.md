@@ -51,14 +51,14 @@
 >
 | 题目                                                                    | 说明            | 实现                                                                          |
 |-----------------------------------------------------------------------|---------------|-----------------------------------------------------------------------------|
-| [467. 爬楼梯](https://leetcode.cn/problems/unique-substrings-in-wraparound-string/description/) | 针对26个字母分类巧妙去重 | [我的题解](https://leetcode.cn/problems/unique-substrings-in-wraparound-string/solutions/2481172/ji-lu-26ge-zi-mu-jie-wei-de-zi-chuan-de-4v1uf/) |
+| [467. 环绕字符串中唯一的子字符串](https://leetcode.cn/problems/unique-substrings-in-wraparound-string/description/) | 针对26个字母分类巧妙去重 | [我的题解](https://leetcode.cn/problems/unique-substrings-in-wraparound-string/solutions/2481172/ji-lu-26ge-zi-mu-jie-wei-de-zi-chuan-de-4v1uf/) |
 
 > 5> 区间类型的动态规划
 >
 | 题目                                                                                                    | 说明                     | 实现                                                                            |
 |-------------------------------------------------------------------------------------------------------|------------------------|-------------------------------------------------------------------------------|
 | [553. 最优除法](https://leetcode.cn/problems/optimal-division/submissions/474107247/)                     | 除法 = 左区间 / 右区间         | [我的提交](https://leetcode.cn/problems/optimal-division/submissions/474107247/) |
-| [516. 最优除法](https://leetcode.cn/problems/longest-palindromic-subsequence/description/)                | 当前区间 = 左端点 + 子区间 + 右端点 | [我的提交](https://leetcode.cn/problems/longest-palindromic-subsequence/submissions/474136039/) |
+| [516. 最长回文子序列](https://leetcode.cn/problems/longest-palindromic-subsequence/description/)                | 当前区间 = 左端点 + 子区间 + 右端点 | [我的提交](https://leetcode.cn/problems/longest-palindromic-subsequence/submissions/474136039/) |
 | [1039. 多边形三角剖分的最低得分](https://leetcode.cn/problems/minimum-score-triangulation-of-polygon/description/) | 当前区间 = 左区间 + 三角形 + 右区间 | [我的提交](https://leetcode.cn/problems/minimum-score-triangulation-of-polygon/submissions/477127316/) |
 | [1130. 叶值的最小代价生成树](https://leetcode.cn/problems/minimum-cost-tree-from-leaf-values/description/) | 当前区间最优 = min(左区间最优 + 右区间最优 + 左区间最大值*右区间最大值) | [我的提交](https://leetcode.cn/problems/minimum-cost-tree-from-leaf-values/submissions/477271871/) |
 
@@ -77,10 +77,11 @@
 
 > 8> 博弈游戏类型（当前用户最优选择 = max(当前选择 + 当前选择导致的状态下当前用户（即另一用户）最优选择)）
 >
-| 题目                                                                        | 说明                             | 实现                                                                            |
-|---------------------------------------------------------------------------|--------------------------------|-------------------------------------------------------------------------------|
-| [486. 预测赢家](https://leetcode.cn/problems/predict-the-winner/description/) | 抽象成当前用户和下一用户之间的状态转移，利用区间类型动态规划 | [我的提交](https://leetcode.cn/problems/predict-the-winner/submissions/476010042/) |
-| [464. 我能赢吗](https://leetcode.cn/problems/can-i-win/description/) | 类似的思路，使用记忆化搜索的方法  | [我的提交](https://leetcode.cn/problems/can-i-win/submissions/466755816/) |
+| 题目                                                                   | 说明                                        | 实现                                                                            |
+|----------------------------------------------------------------------|-------------------------------------------|-------------------------------------------------------------------------------|
+| [486. 预测赢家](https://leetcode.cn/problems/predict-the-winner/description/) | 抽象成当前用户和下一用户之间的状态转移，利用区间类型动态规划            | [我的提交](https://leetcode.cn/problems/predict-the-winner/submissions/476010042/) |
+| [464. 我能赢吗](https://leetcode.cn/problems/can-i-win/description/) | 类似的思路，使用记忆化搜索的方法                          | [我的提交](https://leetcode.cn/problems/can-i-win/submissions/466755816/) |
+| [1140. 石子游戏 II](https://leetcode.cn/problems/stone-game-ii/description/) | dp[i][j] 表示玩家在stones[i:]开始选择，M=j时能获得的最多分数 | [我的提交](https://leetcode.cn/problems/stone-game-ii/submissions/477461605/) |
 
 > 9> 当前状态可能由前面一个或多个特定状态转移得到，根据题目条件分析
 >
