@@ -15,11 +15,12 @@
 
 ### 2. 解题技巧（我的总结）
 
-> 1> 使用哈希表存储答案，防止重复搜索，状态较少（<32）时用一个int即可
+> 1> 使用哈希表存储答案，使用mark标记已访问的防止重复搜索，状态较少（<32）时用一个int即可
 > 
-| 题目                                                               | 说明          | 实现                                                                            |
-|------------------------------------------------------------------|-------------|-------------------------------------------------------------------------------|
-| [464. 我能赢吗](https://leetcode.cn/problems/can-i-win/description/) | 使用int记录已选数字 | [我的提交](https://leetcode.cn/problems/can-i-win/submissions/466755816/) |
+| 题目                                                          | 说明           | 实现                                                                            |
+|-------------------------------------------------------------|--------------|-------------------------------------------------------------------------------|
+| [464. 我能赢吗](https://leetcode.cn/problems/can-i-win/description/) | 使用int记录已选数字  | [我的提交](https://leetcode.cn/problems/can-i-win/submissions/466755816/) |
+| [1387. 将整数按权重排序](https://leetcode.cn/problems/sort-integers-by-the-power-value/description/) | 使用int记录已计算过的 | [我的提交](https://leetcode.cn/problems/sort-integers-by-the-power-value/submissions/477710824/) |
 
 > 2> 排序降低搜索时间
 >
