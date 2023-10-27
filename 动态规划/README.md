@@ -25,8 +25,9 @@
 |----------------------------------------------------------------------------|-----------------------------------------|-------------------------------------------------------------------------------|
 | [764. 最大加号标志](https://leetcode.cn/problems/largest-plus-sign/description/) | 分成四个方向分别求解                              | [我的提交](https://leetcode.cn/problems/largest-plus-sign/submissions/473771185/) |
 | [838. 推多米诺](https://leetcode.cn/problems/push-dominoes/description/)   | 分成两个个方向分别转移                             | [我的提交](https://leetcode.cn/problems/push-dominoes/submissions/476039969/) |
-| [1031. 两个非重叠子数组的最大和](https://leetcode.cn/problems/maximum-sum-of-two-non-overlapping-subarrays/description/)   | 仅对[i:]区间内长度为firstlen和secondLen的最大长度状态转移 | [我的提交](https://leetcode.cn/problems/maximum-sum-of-two-non-overlapping-subarrays/submissions/477055048/) |
-| [1139. 最大的以 1 为边界的正方形](https://leetcode.cn/problems/largest-1-bordered-square/submissions/477414200/)   | 分别求解四个方向连续1的个数   | [我的提交](https://leetcode.cn/problems/largest-1-bordered-square/submissions/477414200/) |
+| [1031. 两个非重叠子数组的最大和](https://leetcode.cn/problems/maximum-sum-of-two-non-overlapping-subarrays/description/)  | 仅对(i:)区间内长度为firstlen和secondLen的最大长度状态转移 | [我的提交](https://leetcode.cn/problems/maximum-sum-of-two-non-overlapping-subarrays/submissions/477055048/) |
+| [1139. 最大的以 1 为边界的正方形](https://leetcode.cn/problems/largest-1-bordered-square/submissions/477414200/)  | 分别求解四个方向连续1的个数                          | [我的提交](https://leetcode.cn/problems/largest-1-bordered-square/submissions/477414200/) |
+| [1525. 字符串的好分割数目](https://leetcode.cn/problems/number-of-good-ways-to-split-a-string/description/)   | 分别求解i左右边不同字符的个数                         | [我的提交](https://leetcode.cn/problems/number-of-good-ways-to-split-a-string/submissions/477773727/) |
 
 > 2> 使用两个变量滚动记录 dp，优化空间
 >
@@ -46,9 +47,9 @@
 | [740. 删除并获得点数](https://leetcode.cn/problems/delete-and-earn/description/)                          | 排序后划分 是/否 选择当前数 2 个状态                                          | [我的提交](https://leetcode.cn/problems/delete-and-earn/submissions/474333479/)                                      |
 | [926. 将字符串翻转到单调递增](https://leetcode.cn/problems/flip-string-to-monotone-increasing/description/)   | 当前位分别为 '0','1' 时符合条件的最优值                                       | [我的提交](https://leetcode.cn/problems/flip-string-to-monotone-increasing/submissions/476950683/)                   |
 | [935. 骑士拨号器](https://leetcode.cn/problems/knight-dialer/description/)                              | 长度为i的号码划分成从0~9开始的10个子状态，每个子状态之间通过马字形转移                         | [我的提交](https://leetcode.cn/problems/knight-dialer/submissions/476959108/)                                        |
-| [1155. 掷骰子等于目标和的方法数](https://leetcode.cn/problems/number-of-dice-rolls-with-target-sum/description/) | dp[i][j]表示第i次累计和为j的种类数，1=<j<=target                            | [我的提交](https://leetcode.cn/problems/number-of-dice-rolls-with-target-sum/submissions/477465423/)                 |
-| [1186. 删除一次得到子数组最大和](https://leetcode.cn/problems/maximum-subarray-sum-with-one-deletion/description/)     | dp[i][0],dp[i][1]分别表示前i个元素，删除和不删元素的最大子数组和                      | [我的提交](https://leetcode.cn/problems/number-of-dice-rolls-with-target-sum/submissions/477465423/)                 |
-| [1262. 可被三整除的最大和](https://leetcode.cn/problems/greatest-sum-divisible-by-three/description/)           | dp[i][0],dp[i][1], dp[i][2]分别表示前i个元素%3的最大和                     | [我的提交](https://leetcode.cn/problems/greatest-sum-divisible-by-three/submissions/477510062/)                 |
+| [1155. 掷骰子等于目标和的方法数](https://leetcode.cn/problems/number-of-dice-rolls-with-target-sum/description/) | dp(i)(j)表示第i次累计和为j的种类数，1=<j<=target                            | [我的提交](https://leetcode.cn/problems/number-of-dice-rolls-with-target-sum/submissions/477465423/)                 |
+| [1186. 删除一次得到子数组最大和](https://leetcode.cn/problems/maximum-subarray-sum-with-one-deletion/description/)     | dp(i)(0),dp(i)(1)分别表示前i个元素，删除和不删元素的最大子数组和                      | [我的提交](https://leetcode.cn/problems/number-of-dice-rolls-with-target-sum/submissions/477465423/)                 |
+| [1262. 可被三整除的最大和](https://leetcode.cn/problems/greatest-sum-divisible-by-three/description/)           | dp(i)(0),dp(i)(1), dp(i)(2)分别表示前i个元素%3的最大和                     | [我的提交](https://leetcode.cn/problems/greatest-sum-divisible-by-three/submissions/477510062/)                 |
 | [1504. 统计全 1 子矩形](https://leetcode.cn/problems/count-submatrices-with-all-ones/description/)                 | dp(i,j,h) 表示右下端点为ij, 高度为h的矩形的最大宽度， dp(i,j,h) = dp(i,j-1,h) + 1 | [我的提交](https://leetcode.cn/problems/count-submatrices-with-all-ones/submissions/477754022/)                 |
 
 > 4> 可对状态进行分类（26个字母等）从而大大降低算法复杂度
@@ -85,7 +86,7 @@
 |----------------------------------------------------------------------|-------------------------------------------|-------------------------------------------------------------------------------|
 | [486. 预测赢家](https://leetcode.cn/problems/predict-the-winner/description/) | 抽象成当前用户和下一用户之间的状态转移，利用区间类型动态规划            | [我的提交](https://leetcode.cn/problems/predict-the-winner/submissions/476010042/) |
 | [464. 我能赢吗](https://leetcode.cn/problems/can-i-win/description/) | 类似的思路，使用记忆化搜索的方法                          | [我的提交](https://leetcode.cn/problems/can-i-win/submissions/466755816/) |
-| [1140. 石子游戏 II](https://leetcode.cn/problems/stone-game-ii/description/) | dp[i][j] 表示玩家在stones[i:]开始选择，M=j时能获得的最多分数 | [我的提交](https://leetcode.cn/problems/stone-game-ii/submissions/477461605/) |
+| [1140. 石子游戏 II](https://leetcode.cn/problems/stone-game-ii/description/) | dp(i)(j) 表示玩家在stones(i:)开始选择，M=j时能获得的最多分数 | [我的提交](https://leetcode.cn/problems/stone-game-ii/submissions/477461605/) |
 
 > 9> 当前状态可能由前面一个或多个特定状态转移得到，根据题目条件分析
 >

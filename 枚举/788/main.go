@@ -5,64 +5,10 @@ import (
 	"strconv"
 )
 
-func rotatedDigits1(n int) int {
-
-	w := 0
-	pow := 1
-	for i := n; i > 0; i /= 10 {
-		w++
-		pow *= 10
-	}
-
-	dp := make([][]int, w)
-	for i := 0; i < w; i++ {
-		dp[i] = make([]int, 2)
-	}
-	dp[0][0] = 3
-	dp[0][1] = 4
-
-	ans := 4
-	for i := 1; i < w; i++ {
-		dp[i][0] = dp[i-1][0] * 3
-		dp[i][1] = dp[i-1][1]*7 + dp[i-1][0]*4
-		ans += dp[i][1]
-	}
-
-	invalidLargerMap := []int{2, 1, 1, 1, 1, 1, 1, 1, 0, 0}
-	validLargerMap := []int{4, 4, 3, 3, 3, 2, 1, 1, 1, 0}
-	if w == 1 {
-		return 4 - validLargerMap[n]
-	}
-	flag := false
-	badAns := dp[w-2][1] // 首字母为0的去除
-	for i := 0; i < w; i++ {
-		pow /= 10
-		v := n / pow
-		n -= pow * v
-		if w-2-i >= 0 {
-			if flag {
-				badAns += (invalidLargerMap[v] + validLargerMap[v]) * (dp[w-2-i][1] + dp[w-2-i][0])
-			} else {
-				badAns += invalidLargerMap[v]*dp[w-2-i][1] + validLargerMap[v]*(dp[w-2-i][1]+dp[w-2-i][0])
-			}
-		} else {
-			if flag {
-				badAns += invalidLargerMap[v] + validLargerMap[v]
-			} else {
-				badAns += validLargerMap[v]
-			}
-		}
-		if v == 5 || v == 2 || v == 6 || v == 9 {
-			flag = true
-		}
-
-	}
-	return ans - badAns
-}
-
 var check = [10]int{0, 0, 1, -1, -1, 1, 1, -1, 0, 1}
 
-func rotatedDigits(n int) (ans int) {
+// 枚举
+func rotatedDigits1(n int) (ans int) {
 	for i := 1; i <= n; i++ {
 		valid, diff := true, false
 		for _, c := range strconv.Itoa(i) {
@@ -77,6 +23,49 @@ func rotatedDigits(n int) (ans int) {
 		}
 	}
 	return
+}
+
+//数位dp
+func dfs(preValid bool, preLimit bool, target []int, pos int, ntype []int) int {
+	if pos == len(target) {
+		if preValid {
+			return 1
+		} else {
+			return 0
+		}
+	}
+	ans := 0
+	top := 9
+	if preLimit {
+		top = target[pos]
+	}
+	for i := 0; i <= top; i++ {
+		nextLimit := false
+		if i == top && preLimit {
+			nextLimit = true
+		}
+		if ntype[i] == 0 {
+			ans += dfs(preValid, nextLimit, target, pos+1, ntype)
+		} else if ntype[i] == 1 {
+			ans += dfs(true, nextLimit, target, pos+1, ntype)
+		}
+	}
+	return ans
+}
+
+func rotatedDigits(n int) (ans int) {
+	var w int
+	for i := n; i > 0; i /= 10 {
+		w++
+	}
+	target := make([]int, w)
+
+	for i := 0; i < w; i++ {
+		target[w-1-i] = n % 10
+		n /= 10
+	}
+
+	return dfs(false, true, target, 0, []int{0, 0, 1, -1, -1, 1, 1, -1, 0, 1})
 }
 
 func main() {
