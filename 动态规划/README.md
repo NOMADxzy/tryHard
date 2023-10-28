@@ -25,9 +25,10 @@
 |----------------------------------------------------------------------------|-----------------------------------------|-------------------------------------------------------------------------------|
 | [764. 最大加号标志](https://leetcode.cn/problems/largest-plus-sign/description/) | 分成四个方向分别求解                              | [我的提交](https://leetcode.cn/problems/largest-plus-sign/submissions/473771185/) |
 | [838. 推多米诺](https://leetcode.cn/problems/push-dominoes/description/)   | 分成两个个方向分别转移                             | [我的提交](https://leetcode.cn/problems/push-dominoes/submissions/476039969/) |
-| [1031. 两个非重叠子数组的最大和](https://leetcode.cn/problems/maximum-sum-of-two-non-overlapping-subarrays/description/)  | 仅对(i:)区间内长度为firstlen和secondLen的最大长度状态转移 | [我的提交](https://leetcode.cn/problems/maximum-sum-of-two-non-overlapping-subarrays/submissions/477055048/) |
-| [1139. 最大的以 1 为边界的正方形](https://leetcode.cn/problems/largest-1-bordered-square/submissions/477414200/)  | 分别求解四个方向连续1的个数                          | [我的提交](https://leetcode.cn/problems/largest-1-bordered-square/submissions/477414200/) |
-| [1525. 字符串的好分割数目](https://leetcode.cn/problems/number-of-good-ways-to-split-a-string/description/)   | 分别求解i左右边不同字符的个数                         | [我的提交](https://leetcode.cn/problems/number-of-good-ways-to-split-a-string/submissions/477773727/) |
+| [1031. 两个非重叠子数组的最大和](https://leetcode.cn/problems/maximum-sum-of-two-non-overlapping-subarrays/description/) | 仅对(i:)区间内长度为firstlen和secondLen的最大长度状态转移 | [我的提交](https://leetcode.cn/problems/maximum-sum-of-two-non-overlapping-subarrays/submissions/477055048/) |
+| [1139. 最大的以 1 为边界的正方形](https://leetcode.cn/problems/largest-1-bordered-square/submissions/477414200/) | 分别求解四个方向连续1的个数                          | [我的提交](https://leetcode.cn/problems/largest-1-bordered-square/submissions/477414200/) |
+| [1525. 字符串的好分割数目](https://leetcode.cn/problems/number-of-good-ways-to-split-a-string/description/) | 分别求解i左右边不同字符的个数                         | [我的提交](https://leetcode.cn/problems/number-of-good-ways-to-split-a-string/submissions/477773727/) |
+| [1749. 任意子数组和的绝对值的最大值](https://leetcode.cn/problems/maximum-absolute-sum-of-any-subarray/description/)   | 分别求解子数组的最小和和最大和，简化状态转移                  | [我的提交](https://leetcode.cn/problems/maximum-absolute-sum-of-any-subarray/submissions/478023082/) |
 
 > 2> 使用两个变量滚动记录 dp，优化空间
 >
