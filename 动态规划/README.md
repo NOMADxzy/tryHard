@@ -93,17 +93,18 @@
 
 > 9> 当前状态可能由前面一个或多个特定状态转移得到，根据题目条件分析
 >
-| 题目                                                                                                 | 说明                                                                 | 实现                                                                            |
-|----------------------------------------------------------------------------------------------------|--------------------------------------------------------------------|-------------------------------------------------------------------------------|
-| [823. 带因子的二叉树](https://leetcode.cn/problems/binary-trees-with-factors/description/)                | 排序数组，依次求每个节点为树根的情况                                                 | [我的提交](https://leetcode.cn/problems/binary-trees-with-factors/submissions/476022723/) |
-| [907. 子数组的最小值之和](https://leetcode.cn/problems/sum-of-subarray-minimums/description/)               | i为右端点的所有子数组最小值之和 = 上一个更小元素(位置j)为右...之和 + arr[i]*(i-j)              | [我的提交](https://leetcode.cn/problems/sum-of-subarray-minimums/submissions/476941357/) |
-| [983. 最低票价](https://leetcode.cn/problems/minimum-cost-for-tickets/description/)                    | 第i天最低消费 = min( (1天票+前i-1天最低消费),(7天票+前i-7天最低消费),(30天票+前i-30天最低消费) ) | [我的提交](https://leetcode.cn/problems/minimum-cost-for-tickets/submissions/476968274/) |
-| [1024. 视频拼接](https://leetcode.cn/problems/video-stitching/description/)                            | 以每个片段结尾的消耗的片段 = 能和当前片段开头拼接上的所有片段结尾的片段数+1 (此题，易错点较多)                | [我的提交](https://leetcode.cn/problems/video-stitching/submissions/476996686/) |
-| [1048. 最长字符串链](https://leetcode.cn/problems/longest-string-chain/description/)                     | 先排序， 当前最长链 = max(删除每个字母后的新word在前面的链长 + 1)                          | [我的提交](https://leetcode.cn/problems/longest-string-chain/submissions/477134593/) |
-| [1105. 填充书架](https://leetcode.cn/problems/filling-bookcase-shelves/description/)                   | 当前本之前的最优 = min(从当前本往前k本放在一行 + i-k之前的最优 ) (k=1,2...)                | [我的提交](https://leetcode.cn/problems/filling-bookcase-shelves/submissions/477244807/) |
+| 题目                                                                                          | 说明                                                                 | 实现                                                                            |
+|---------------------------------------------------------------------------------------------|--------------------------------------------------------------------|-------------------------------------------------------------------------------|
+| [823. 带因子的二叉树](https://leetcode.cn/problems/binary-trees-with-factors/description/)         | 排序数组，依次求每个节点为树根的情况                                                 | [我的提交](https://leetcode.cn/problems/binary-trees-with-factors/submissions/476022723/) |
+| [907. 子数组的最小值之和](https://leetcode.cn/problems/sum-of-subarray-minimums/description/)        | i为右端点的所有子数组最小值之和 = 上一个更小元素(位置j)为右...之和 + arr[i]*(i-j)              | [我的提交](https://leetcode.cn/problems/sum-of-subarray-minimums/submissions/476941357/) |
+| [983. 最低票价](https://leetcode.cn/problems/minimum-cost-for-tickets/description/)             | 第i天最低消费 = min( (1天票+前i-1天最低消费),(7天票+前i-7天最低消费),(30天票+前i-30天最低消费) ) | [我的提交](https://leetcode.cn/problems/minimum-cost-for-tickets/submissions/476968274/) |
+| [1024. 视频拼接](https://leetcode.cn/problems/video-stitching/description/)                     | 以每个片段结尾的消耗的片段 = 能和当前片段开头拼接上的所有片段结尾的片段数+1 (此题，易错点较多)                | [我的提交](https://leetcode.cn/problems/video-stitching/submissions/476996686/) |
+| [1048. 最长字符串链](https://leetcode.cn/problems/longest-string-chain/description/)              | 先排序， 当前最长链 = max(删除每个字母后的新word在前面的链长 + 1)                          | [我的提交](https://leetcode.cn/problems/longest-string-chain/submissions/477134593/) |
+| [1105. 填充书架](https://leetcode.cn/problems/filling-bookcase-shelves/description/)            | 当前本之前的最优 = min(从当前本往前k本放在一行 + i-k之前的最优 ) (k=1,2...)                | [我的提交](https://leetcode.cn/problems/filling-bookcase-shelves/submissions/477244807/) |
 | [1578. 使绳子变成彩色的最短时间](https://leetcode.cn/problems/minimum-time-to-make-rope-colorful/description/) | dp[i] = min(移除i + dp[i-1], 移除上一与i不同的j处的dp[j] + 移除前（i-j-1）的cost)    | [我的提交](https://leetcode.cn/problems/minimum-time-to-make-rope-colorful/submissions/477785601/) |
 | [1621. 大小为 K 的不重叠线段的数目](https://leetcode.cn/problems/number-of-sets-of-k-non-overlapping-line-segments/description/) | dp(i)(k) 表示i点前 分配 k段绳子的方法数                                         | [我的提交](https://leetcode.cn/problems/number-of-sets-of-k-non-overlapping-line-segments/submissions/477865061/) |
-| [1626. 无矛盾的最佳球队](https://leetcode.cn/problems/best-team-with-no-conflicts/description/)    | 对队伍双重排序（相同年龄按分数排），大大简化算法    | [我的提交](https://leetcode.cn/problems/best-team-with-no-conflicts/submissions/477936708/) |
+| [1626. 无矛盾的最佳球队](https://leetcode.cn/problems/best-team-with-no-conflicts/description/) | 对队伍双重排序（相同年龄按分数排），大大简化算法                                           | [我的提交](https://leetcode.cn/problems/best-team-with-no-conflicts/submissions/477936708/) |
+| [1696. 跳跃游戏 VI](https://leetcode.cn/problems/jump-game-vi/description/)    | 使用大顶堆优化对前面k个状态最优的查找                                                | [我的提交](https://leetcode.cn/problems/jump-game-vi/submissions/477991644/) |
 
 > 10> 我称之为状态扩散，从某个状态按规则扩散到其余新状态
 >
