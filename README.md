@@ -23,6 +23,8 @@
 - [动态规划](动态规划/README.md)
 - [递归回溯](递归回溯/README.md)
 - [二分查找](二分查找/README.md)
+- [排序](排序/README.md)
+- [枚举](枚举/README.md)
 
 ## Golang 常见面试题目解析
 
