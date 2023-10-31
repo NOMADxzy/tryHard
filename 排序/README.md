@@ -61,6 +61,17 @@
 |-------------------------------------------------------------------------------|--------------|-------------------------------------------------------------------------------|
 | [524. 通过删除字母匹配到字典里最长单词](https://leetcode.cn/problems/longest-word-in-dictionary-through-deleting/description/) | 双指针法判断是否是子序列 | [我的提交](https://leetcode.cn/problems/longest-word-in-dictionary-through-deleting/submissions/478642292/) |
 
+> 3> 前缀树，用于排序和判断前缀关系
+```go
+type Trie struct {
+	Children [26]*Trie
+	isEnd    bool
+}
+```
+>
+| 题目                                                                       | 说明                         | 实现                                                                            |
+|--------------------------------------------------------------------------|----------------------------|-------------------------------------------------------------------------------|
+| [720. 词典中最长的单词](https://leetcode.cn/problems/longest-word-in-dictionary/description/) | 前缀树，如果当前层某元素isEnd，则继续遍历下一层 | [我的提交](https://leetcode.cn/problems/longest-word-in-dictionary/submissions/478770870/) |
 
 
 
