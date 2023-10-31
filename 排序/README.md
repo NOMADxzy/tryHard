@@ -68,10 +68,9 @@ type Trie struct {
 	isEnd    bool
 }
 ```
->
 | 题目                                                                       | 说明                         | 实现                                                                            |
 |--------------------------------------------------------------------------|----------------------------|-------------------------------------------------------------------------------|
-| [720. 词典中最长的单词](https://leetcode.cn/problems/longest-word-in-dictionary/description/) | 前缀树，如果当前层某元素isEnd，则继续遍历下一层 | [我的提交](https://leetcode.cn/problems/longest-word-in-dictionary/submissions/478770870/) |
+| [208. 实现 Trie (前缀树)](https://leetcode.cn/problems/implement-trie-prefix-tree/description/) | 前缀树 | [我的提交](https://leetcode.cn/problems/implement-trie-prefix-tree/submissions/478776637/) |
 
 
 
