@@ -1,4 +1,4 @@
-# Golang 面试/学习/刷题 
+# 九阴真经
 
 ![golang_logo.png](assets/golang_logo.jpg)
 
@@ -25,6 +25,7 @@
 - [二分查找](二分查找/README.md)
 - [排序](排序/README.md)
 - [枚举](枚举/README.md)
+- [前缀和](前缀和/README.md)
 
 ## Golang 常见面试题目解析
 

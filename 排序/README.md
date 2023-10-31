@@ -55,6 +55,12 @@
 |-------------------------------------------------------------------------------|----------------------------|-------------------------------------------------------------------------------|
 | [462. 最小操作次数使数组元素相等 II](https://leetcode.cn/problems/minimum-moves-to-equal-array-elements-ii/) | 排序后，操作次数 = 左边增加的值 + 右边减小的值 | [我的提交](https://leetcode.cn/problems/minimum-moves-to-equal-array-elements-ii/submissions/478474363/) |
 
+> 2> 二重排序，第一个条件相同时，再通过第二个条件排序
+>
+| 题目                                                                            | 说明           | 实现                                                                            |
+|-------------------------------------------------------------------------------|--------------|-------------------------------------------------------------------------------|
+| [524. 通过删除字母匹配到字典里最长单词](https://leetcode.cn/problems/longest-word-in-dictionary-through-deleting/description/) | 双指针法判断是否是子序列 | [我的提交](https://leetcode.cn/problems/longest-word-in-dictionary-through-deleting/submissions/478642292/) |
+
 
 
 
