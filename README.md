@@ -27,6 +27,7 @@
 - [枚举](枚举/README.md)
 - [前缀和](前缀和/README.md)
 - [贪心大法](贪心/README.md)
+- [并查集](并查集/README.md)
 
 ## Golang 常见面试题目解析
 
