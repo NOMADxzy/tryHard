@@ -69,10 +69,10 @@ type Trie struct {
 	isEnd    bool
 }
 ```
-| 题目                                                                       | 说明                         | 实现                                                                            |
-|--------------------------------------------------------------------------|----------------------------|-------------------------------------------------------------------------------|
-| [208. 实现 Trie (前缀树)](https://leetcode.cn/problems/implement-trie-prefix-tree/description/) | 前缀树 | [我的提交](https://leetcode.cn/problems/implement-trie-prefix-tree/submissions/478776637/) |
-
+| 题目                                                                       | 说明    | 实现                                                                                    |
+|--------------------------------------------------------------------------|-------|---------------------------------------------------------------------------------------|
+| [208. 实现 Trie (前缀树)](https://leetcode.cn/problems/implement-trie-prefix-tree/description/) | 前缀树   | [我的提交](https://leetcode.cn/problems/implement-trie-prefix-tree/submissions/478776637/) |
+| [1268. 搜索推荐系统](https://leetcode.cn/problems/search-suggestions-system/description/) | 一眼前缀树 | [我的提交](https://leetcode.cn/problems/search-suggestions-system/submissions/479543984/)                                                                              |
 
 
 ### 3. 更多练习
