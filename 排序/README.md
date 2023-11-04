@@ -62,7 +62,7 @@
 | [524. 通过删除字母匹配到字典里最长单词](https://leetcode.cn/problems/longest-word-in-dictionary-through-deleting/description/) | 双指针法判断是否是子序列        | [我的提交](https://leetcode.cn/problems/longest-word-in-dictionary-through-deleting/submissions/478642292/) |
 | [939. 最小面积矩形](https://leetcode.cn/problems/minimum-area-rectangle/description/) | 按层从下往上、从左往右记录所有同层y对 | [我的提交](https://leetcode.cn/problems/minimum-area-rectangle/submissions/479072887/) |
 | [1366. 通过投票对团队排名](https://leetcode.cn/problems/rank-teams-by-votes/description/) | 自定义多维排序             | [我的提交](https://leetcode.cn/problems/rank-teams-by-votes/submissions/479647745/) |
-
+| [1424. 对角线遍历 II](https://leetcode.cn/problems/diagonal-traverse-ii/description/1424) | 第一维：i+j的值，第二维：j     | [我的提交](https://leetcode.cn/problems/diagonal-traverse-ii/submissions/) |
 > 3> 前缀树，用于排序和判断前缀关系
 ```go
 type Trie struct {
