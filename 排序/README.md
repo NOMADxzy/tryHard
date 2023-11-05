@@ -83,6 +83,13 @@ type Trie struct {
 | [1296. 划分数组为连续数字的集合](https://leetcode.cn/problems/divide-array-in-sets-of-k-consecutive-numbers/description/) | 排序，哈希 | [我的提交](https://leetcode.cn/problems/divide-array-in-sets-of-k-consecutive-numbers/submissions/479558102/) |
 | [532. 数组中的 k-diff 数对](https://leetcode.cn/problems/k-diff-pairs-in-an-array/description/) | 排序，哈希 | [我的提交](https://leetcode.cn/problems/k-diff-pairs-in-an-array/submissions/) |
 
+> 5> 按照某种性质进行排序
+>
+| 题目                                                                            | 说明                            | 实现                                                                            |
+|-------------------------------------------------------------------------------|-------------------------------|-------------------------------------------------------------------------------|
+| [2327. 知道秘密的人数](https://leetcode.cn/problems/number-of-people-aware-of-a-secret/description/) | 按知道秘密的顺序维护一个队列，每天新增的=队列前若干个之和 | [我的提交](https://leetcode.cn/problems/number-of-people-aware-of-a-secret/submissions/479881461/) |
+
+
 ### 3. 更多练习
 
 
