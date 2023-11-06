@@ -118,12 +118,16 @@
 | [1162. 地图分析](https://leetcode.cn/problems/as-far-from-land-as-possible/description/) | 某位置距离陆地d，则其上下左右的海洋距离陆地d+1，扩散至没有海洋                           | [我的提交](https://leetcode.cn/problems/as-far-from-land-as-possible/submissions/477471003/) |
 | [1947. 最大兼容性评分和](https://leetcode.cn/problems/maximum-compatibility-score-sum/description/) | mark第j位表示第j个教授是否被选择，mark中有k个1，初始时mark=0，从每个mark扩散到含k+1的mark | [我的提交](https://leetcode.cn/problems/maximum-compatibility-score-sum/submissions/478437655/) |
 
-> 11> 节点距离问题，使用动态规划、贝尔曼福特算法
+> 11> 节点距离问题，使用动态规划、贝尔曼福特算法    
+> 每轮循环知道相邻 f -> t 之间的距离c，对其余节点i(i!=f && i!=t):    
+> if c + d(t)(i) < d(f)(i) 则更新d(f)(i)    
+> !!! 不要忘了还有: **c + d(f)(i) < d(t)(i) 则更新d(t)(i)**    
 >
 | 题目          | 说明          | 实现                                                                            |
 |-------------|-------------|-------------------------------------------------------------------------------|
 | [1334. 阈值距离内邻居最少的城市](https://leetcode.cn/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/description/) | 求出每个节点间最小距离 | [我的提交](https://leetcode.cn/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/submissions/477690027/) |
-
+| [1311. 获取你好友已观看的视频](https://leetcode.cn/problems/get-watched-videos-by-your-friends/description/) | 求出每个好友间最小距离 | [我的提交](https://leetcode.cn/problems/get-watched-videos-by-your-friends/submissions/479635030/) |
+|             |             |                                                                               |
 > 12> 状态压缩dp，通常用于数组A和数组B任意匹配问题
 >
 | 题目          | 说明                                           | 实现                                                                            |
