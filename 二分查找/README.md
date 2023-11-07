@@ -45,6 +45,7 @@ for left<right{
 |------------------------------------------------------------------|-------------------------------------------|-------------------------------------------------------------------------------|
 | [792. 匹配子序列的单词数](https://leetcode.cn/problems/number-of-matching-subsequences/description/) | 记录26个字母分别在s中从前到后出现的位置                     | [我的提交](https://leetcode.cn/problems/number-of-matching-subsequences/submissions/474655365/) |
 | [1477. 找两个和为目标值且不重叠的子数组](https://leetcode.cn/problems/find-two-non-overlapping-sub-arrays-each-with-target-sum/description/) | 因为元素都是>0, 所以前缀和是有序的，求每个位置结尾的子数组为target的长度 | [我的提交](https://leetcode.cn/problems/find-two-non-overlapping-sub-arrays-each-with-target-sum/submissions/477743362/) |
+| [1838. 最高频元素的频数](https://leetcode.cn/problems/frequency-of-the-most-frequent-element/description/) | 排序，要变成i元素的区间的左边界越小，对应的k越大，从而探索最大左边界       | [我的提交](https://leetcode.cn/problems/frequency-of-the-most-frequent-element/submissions/480483834/) |
 
 > 2> 答案为固定数值时，可以直接对答案进行二分查找
 >
