@@ -51,9 +51,10 @@
 
 > 1> 通过排序将数组分为左右不同性质的部分，简化运算
 > 
-| 题目                                                                            | 说明                         | 实现                                                                            |
-|-------------------------------------------------------------------------------|----------------------------|-------------------------------------------------------------------------------|
-| [462. 最小操作次数使数组元素相等 II](https://leetcode.cn/problems/minimum-moves-to-equal-array-elements-ii/) | 排序后，操作次数 = 左边增加的值 + 右边减小的值 | [我的提交](https://leetcode.cn/problems/minimum-moves-to-equal-array-elements-ii/submissions/478474363/) |
+| 题目                                                                            | 说明                                      | 实现                                                                            |
+|-------------------------------------------------------------------------------|-----------------------------------------|-------------------------------------------------------------------------------|
+| [462. 最小操作次数使数组元素相等 II](https://leetcode.cn/problems/minimum-moves-to-equal-array-elements-ii/) | 排序后，操作次数 = 左边增加的值 + 右边减小的值              | [我的提交](https://leetcode.cn/problems/minimum-moves-to-equal-array-elements-ii/submissions/478474363/) |
+| [1996. 游戏中弱角色的数量](https://leetcode.cn/problems/the-number-of-weak-characters-in-the-game/description/) | 排序后，从右往左，在每个角色严格右区间内判断，利用dpRightMax记录历史 | [我的提交](https://leetcode.cn/problems/the-number-of-weak-characters-in-the-game/submissions/480770831/) |
 
 > 2> 二重(多重)排序，第一个条件相同时，再通过第二个条件...排序
 >
@@ -93,7 +94,7 @@ type Trie struct {
 >
 | 题目                                                                            | 说明                                      | 实现                                                                            |
 |-------------------------------------------------------------------------------|-----------------------------------------|-------------------------------------------------------------------------------|
-| [2327. 知道秘密的人数](https://leetcode.cn/problems/largest-submatrix-with-rearrangements/description/) | 记录每列每个位置开始的最大连续1个数，分类讨论从每个位置开始的最大矩形(排序) | [我的提交](https://leetcode.cn/problems/largest-submatrix-with-rearrangements/submissions/479963584/) |
+| [1727. 重新排列后的最大子矩阵](https://leetcode.cn/problems/largest-submatrix-with-rearrangements/description/) | 记录每列每个位置开始的最大连续1个数，分类讨论从每个位置开始的最大矩形(排序) | [我的提交](https://leetcode.cn/problems/largest-submatrix-with-rearrangements/submissions/479963584/) |
 
 
 ### 3. 更多练习
