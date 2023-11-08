@@ -76,7 +76,7 @@ type Trie struct {
 | [208. 实现 Trie (前缀树)](https://leetcode.cn/problems/implement-trie-prefix-tree/description/) | 前缀树   | [我的提交](https://leetcode.cn/problems/implement-trie-prefix-tree/submissions/478776637/) |
 | [1268. 搜索推荐系统](https://leetcode.cn/problems/search-suggestions-system/description/) | 一眼前缀树 | [我的提交](https://leetcode.cn/problems/search-suggestions-system/submissions/479543984/)                                                                              |
 
-> 4> 数对问题，排序结合哈希表，从小到大在哈希表中依次去除数对，直到不够或终止
+> 4> 数对问题，排序结合哈希表，从小到大在哈希表中依次去除数对，直到不够或终止（注意要删除一对，不能只删除一个）
 >
 | 题目                                                                            | 说明    | 实现                                                                            |
 |-------------------------------------------------------------------------------|-------|-------------------------------------------------------------------------------|
