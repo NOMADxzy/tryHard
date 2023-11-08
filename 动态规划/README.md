@@ -58,11 +58,12 @@
 | [1638. 统计只差一个字符的子串数目](https://leetcode.cn/problems/count-substrings-that-differ-by-one-character/description/)                | dp(i)(j)(0), dp(i)(j)(1)分别表示以i,j位置结尾累积相同/差1字符的最长子串长度           | [我的提交](https://leetcode.cn/problems/count-substrings-that-differ-by-one-character/submissions/477940428/)                 |
 | [1824. 最少侧跳次数](https://leetcode.cn/problems/minimum-sideway-jumps/description/)                 | 划分成青蛙在三个跑道上的侧跳次数分别进行状态转移                                       | [我的提交](https://leetcode.cn/problems/minimum-sideway-jumps/submissions/478099769/)                 |
 
-> 4> 可对状态进行分类（26个字母等）从而大大降低算法复杂度
+> 4> 可对状态进行分类（26个字母等）、对数据进行排序，从而能够动态规划
 >
 | 题目                                                                    | 说明            | 实现                                                                          |
 |-----------------------------------------------------------------------|---------------|-----------------------------------------------------------------------------|
 | [467. 环绕字符串中唯一的子字符串](https://leetcode.cn/problems/unique-substrings-in-wraparound-string/description/) | 针对26个字母分类巧妙去重 | [我的题解](https://leetcode.cn/problems/unique-substrings-in-wraparound-string/solutions/2481172/ji-lu-26ge-zi-mu-jie-wei-de-zi-chuan-de-4v1uf/) |
+| [2008. 出租车的最大盈利](https://leetcode.cn/problems/maximum-earnings-from-taxi/description/) | 根据到达地点从小到大排序  | [我的题解](https://leetcode.cn/problems/maximum-earnings-from-taxi/submissions/480784919/) |
 
 > 5> 区间类型的动态规划
 >
