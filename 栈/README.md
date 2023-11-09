@@ -8,12 +8,18 @@
 
 ### 2. 解题技巧（我的总结）
 
-> 1> 单调栈，记录数组中的极值
+> 1> 单调栈，记录数组/区间中的极值, 单调递增栈维护最小值、次小值... 单调递减栈维护最大值、次大值...
 > 
 | 题目                                                                            | 说明                                         | 实现                                                                            |
 |-------------------------------------------------------------------------------|--------------------------------------------|-------------------------------------------------------------------------------|
 | [1438. 绝对差不超过限制的最长连续子数组](https://leetcode.cn/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/description/) | 用单增栈和单减栈分别维护区间的最大最小值（队首），区间不满足要求时尝试从队首移除元素 | [我的提交](https://leetcode.cn/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/submissions/480918945/) |
+| [239. 滑动窗口最大值](https://leetcode.cn/problems/sliding-window-maximum/description/) | 用单减栈维护窗口的最大值            | [我的提交](https://leetcode.cn/problems/sliding-window-maximum/submissions/480967154/) |
 
+> 2> 单调栈，隐含历史信息
+>
+| 题目                                                                           | 说明                                  | 实现                                                                            |
+|------------------------------------------------------------------------------|-------------------------------------|-------------------------------------------------------------------------------|
+| [456. 132 模式](https://leetcode.cn/problems/132-pattern/) | 从右到左，单调递减栈，k记录上次被pop出去的值，一定有 栈顶 < k | [我的提交](https://leetcode.cn/problems/132-pattern/submissions/470350335/) |
 
 
 
