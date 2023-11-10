@@ -28,6 +28,8 @@
 - [前缀和](前缀和/README.md)
 - [贪心大法](贪心/README.md)
 - [并查集](并查集/README.md)
+- [栈](栈/README.md)
+- [区间窗口](区间窗口/README.md)
 
 ## Golang 常见面试题目解析
 
