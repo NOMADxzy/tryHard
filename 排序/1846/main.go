@@ -1,20 +1,27 @@
 package main
 
-import "sort"
+import (
+	"fmt"
+	"sort"
+)
 
 func maximumElementAfterDecrementingAndRearranging(arr []int) int {
-	n := len(arr)
-	sort.Ints(arr)
-	arr[0] = 1
-	for i := 1; i < n; i++ {
-		arr[i] = min(arr[i], arr[i-1]+1)
+	sort.Slice(arr, func(i, j int) bool {
+		return arr[i] < arr[j]
+	})
+
+	m := len(arr)
+	pre := 1
+	for i := 1; i < m; i++ {
+		if arr[i]-pre > 1 {
+			pre = pre + 1
+		} else {
+			pre = arr[i]
+		}
 	}
-	return arr[n-1]
+	return pre
 }
 
-func min(a, b int) int {
-	if a < b {
-		return a
-	}
-	return b
+func main() {
+	fmt.Println(maximumElementAfterDecrementingAndRearranging([]int{2, 2, 1, 2, 1}))
 }
