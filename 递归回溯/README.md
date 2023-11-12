@@ -45,10 +45,10 @@ def backtrack(路径, 选择列表):
 
 > 3> 二叉树只考虑根节点 (先考虑根节点为nil，再考虑和根节点的关系，递归到下一层)
 >
-| 题目                                                                    | 说明                | 实现                                                                            |
-|-----------------------------------------------------------------------|-------------------|-------------------------------------------------------------------------------|
-| [669. 修剪二叉搜索树](https://leetcode.cn/problems/trim-a-binary-search-tree/description/) | 根节点不在区间内/在区间内两种情况 | [我的提交](https://leetcode.cn/problems/trim-a-binary-search-tree/submissions/481581106/) |
-
+| 题目                                                                               | 说明                       | 实现                                                                            |
+|----------------------------------------------------------------------------------|--------------------------|-------------------------------------------------------------------------------|
+| [669. 修剪二叉搜索树](https://leetcode.cn/problems/trim-a-binary-search-tree/description/) | 根节点不在区间内/在区间内两种情况        | [我的提交](https://leetcode.cn/problems/trim-a-binary-search-tree/submissions/481581106/) |
+| [623. 在二叉树中增加一行](https://leetcode.cn/problems/add-one-row-to-tree/description/) | 根节点在新层 前两层以上/前一层/新层 三种情况 | [我的提交](https://leetcode.cn/problems/add-one-row-to-tree/submissions/481586093/) |
 
 ### 3. 更多练习
 #### 3.1 子集型回溯
