@@ -50,6 +50,16 @@ def backtrack(路径, 选择列表):
 | [669. 修剪二叉搜索树](https://leetcode.cn/problems/trim-a-binary-search-tree/description/) | 根节点不在区间内/在区间内两种情况        | [我的提交](https://leetcode.cn/problems/trim-a-binary-search-tree/submissions/481581106/) |
 | [623. 在二叉树中增加一行](https://leetcode.cn/problems/add-one-row-to-tree/description/) | 根节点在新层 前两层以上/前一层/新层 三种情况 | [我的提交](https://leetcode.cn/problems/add-one-row-to-tree/submissions/481586093/) |
 
+> 4> 棋盘问题，三步:
+> 递归终止，存储答案
+> 遍历当前位置所有合法解，进入下一位置
+> 当前位置无合法解，回退，撤销一切更改
+>
+| 题目                                                                    | 说明            | 实现                                                                            |
+|-----------------------------------------------------------------------|---------------|-------------------------------------------------------------------------------|
+| [51. N 皇后](https://leetcode.cn/problems/n-queens/description/) | 从上往下为每一行选择Q位置 | [我的提交](https://leetcode.cn/problems/n-queens/submissions/481597366/) |
+
+
 ### 3. 更多练习
 #### 3.1 子集型回溯
 
