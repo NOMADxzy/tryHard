@@ -1,19 +1,24 @@
 package main
 
-func getDescentPeriods(prices []int) (ans int64) {
+import "fmt"
 
-	for i, n := 0, len(prices); i < n; {
+func getDescentPeriods(prices []int) int64 {
+	m := len(prices)
+	ans := int64(1)
+	pre := int64(1)
+	var cur int64
 
-		i0 := i
-
-		for i++; i < n && prices[i] == prices[i-1]-1; i++ {
-
+	for i := 1; i < m; i++ {
+		cur = 1
+		if prices[i] == prices[i-1]-1 {
+			cur += pre
 		}
-
-		ans += int64(i-i0) * int64(i-i0+1) / 2
-
+		pre = cur
+		ans += cur
 	}
+	return ans
+}
 
-	return
-
+func main() {
+	fmt.Println(getDescentPeriods([]int{3, 2, 1, 4}))
 }
