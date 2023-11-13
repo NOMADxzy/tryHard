@@ -60,6 +60,13 @@ def backtrack(路径, 选择列表):
 | [51. N 皇后](https://leetcode.cn/problems/n-queens/description/) | 从上往下为每一行选择Q位置 | [我的提交](https://leetcode.cn/problems/n-queens/submissions/481597366/) |
 
 
+> 5> 降低搜索空间，从忽略顺序、只考虑奇偶性、对实体分类等方面简化
+>
+| 题目                                                                    | 说明                     | 实现                                                                            |
+|-----------------------------------------------------------------------|------------------------|-------------------------------------------------------------------------------|
+| [672. 灯泡开关 Ⅱ](https://leetcode.cn/problems/bulb-switcher-ii/description/) | 只考虑每组灯泡被按了奇偶次，灯泡可以分成4组 | [我的提交](https://leetcode.cn/problems/bulb-switcher-ii/submissions/481694656/) |
+
+
 ### 3. 更多练习
 #### 3.1 子集型回溯
 
