@@ -80,6 +80,12 @@ def backtrack(路径, 选择列表):
 |-----------------------------------------------------------------------|----------|-------------------------------------------------------------------------------|
 | [841. 钥匙和房间](https://leetcode.cn/problems/keys-and-rooms/description/) | 深度优先每个房间 | [我的提交](https://leetcode.cn/problems/keys-and-rooms/submissions/482103164/) |
 
+> 7> 预处理条件，使用map形式方便查找`下一合法位置`
+>
+| 题目                                                                    | 说明                  | 实现                                                                            |
+|-----------------------------------------------------------------------|---------------------|-------------------------------------------------------------------------------|
+| [851. 喧闹和富有](https://leetcode.cn/problems/loud-and-rich/description/) | map记录比每个用户有钱的直接用户   | [我的提交](https://leetcode.cn/problems/loud-and-rich/submissions/482111789/) |
+| [756. 金字塔转换矩阵](https://leetcode.cn/problems/pyramid-transition-matrix/description/) | map记录每个二元组上面能放的合法字符 | [我的提交](https://leetcode.cn/problems/pyramid-transition-matrix/submissions/481909980/) |
 
 ### 3. 更多练习
 #### 3.1 子集型回溯
