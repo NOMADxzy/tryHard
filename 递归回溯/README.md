@@ -37,18 +37,22 @@ def backtrack(路径, 选择列表):
 | [464. 我能赢吗](https://leetcode.cn/problems/can-i-win/description/) | 使用int记录已选数字  | [我的提交](https://leetcode.cn/problems/can-i-win/submissions/466755816/) |
 | [1387. 将整数按权重排序](https://leetcode.cn/problems/sort-integers-by-the-power-value/description/) | 使用int记录已计算过的 | [我的提交](https://leetcode.cn/problems/sort-integers-by-the-power-value/submissions/477710824/) |
 
-> 2> 排序降低搜索时间
+> 2> 岛屿问题，曼哈顿距离，广度优先搜索
 >
-| 题目                                                                    | 说明            | 实现                                                                            |
-|-----------------------------------------------------------------------|---------------|-------------------------------------------------------------------------------|
-| [473. 火柴拼正方形](https://leetcode.cn/problems/matchsticks-to-square/description/) | 降序排列降低后面的枚举次数 | [我的提交](https://leetcode.cn/problems/matchsticks-to-square/submissions/474082583/) |
+| 题目                                                                   | 说明                             | 实现                                                                            |
+|----------------------------------------------------------------------|--------------------------------|-------------------------------------------------------------------------------|
+| [934. 最短的桥](https://leetcode.cn/problems/shortest-bridge/description/) | 两岛屿使用不同的标记，bfs扩散岛屿1的面积直至和岛屿2相遇 | [我的提交](https://leetcode.cn/problems/shortest-bridge/submissions/482164939/) |
 
-> 3> 二叉树只考虑根节点 (先考虑根节点为nil，再考虑和根节点的关系，递归到下一层)
+
+> 3> 二叉树技巧
+> 只考虑根节点 (先考虑根节点为nil，再考虑和根节点的关系，递归到下一层) 
+> 使用map记录父节点
 >
 | 题目                                                                               | 说明                       | 实现                                                                            |
 |----------------------------------------------------------------------------------|--------------------------|-------------------------------------------------------------------------------|
 | [669. 修剪二叉搜索树](https://leetcode.cn/problems/trim-a-binary-search-tree/description/) | 根节点不在区间内/在区间内两种情况        | [我的提交](https://leetcode.cn/problems/trim-a-binary-search-tree/submissions/481581106/) |
 | [623. 在二叉树中增加一行](https://leetcode.cn/problems/add-one-row-to-tree/description/) | 根节点在新层 前两层以上/前一层/新层 三种情况 | [我的提交](https://leetcode.cn/problems/add-one-row-to-tree/submissions/481586093/) |
+| [863. 二叉树中所有距离为 K 的结点](https://leetcode.cn/problems/all-nodes-distance-k-in-binary-tree/description/) | 记录父节点，考虑下面的后再向上考虑每个父节点   | [我的提交](https://leetcode.cn/problems/all-nodes-distance-k-in-binary-tree/submissions/482123513/) |
 
 > 4> 棋盘问题，三步:
 > 递归终止，存储答案
@@ -60,11 +64,12 @@ def backtrack(路径, 选择列表):
 | [51. N 皇后](https://leetcode.cn/problems/n-queens/description/) | 从上往下为每一行选择Q位置 | [我的提交](https://leetcode.cn/problems/n-queens/submissions/481597366/) |
 
 
-> 5> 降低搜索空间，从忽略顺序、只考虑奇偶性、对实体分类等方面简化
+> 5> 降低搜索空间，从排序、忽略顺序、只考虑奇偶性、对实体分类等方面简化
 >
 | 题目                                                                    | 说明                     | 实现                                                                            |
 |-----------------------------------------------------------------------|------------------------|-------------------------------------------------------------------------------|
 | [672. 灯泡开关 Ⅱ](https://leetcode.cn/problems/bulb-switcher-ii/description/) | 只考虑每组灯泡被按了奇偶次，灯泡可以分成4组 | [我的提交](https://leetcode.cn/problems/bulb-switcher-ii/submissions/481694656/) |
+| [473. 火柴拼正方形](https://leetcode.cn/problems/matchsticks-to-square/description/) | 降序排列降低后面的枚举次数 | [我的提交](https://leetcode.cn/problems/matchsticks-to-square/submissions/474082583/) |
 
 > 6> 深度优先套路
 > dfs(env,pos,mark):
