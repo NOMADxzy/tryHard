@@ -93,6 +93,7 @@ def backtrack(路径, 选择列表):
 |-----------------------------------------------------------------------|---------------------|-------------------------------------------------------------------------------|
 | [851. 喧闹和富有](https://leetcode.cn/problems/loud-and-rich/description/) | map记录比每个用户有钱的直接用户   | [我的提交](https://leetcode.cn/problems/loud-and-rich/submissions/482111789/) |
 | [756. 金字塔转换矩阵](https://leetcode.cn/problems/pyramid-transition-matrix/description/) | map记录每个二元组上面能放的合法字符 | [我的提交](https://leetcode.cn/problems/pyramid-transition-matrix/submissions/481909980/) |
+| [1042. 不邻接植花](https://leetcode.cn/problems/flower-planting-with-no-adjacent/description/) | map记录比每个花园的邻居       | [我的提交](https://leetcode.cn/problems/flower-planting-with-no-adjacent/submissions/482632241/) |
 
 ### 3. 更多练习
 #### 3.1 子集型回溯
