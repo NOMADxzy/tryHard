@@ -37,12 +37,13 @@ def backtrack(路径, 选择列表):
 | [464. 我能赢吗](https://leetcode.cn/problems/can-i-win/description/) | 使用int记录已选数字  | [我的提交](https://leetcode.cn/problems/can-i-win/submissions/466755816/) |
 | [1387. 将整数按权重排序](https://leetcode.cn/problems/sort-integers-by-the-power-value/description/) | 使用int记录已计算过的 | [我的提交](https://leetcode.cn/problems/sort-integers-by-the-power-value/submissions/477710824/) |
 
-> 2> 岛屿问题，曼哈顿距离，广度优先搜索，某一性质（边界）扩散
+> 2> 岛屿问题：曼哈顿距离，广度优先搜索，某一性质（边界）扩散，通过更改标记防止重复搜索
 >
-| 题目                                                                   | 说明                             | 实现                                                                            |
-|----------------------------------------------------------------------|--------------------------------|-------------------------------------------------------------------------------|
-| [934. 最短的桥](https://leetcode.cn/problems/shortest-bridge/description/) | 两岛屿使用不同的标记，bfs扩散岛屿1的面积直至和岛屿2相遇 | [我的提交](https://leetcode.cn/problems/shortest-bridge/submissions/482164939/) |
-| [1020. 飞地的数量](https://leetcode.cn/problems/number-of-enclaves/description/) | 从边界扩散，剩余的是有效的1                 | [我的提交](https://leetcode.cn/problems/number-of-enclaves/submissions/482424903/) |
+| 题目                                                                   | 说明                                                     | 实现                                                                            |
+|----------------------------------------------------------------------|--------------------------------------------------------|-------------------------------------------------------------------------------|
+| [934. 最短的桥](https://leetcode.cn/problems/shortest-bridge/description/) | 两岛屿使用不同的标记，bfs扩散岛屿1的面积直至和岛屿2相遇                         | [我的提交](https://leetcode.cn/problems/shortest-bridge/submissions/482164939/) |
+| [1020. 飞地的数量](https://leetcode.cn/problems/number-of-enclaves/description/) | 从边界扩散，剩余的是有效的1                                         | [我的提交](https://leetcode.cn/problems/number-of-enclaves/submissions/482424903/) |
+| [1034. 边界着色](https://leetcode.cn/problems/coloring-a-border/description/) | dfs，是边界标记为-1，不是标记为0，（不是边界 ：4个方向的val=target/0/-1的数量==4） | [我的提交](https://leetcode.cn/problems/coloring-a-border/submissions/482530829/) |
 
 > 3> 二叉树技巧
 > 只考虑根节点 (先考虑根节点为nil，再考虑和根节点的关系，递归到下一层) 
