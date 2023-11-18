@@ -40,5 +40,5 @@ func removeSubfolders(folder []string) []string {
 
 func main() {
 	folder := []string{"/a", "/a/b", "/c/d", "/c/d/e", "/c/f"}
-	fmt.Println(removeSubFolders(folder))
+	fmt.Println(removeSubfolders(folder))
 }
