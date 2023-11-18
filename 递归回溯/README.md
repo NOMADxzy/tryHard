@@ -32,10 +32,11 @@ def backtrack(路径, 选择列表):
 
 > 1> 使用哈希表存储答案，使用mark标记已访问的防止重复搜索，状态较少（<32）时用一个int即可
 > 
-| 题目                                                          | 说明           | 实现                                                                            |
-|-------------------------------------------------------------|--------------|-------------------------------------------------------------------------------|
-| [464. 我能赢吗](https://leetcode.cn/problems/can-i-win/description/) | 使用int记录已选数字  | [我的提交](https://leetcode.cn/problems/can-i-win/submissions/466755816/) |
-| [1387. 将整数按权重排序](https://leetcode.cn/problems/sort-integers-by-the-power-value/description/) | 使用int记录已计算过的 | [我的提交](https://leetcode.cn/problems/sort-integers-by-the-power-value/submissions/477710824/) |
+| 题目                                                          | 说明                     | 实现                                                                            |
+|-------------------------------------------------------------|------------------------|-------------------------------------------------------------------------------|
+| [464. 我能赢吗](https://leetcode.cn/problems/can-i-win/description/) | 使用int记录已选数字            | [我的提交](https://leetcode.cn/problems/can-i-win/submissions/466755816/) |
+| [1387. 将整数按权重排序](https://leetcode.cn/problems/sort-integers-by-the-power-value/description/) | 使用int记录已计算过的           | [我的提交](https://leetcode.cn/problems/sort-integers-by-the-power-value/submissions/477710824/) |
+| [1361. 验证二叉树](https://leetcode.cn/problems/validate-binary-tree-nodes/description/) | 记录每个节点为根时其下的节点数目，直到等于n | [我的提交](https://leetcode.cn/problems/validate-binary-tree-nodes/submissions/483028473/) |
 
 > 2> 岛屿问题：曼哈顿距离，广度优先搜索，某一性质（边界）扩散，通过更改标记防止重复搜索
 >
