@@ -51,23 +51,24 @@ def backtrack(路径, 选择列表):
 > 只考虑根节点 (先考虑根节点为nil，再考虑和根节点的关系，递归到下一层) 
 > 使用map记录父节点
 >
-| 题目                                                                               | 说明                       | 实现                                                                            |
-|----------------------------------------------------------------------------------|--------------------------|-------------------------------------------------------------------------------|
-| [669. 修剪二叉搜索树](https://leetcode.cn/problems/trim-a-binary-search-tree/description/) | 根节点不在区间内/在区间内两种情况        | [我的提交](https://leetcode.cn/problems/trim-a-binary-search-tree/submissions/481581106/) |
-| [623. 在二叉树中增加一行](https://leetcode.cn/problems/add-one-row-to-tree/description/) | 根节点在新层 前两层以上/前一层/新层 三种情况 | [我的提交](https://leetcode.cn/problems/add-one-row-to-tree/submissions/481586093/) |
-| [863. 二叉树中所有距离为 K 的结点](https://leetcode.cn/problems/all-nodes-distance-k-in-binary-tree/description/) | 记录父节点，考虑下面的后再向上考虑每个父节点   | [我的提交](https://leetcode.cn/problems/all-nodes-distance-k-in-binary-tree/submissions/482123513/) |
-| [971. 翻转二叉树以匹配先序遍历](https://leetcode.cn/problems/add-one-row-to-tree/description/) | 预处理统计每个节点下的节点数目，从而对数组划分  | [我的提交](https://leetcode.cn/problems/add-one-row-to-tree/submissions/481586093/) |
-| [652. 寻找重复的子树](https://leetcode.cn/problems/find-duplicate-subtrees/description/) | 二叉树的序列化                  | [我的提交](https://leetcode.cn/problems/find-duplicate-subtrees/submissions/483213917/) |
+| 题目                                                                               | 说明                          | 实现                                                                            |
+|----------------------------------------------------------------------------------|-----------------------------|-------------------------------------------------------------------------------|
+| [669. 修剪二叉搜索树](https://leetcode.cn/problems/trim-a-binary-search-tree/description/) | 根节点不在区间内/在区间内两种情况           | [我的提交](https://leetcode.cn/problems/trim-a-binary-search-tree/submissions/481581106/) |
+| [623. 在二叉树中增加一行](https://leetcode.cn/problems/add-one-row-to-tree/description/) | 根节点在新层 前两层以上/前一层/新层 三种情况    | [我的提交](https://leetcode.cn/problems/add-one-row-to-tree/submissions/481586093/) |
+| [863. 二叉树中所有距离为 K 的结点](https://leetcode.cn/problems/all-nodes-distance-k-in-binary-tree/description/) | 记录父节点，考虑下面的后再向上考虑每个父节点      | [我的提交](https://leetcode.cn/problems/all-nodes-distance-k-in-binary-tree/submissions/482123513/) |
+| [971. 翻转二叉树以匹配先序遍历](https://leetcode.cn/problems/add-one-row-to-tree/description/) | 预处理统计每个节点下的节点数目，从而对数组划分     | [我的提交](https://leetcode.cn/problems/add-one-row-to-tree/submissions/481586093/) |
+| [652. 寻找重复的子树](https://leetcode.cn/problems/find-duplicate-subtrees/description/) | 二叉树的序列化                     | [我的提交](https://leetcode.cn/problems/find-duplicate-subtrees/submissions/483213917/) |
+| [1443. 收集树上所有苹果的最少时间](https://leetcode.cn/problems/minimum-time-to-collect-all-apples-in-a-tree/description/) | 当前节点time = sum(每个子节点time+2) | [我的提交](https://leetcode.cn/problems/minimum-time-to-collect-all-apples-in-a-tree/submissions/483523574/) |
 
 > 4> 棋盘问题，三步:
 > 递归终止，存储答案
 > 遍历当前位置所有合法解，进入下一位置
 > 当前位置无合法解，回退，撤销一切更改
 >
-| 题目                                                                    | 说明            | 实现                                                                            |
-|-----------------------------------------------------------------------|---------------|-------------------------------------------------------------------------------|
-| [51. N 皇后](https://leetcode.cn/problems/n-queens/description/) | 从上往下为每一行选择Q位置 | [我的提交](https://leetcode.cn/problems/n-queens/submissions/481597366/) |
-
+| 题目                                                                    | 说明                   | 实现                                                                            |
+|-----------------------------------------------------------------------|----------------------|-------------------------------------------------------------------------------|
+| [51. N 皇后](https://leetcode.cn/problems/n-queens/description/) | 从上往下为每一行选择Q位置        | [我的提交](https://leetcode.cn/problems/n-queens/submissions/481597366/) |
+| [1391. 检查网格中是否存在有效路径](https://leetcode.cn/problems/check-if-there-is-a-valid-path-in-a-grid/description/) | 使用4维特征记录每种街道的上下左右可行性 | [我的提交](https://leetcode.cn/problems/check-if-there-is-a-valid-path-in-a-grid/submissions/483493723/) |
 
 > 5> 降低搜索空间，从排序、忽略顺序、只考虑奇偶性、对实体分类等方面简化
 >
