@@ -69,6 +69,7 @@ def backtrack(路径, 选择列表):
 |-----------------------------------------------------------------------|----------------------|-------------------------------------------------------------------------------|
 | [51. N 皇后](https://leetcode.cn/problems/n-queens/description/) | 从上往下为每一行选择Q位置        | [我的提交](https://leetcode.cn/problems/n-queens/submissions/481597366/) |
 | [1391. 检查网格中是否存在有效路径](https://leetcode.cn/problems/check-if-there-is-a-valid-path-in-a-grid/description/) | 使用4维特征记录每种街道的上下左右可行性 | [我的提交](https://leetcode.cn/problems/check-if-there-is-a-valid-path-in-a-grid/submissions/483493723/) |
+| [1905. 统计子岛屿](https://leetcode.cn/problems/count-sub-islands/description/) | ps (每访问一个节点就更改其值以去重)       | [我的提交](https://leetcode.cn/problems/count-sub-islands/submissions/483826848/) |
 
 > 5> 降低搜索空间，从排序、忽略顺序、只考虑奇偶性、对实体分类等方面简化
 >
