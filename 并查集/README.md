@@ -29,7 +29,7 @@
 |----------------------------------------------------------------------|----------------------------------------------|-------------------------------------------------------------------------------|
 | [947. 移除最多的同行或同列石头](https://leetcode.cn/problems/most-stones-removed-with-same-row-or-column/description/) | 相同性质为：两个集合拥有相同的行号或列号，用一个map记录每个行号、列号第一次出现的位置 | [我的提交](https://leetcode.cn/problems/most-stones-removed-with-same-row-or-column/submissions/479031530/) |
 | [721. 账户合并](https://leetcode.cn/problems/accounts-merge/description/) | 相同性质为：两个集合拥有相同的元素，用一个map记录每个元素第一次出现的位置       | [我的提交](https://leetcode.cn/problems/accounts-merge/submissions/478917176/) |
-
+| [1722. 执行交换操作后的最小汉明距离](https://leetcode.cn/problems/minimize-hamming-distance-after-swap-operations/description/) | AB交换、BC交换、...EF交换 <-> A、B、C、...、F可以任意交换      | [我的提交](https://leetcode.cn/problems/minimize-hamming-distance-after-swap-operations/submissions/483814512/) |
 
 
 ### 3. 更多练习
