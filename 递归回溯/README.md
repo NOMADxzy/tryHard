@@ -99,6 +99,14 @@ def backtrack(路径, 选择列表):
 | [756. 金字塔转换矩阵](https://leetcode.cn/problems/pyramid-transition-matrix/description/) | map记录每个二元组上面能放的合法字符 | [我的提交](https://leetcode.cn/problems/pyramid-transition-matrix/submissions/481909980/) |
 | [1042. 不邻接植花](https://leetcode.cn/problems/flower-planting-with-no-adjacent/description/) | map记录比每个花园的邻居       | [我的提交](https://leetcode.cn/problems/flower-planting-with-no-adjacent/submissions/482632241/) |
 
+> 7> 利用二叉树性质，转换、简化题目问题为可以递归的问题
+> 
+| 题目                                                                    | 说明                                    | 实现                                                                            |
+|-----------------------------------------------------------------------|---------------------------------------|-------------------------------------------------------------------------------|
+| [1530. 好叶子节点对的数量](https://leetcode.cn/problems/number-of-good-leaf-nodes-pairs/description/) | 题意->求解所有树枝节点的合法路径->递归记录每个节点到旗下叶子的路径长度 | [我的提交](https://leetcode.cn/problems/number-of-good-leaf-nodes-pairs/submissions/483683617/) |
+
+
+
 ### 3. 更多练习
 #### 3.1 子集型回溯
 
