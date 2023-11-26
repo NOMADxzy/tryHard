@@ -26,10 +26,10 @@
 这个两个数据结构在遍历题目给出的邻边以后就可以很方便地得到。
 ```
 > 
-| 题目                                                                           | 说明          | 实现                                                                            |
-|------------------------------------------------------------------------------|-------------|-------------------------------------------------------------------------------|
-| [207. 课程表](https://leetcode.cn/problems/course-schedule/description/) | 队列存放入度为0的节点 | [我的提交](https://leetcode.cn/problems/course-schedule/submissions/484550332/) |
-
+| 题目                                                                           | 说明                       | 实现                                                                            |
+|------------------------------------------------------------------------------|--------------------------|-------------------------------------------------------------------------------|
+| [207. 课程表](https://leetcode.cn/problems/course-schedule/description/) | 队列存放入度为0的节点              | [我的提交](https://leetcode.cn/problems/course-schedule/submissions/484550332/) |
+| [310. 最小高度树](https://leetcode.cn/problems/minimum-height-trees/description/) | 从叶子节点向根节点不断扩散到只剩一个(或者多个) | [我的提交](https://leetcode.cn/problems/minimum-height-trees/submissions/484940211/) |
 
 
 
