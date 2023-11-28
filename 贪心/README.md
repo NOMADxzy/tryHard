@@ -32,8 +32,8 @@
 | [738. 单调递增的数字](https://leetcode.cn/problems/monotone-increasing-digits/)            | 左边元素最需要选大的，从左往右遍历到i位置，i后全变为9，i前变为单增的最大形式           | [我的提交](https://leetcode.cn/problems/valid-parenthesis-string/submissions/471177162/) |
 | [767. 重构字符串](https://leetcode.cn/problems/reorganize-string/description/)              | 记录当前所有字母的数量，最多的元素（不和上一个相同）是最需要被选择的元素               | [我的提交](https://leetcode.cn/problems/reorganize-string/submissions/471209764/) |
 | [870. 优势洗牌](https://leetcode.cn/problems/advantage-shuffle/description/)                | nums1中最小的元素最需要超越对方的数，双指针                           | [我的提交](https://leetcode.cn/problems/advantage-shuffle/submissions/471365063/) |
-| [881. 救生艇](https://leetcode.cn/problems/boats-to-save-people/description/)                     | 体重最重的人最需要充分利用船                                     | [我的提交](https://leetcode.cn/problems/boats-to-save-people/submissions/471367754/) |
-
+| [881. 救生艇](https://leetcode.cn/problems/boats-to-save-people/description/)                    | 体重最重的人最需要充分利用船                                     | [我的提交](https://leetcode.cn/problems/boats-to-save-people/submissions/471367754/) |
+| [630. 课程表 III](https://leetcode.cn/problems/course-schedule-iii/description/)                | 时间越短的课程越优先，按照结束时间从小到大排序并遍历                         | [我的提交](https://leetcode.cn/problems/course-schedule-iii/submissions/485409704/) |
 
 > 2> 递归回溯，每次做局部最优选择，注意使用状态压缩防止重复搜索
 >
