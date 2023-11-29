@@ -20,7 +20,7 @@
 |----------------------------------------------------------------------|-----------------------------|-------------------------------------------------------------------------------|
 | [788. 旋转数字](https://leetcode.cn/problems/rotated-digits/description/) | dp时用preValid表示前面是否已经含有2569  | [我的提交](https://leetcode.cn/problems/rotated-digits/description/) |
 | [2376. 统计特殊整数](https://leetcode.cn/problems/count-special-integers/description/) | 使用一个mark，第i位标记i是否被使用，从而压缩状态 | [我的提交](https://leetcode.cn/problems/count-special-integers/submissions/473515507/) |
-
+| [60. 排列序列](https://leetcode.cn/problems/permutation-sequence/description/) | 从左到右递归累计排名                  | [我的提交](https://leetcode.cn/problems/permutation-sequence/submissions/485525438/) |
 
 ### 3. 更多练习
 - [ ] [233. 数字 1 的个数](https://leetcode.cn/problems/number-of-digit-one/)：[题解](https://leetcode.cn/problems/number-of-digit-one/solution/by-endlesscheng-h9ua/)
