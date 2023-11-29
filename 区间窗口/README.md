@@ -19,11 +19,11 @@
 
 > 3> 滑动窗口问题，遍历right，滑动left使区间符合条件
 >
-| 题目                                                                            | 说明                                | 实现                                                                            |
-|-------------------------------------------------------------------------------|-----------------------------------|-------------------------------------------------------------------------------|
-| [2762. 不间断子数组](https://leetcode.cn/problems/continuous-subarrays/description/) | 使用map记录窗口内的所有值🥱                  | [我的提交](https://leetcode.cn/problems/continuous-subarrays/submissions/479896109/) |
-| [30. 串联所有单词的子串](https://leetcode.cn/problems/substring-with-concatenation-of-all-words/description/) | 使用map记录窗口内的所有出现的小段，保持不超过words中的次数 | [我的提交](https://leetcode.cn/problems/substring-with-concatenation-of-all-words/submissions/484296202/) |
-
+| 题目                                                                            | 说明                                       | 实现                                                                            |
+|-------------------------------------------------------------------------------|------------------------------------------|-------------------------------------------------------------------------------|
+| [2762. 不间断子数组](https://leetcode.cn/problems/continuous-subarrays/description/) | 使用map记录窗口内的所有值🥱                         | [我的提交](https://leetcode.cn/problems/continuous-subarrays/submissions/479896109/) |
+| [30. 串联所有单词的子串](https://leetcode.cn/problems/substring-with-concatenation-of-all-words/description/) | 使用map记录窗口内的所有出现的小段，保持不超过words中的次数        | [我的提交](https://leetcode.cn/problems/substring-with-concatenation-of-all-words/submissions/484296202/) |
+| [76. 最小覆盖子串](https://leetcode.cn/problems/minimum-window-substring/description/) | 先从左0右端点恰满足条件的位置不断右滑窗口，左端点每次取极右，记录过程中最小窗口 | [我的提交](https://leetcode.cn/problems/minimum-window-substring/submissions/485666331/) |
 
 ### 3. 更多练习
 
