@@ -31,6 +31,14 @@
 | [207. 课程表](https://leetcode.cn/problems/course-schedule/description/) | 队列存放入度为0的节点              | [我的提交](https://leetcode.cn/problems/course-schedule/submissions/484550332/) |
 | [310. 最小高度树](https://leetcode.cn/problems/minimum-height-trees/description/) | 从叶子节点向根节点不断扩散到只剩一个(或者多个) | [我的提交](https://leetcode.cn/problems/minimum-height-trees/submissions/484940211/) |
 
+> 2> 双向广度优先搜索，优化时间复杂度
+
+>
+| 题目                                                                          | 说明                                                                 | 实现                                                                            |
+|-----------------------------------------------------------------------------|--------------------------------------------------------------------|-------------------------------------------------------------------------------|
+| [127. 单词接龙](https://leetcode.cn/problems/word-ladder/description/) | leftVisited和rightVisited分别记录左右访问的节点，选取startWord和endWord中邻居少的节点开始扩散 | [我的提交](https://leetcode.cn/problems/word-ladder/submissions/486138990/) |
+
+
 
 
 ### 3. 更多练习
