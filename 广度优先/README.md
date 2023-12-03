@@ -37,7 +37,7 @@
 | 题目                                                                          | 说明                                                                 | 实现                                                                            |
 |-----------------------------------------------------------------------------|--------------------------------------------------------------------|-------------------------------------------------------------------------------|
 | [127. 单词接龙](https://leetcode.cn/problems/word-ladder/description/) | leftVisited和rightVisited分别记录左右访问的节点，选取startWord和endWord中邻居少的节点开始扩散 | [我的提交](https://leetcode.cn/problems/word-ladder/submissions/486138990/) |
-
+| [2359. 找到离给定两个节点最近的节点](https://leetcode.cn/problems/word-ladder/description/) | 双向同步扩散直到有交集为止                                                      | [我的提交](https://leetcode.cn/problems/find-closest-node-to-given-two-nodes/submissions/486518756/) |
 
 
 
