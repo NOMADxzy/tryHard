@@ -61,6 +61,7 @@ def backtrack(路径, 选择列表):
 | [1443. 收集树上所有苹果的最少时间](https://leetcode.cn/problems/minimum-time-to-collect-all-apples-in-a-tree/description/) | 当前节点time = sum(每个子节点time+2)          | [我的提交](https://leetcode.cn/problems/minimum-time-to-collect-all-apples-in-a-tree/submissions/483523574/) |
 | [124. 二叉树中的最大路径和](https://leetcode.cn/problems/binary-tree-maximum-path-sum/description/) | 递归每个根节点往下的最长路径长度，过程记录每个根节点+左右子树的最大长度 | [我的提交](https://leetcode.cn/problems/binary-tree-maximum-path-sum/submissions/485884544/) |
 
+
 > 4> 棋盘问题，三步:
 > 递归终止，存储答案
 > 遍历当前位置所有合法解，进入下一位置
@@ -108,7 +109,8 @@ def backtrack(路径, 选择列表):
 |-----------------------------------------------------------------------|---------------------------------------|-------------------------------------------------------------------------------|
 | [1530. 好叶子节点对的数量](https://leetcode.cn/problems/number-of-good-leaf-nodes-pairs/description/) | 题意->求解所有树枝节点的合法路径->递归记录每个节点到旗下叶子的路径长度 | [我的提交](https://leetcode.cn/problems/number-of-good-leaf-nodes-pairs/submissions/483683617/) |
 | [1559. 二维网格图中探测环](https://leetcode.cn/problems/detect-cycles-in-2d-grid/description/) | dfs中两个分支之间不会产生相连->dfs找环               | [我的提交](https://leetcode.cn/problems/detect-cycles-in-2d-grid/submissions/483803230/) |
-
+| [652. 寻找重复的子树](https://leetcode.cn/problems/find-duplicate-subtrees/description/) | 二叉树的序列化                              | [我的提交](https://leetcode.cn/problems/find-duplicate-subtrees/submissions/483213917/) |
+| [2385. 感染二叉树需要的总时间](https://leetcode.cn/problems/amount-of-time-for-binary-tree-to-be-infected/description/) | 二叉树一个节点将树分成三个部分互不相连 -> （dfs 邻居时间的最大值) + 1 | [我的提交](https://leetcode.cn/problems/amount-of-time-for-binary-tree-to-be-infected/submissions/486738592/) |
 
 ### 3. 更多练习
 #### 3.1 子集型回溯
