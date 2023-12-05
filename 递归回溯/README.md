@@ -51,8 +51,8 @@ def backtrack(路径, 选择列表):
 > 只考虑根节点 (先考虑根节点为nil，再考虑和根节点的关系，递归到下一层) 
 > 使用map记录父节点
 >
-| 题目                                                                               | 说明                                   | 实现                                                                            |
-|----------------------------------------------------------------------------------|--------------------------------------|-------------------------------------------------------------------------------|
+| 题目                                                                              | 说明                                   | 实现                                                                            |
+|---------------------------------------------------------------------------------|--------------------------------------|-------------------------------------------------------------------------------|
 | [669. 修剪二叉搜索树](https://leetcode.cn/problems/trim-a-binary-search-tree/description/) | 根节点不在区间内/在区间内两种情况                    | [我的提交](https://leetcode.cn/problems/trim-a-binary-search-tree/submissions/481581106/) |
 | [623. 在二叉树中增加一行](https://leetcode.cn/problems/add-one-row-to-tree/description/) | 根节点在新层 前两层以上/前一层/新层 三种情况             | [我的提交](https://leetcode.cn/problems/add-one-row-to-tree/submissions/481586093/) |
 | [863. 二叉树中所有距离为 K 的结点](https://leetcode.cn/problems/all-nodes-distance-k-in-binary-tree/description/) | 记录父节点，考虑下面的后再向上考虑每个父节点               | [我的提交](https://leetcode.cn/problems/all-nodes-distance-k-in-binary-tree/submissions/482123513/) |
@@ -60,7 +60,7 @@ def backtrack(路径, 选择列表):
 | [652. 寻找重复的子树](https://leetcode.cn/problems/find-duplicate-subtrees/description/) | 二叉树的序列化                              | [我的提交](https://leetcode.cn/problems/find-duplicate-subtrees/submissions/483213917/) |
 | [1443. 收集树上所有苹果的最少时间](https://leetcode.cn/problems/minimum-time-to-collect-all-apples-in-a-tree/description/) | 当前节点time = sum(每个子节点time+2)          | [我的提交](https://leetcode.cn/problems/minimum-time-to-collect-all-apples-in-a-tree/submissions/483523574/) |
 | [124. 二叉树中的最大路径和](https://leetcode.cn/problems/binary-tree-maximum-path-sum/description/) | 递归每个根节点往下的最长路径长度，过程记录每个根节点+左右子树的最大长度 | [我的提交](https://leetcode.cn/problems/binary-tree-maximum-path-sum/submissions/485884544/) |
-
+| [2925. 在树上执行操作以后得到的最大分数](https://leetcode.cn/problems/maximum-score-after-applying-operations-on-a-tree/description/) | 要么只保留根节点 要么拿走根同时保证所有孩子递归满足题意         | [我的提交](https://leetcode.cn/problems/maximum-score-after-applying-operations-on-a-tree/submissions/487039273/) |
 
 > 4> 棋盘问题，三步:
 > 递归终止，存储答案
