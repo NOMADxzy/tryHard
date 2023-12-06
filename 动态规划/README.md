@@ -137,6 +137,12 @@
 |-------------|----------------------------------------------|-------------------------------------------------------------------------------|
 | [1947. 最大兼容性评分和](https://leetcode.cn/problems/maximum-compatibility-score-sum/description/) | mark第j位表示第j个教授是否被选择，mark中1的数量k表示现在为第k个学生匹配教授 | [我的提交](https://leetcode.cn/problems/maximum-compatibility-score-sum/submissions/478437655/) |
 
+> 13> 倒序动态规划
+>
+| 题目                                                                   | 说明                      | 实现                                                                            |
+|----------------------------------------------------------------------|-------------------------|-------------------------------------------------------------------------------|
+| [174. 地下城游戏](https://leetcode.cn/problems/dungeon-game/description/) | dp(i,j)表示i，j到终点所需的最小初始值 | [我的提交](https://leetcode.cn/problems/dungeon-game/submissions/487272183/) |
+
 
 ### 3. 更多练习
 
