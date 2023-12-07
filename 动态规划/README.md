@@ -114,6 +114,7 @@
 | [1696. 跳跃游戏 VI](https://leetcode.cn/problems/jump-game-vi/description/)    | 使用大顶堆优化对前面k个状态最优的查找                                                                | [我的提交](https://leetcode.cn/problems/jump-game-vi/submissions/477991644/) |
 | [1884. 鸡蛋掉落-两枚鸡蛋](https://leetcode.cn/problems/egg-drop-with-2-eggs-and-n-floors/description/)    | i楼时往第j层扔一个鸡蛋，碎了则N=1+(i-1), 没碎则N=[j+1:i]区间所需次数(即dp[0:i-j]) + 1，取二者较大值（从j=1开始不断增加即可） | [我的提交](https://leetcode.cn/problems/egg-drop-with-2-eggs-and-n-floors/submissions/478151431/) |
 | [1959. K 次调整数组大小浪费的最小总空间](https://leetcode.cn/problems/minimum-total-space-wasted-with-k-resizing-operations/description/)    | 划分成2段，总段在k情况最少使用空间 = 后一段的最大值 + 前一段在k-1情况下的最少使用空间 （后一段长度从1逐渐增大）                     | [我的提交](https://leetcode.cn/problems/minimum-total-space-wasted-with-k-resizing-operations/submissions/478450968/) |
+| [140. 单词拆分 II](https://leetcode.cn/problems/word-break-ii/description/) | 最后一个单词 + 前面的dp               | [我的提交](https://leetcode.cn/problems/word-break-ii/submissions/487470460/) |
 
 > 10> 我称之为状态扩散，从某个状态按规则扩散到其余新状态
 >
