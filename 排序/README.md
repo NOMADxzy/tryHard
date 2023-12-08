@@ -64,7 +64,7 @@
 | [939. 最小面积矩形](https://leetcode.cn/problems/minimum-area-rectangle/description/) | 按层从下往上、从左往右记录所有同层y对 | [我的提交](https://leetcode.cn/problems/minimum-area-rectangle/submissions/479072887/) |
 | [1366. 通过投票对团队排名](https://leetcode.cn/problems/rank-teams-by-votes/description/) | 自定义多维排序             | [我的提交](https://leetcode.cn/problems/rank-teams-by-votes/submissions/479647745/) |
 | [1424. 对角线遍历 II](https://leetcode.cn/problems/diagonal-traverse-ii/description/1424) | 第一维：i+j的值，第二维：j     | [我的提交](https://leetcode.cn/problems/diagonal-traverse-ii/submissions/) |
-> 3> 前缀树，用于排序和判断前缀关系
+> 3> 前缀树，用于排序和判断前缀关系，（优化212）
 ```go
 type Trie struct {
 	Children [26]*Trie
@@ -77,6 +77,7 @@ type Trie struct {
 | [1268. 搜索推荐系统](https://leetcode.cn/problems/search-suggestions-system/description/) | 一眼前缀树                    | [我的提交](https://leetcode.cn/problems/search-suggestions-system/submissions/479543984/) |
 | [208. 实现 Trie (前缀树)](https://leetcode.cn/problems/remove-sub-folders-from-the-filesystem/description/) | 使用哈希表存储子前缀树，ref存储在列表中的位置 | [我的提交](https://leetcode.cn/problems/remove-sub-folders-from-the-filesystem/submissions/482986495/) |
 | [140. 单词拆分 II](https://leetcode.cn/problems/word-break-ii/description/) | 前缀树                      | [我的提交](https://leetcode.cn/problems/word-break-ii/submissions/487470460/) |
+| [212. 单词搜索 II](https://leetcode.cn/problems/word-search-ii/description/) | 对已搜索到的单词剪去，大大降低搜索时间      | [我的提交](https://leetcode.cn/problems/word-search-ii/submissions/487614649/) |
 
 > 4> 数对问题，排序结合哈希表，从小到大在哈希表中依次去除数对，直到不够或终止（注意要删除一对，不能只删除一个）
 >
