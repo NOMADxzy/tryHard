@@ -22,6 +22,11 @@
 | [456. 132 模式](https://leetcode.cn/problems/132-pattern/) | 从右到左，单调递减栈，k记录上次被pop出去的值，一定有 栈顶 < k                            | [我的提交](https://leetcode.cn/problems/132-pattern/submissions/470350335/) |
 | [84. 柱状图中最大的矩形](https://leetcode.cn/problems/largest-rectangle-in-histogram/description/) | 以每个元素为基准形成的最大矩形面积，记录前面连续大于等于它和后面连续大于等于它的个数，使用单调栈求nextSmaller即可 | [我的提交](https://leetcode.cn/problems/largest-rectangle-in-histogram/submissions/485671889/) |
 
+> 3> 括号匹配，从头至尾每个位置累计的左括号数量 > 右括号数量
+>
+| 题目                                                                         | 说明                                     | 实现                                                                           |
+|----------------------------------------------------------------------------|----------------------------------------|------------------------------------------------------------------------------|
+| [301. 删除无效的括号](https://leetcode.cn/problems/remove-invalid-parentheses/description/) | 从左到右，判断每个字符删除/不删除，维护leftCnt < rightCnt | [我的提交](https://leetcode.cn/problems/remove-invalid-parentheses/submissions/487992077/) |
 
 
 ### 3. 更多练习
