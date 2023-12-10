@@ -29,6 +29,13 @@
 |----------------------------------------------------------------------|------------------|-------------------------------------------------------------------------------|
 | [2476. 二叉搜索树最近节点查询](https://leetcode.cn/problems/closest-nodes-queries-in-a-binary-search-tree/description/) | 中序遍历 + 排序 + 二分查找 | [我的提交](https://leetcode.cn/problems/closest-nodes-queries-in-a-binary-search-tree/submissions/486976544/) |
 
+> 3> 递归分解问题
+>
+| 题目                                                                   | 说明                                      | 实现                                                                            |
+|----------------------------------------------------------------------|-----------------------------------------|-------------------------------------------------------------------------------|
+| [282. 给表达式添加运算符](https://leetcode.cn/problems/expression-add-operators/description/) | 分解当前val +- 后续val = target，val再分解为含有多少个* | [我的提交](https://leetcode.cn/problems/expression-add-operators/submissions/487984888/) |
+
+
 ### 3. 更多练习
 - [ ] [233. 数字 1 的个数](https://leetcode.cn/problems/number-of-digit-one/)：[题解](https://leetcode.cn/problems/number-of-digit-one/solution/by-endlesscheng-h9ua/)
 - [ ] [面试题 17.06. 2出现的次数](https://leetcode.cn/problems/number-of-2s-in-range-lcci/)：[题解](https://leetcode.cn/problems/number-of-2s-in-range-lcci/solution/by-endlesscheng-x4mf/)
