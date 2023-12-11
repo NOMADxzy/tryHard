@@ -24,7 +24,7 @@ func query(tree []int, x int) {
 	}
 }
 
-//朴素解法
+// 朴素解法
 func countRectangles1(rectangles [][]int, points [][]int) []int {
 	cntRect := len(rectangles)
 	maxY, maxX := 0, 0
