@@ -28,12 +28,12 @@
 |----------------------------------------------------------------------------|----------------------------------------|------------------------------------------------------------------------------|
 | [301. 删除无效的括号](https://leetcode.cn/problems/remove-invalid-parentheses/description/) | 从左到右，判断每个字符删除/不删除，维护leftCnt < rightCnt | [我的提交](https://leetcode.cn/problems/remove-invalid-parentheses/submissions/487992077/) |
 
-> 4> 格式校验， 利用栈的特性不断消除元素
+> 4> 格式校验， 利用栈的特性不断消除元素,(树的先序遍历==栈)
 >
-| 题目                                                                        | 说明                                | 实现                                                                           |
-|---------------------------------------------------------------------------|-----------------------------------|------------------------------------------------------------------------------|
-| [331. 验证二叉树的前序序列化](https://leetcode.cn/problems/verify-preorder-serialization-of-a-binary-tree/description/) | 数值节点当作2，#节点当作0，两个0会消除上一个元素，并再入一个0 | [我的提交](https://leetcode.cn/problems/verify-preorder-serialization-of-a-binary-tree/submissions/488584791/) |
-
+| 题目                                                                        | 说明                                              | 实现                                                                           |
+|---------------------------------------------------------------------------|-------------------------------------------------|------------------------------------------------------------------------------|
+| [331. 验证二叉树的前序序列化](https://leetcode.cn/problems/verify-preorder-serialization-of-a-binary-tree/description/) | 数值节点当作2，#节点当作0，两个0会消除上一个元素，并再入一个0               | [我的提交](https://leetcode.cn/problems/verify-preorder-serialization-of-a-binary-tree/submissions/488584791/) |
+| [388. 文件的最长绝对路径](https://leetcode.cn/problems/longest-absolute-file-path/description/) | \t个数表示层数，curLayer  < 栈顶，循环pop构建树直至curLayer > 栈顶 | [我的提交](https://leetcode.cn/problems/longest-absolute-file-path/submissions/488677676/) |
 
 ### 3. 更多练习
 
