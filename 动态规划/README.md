@@ -69,13 +69,14 @@
 
 > 5> 区间类型的动态规划
 >
-| 题目                                                                                                   | 说明                                                                   | 实现                                                                            |
-|------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------|-------------------------------------------------------------------------------|
-| [553. 最优除法](https://leetcode.cn/problems/optimal-division/submissions/474107247/)                    | 除法 = 左区间 / 右区间                                                       | [我的提交](https://leetcode.cn/problems/optimal-division/submissions/474107247/) |
-| [516. 最长回文子序列](https://leetcode.cn/problems/longest-palindromic-subsequence/description/)               | 当前区间 = 左端点 + 子区间 + 右端点                                               | [我的提交](https://leetcode.cn/problems/longest-palindromic-subsequence/submissions/474136039/) |
+| 题目                                                                                                  | 说明                                                                   | 实现                                                                            |
+|-----------------------------------------------------------------------------------------------------|----------------------------------------------------------------------|-------------------------------------------------------------------------------|
+| [553. 最优除法](https://leetcode.cn/problems/optimal-division/submissions/474107247/)                   | 除法 = 左区间 / 右区间                                                       | [我的提交](https://leetcode.cn/problems/optimal-division/submissions/474107247/) |
+| [516. 最长回文子序列](https://leetcode.cn/problems/longest-palindromic-subsequence/description/)              | 当前区间 = 左端点 + 子区间 + 右端点                                               | [我的提交](https://leetcode.cn/problems/longest-palindromic-subsequence/submissions/474136039/) |
 | [1039. 多边形三角剖分的最低得分](https://leetcode.cn/problems/minimum-score-triangulation-of-polygon/description/) | 当前区间 = 左区间 + 三角形 + 右区间                                               | [我的提交](https://leetcode.cn/problems/minimum-score-triangulation-of-polygon/submissions/477127316/) |
 | [1130. 叶值的最小代价生成树](https://leetcode.cn/problems/minimum-cost-tree-from-leaf-values/description/) | 当前区间最优 = min(左区间最优 + 右区间最优 + 左区间最大值*右区间最大值)                          | [我的提交](https://leetcode.cn/problems/minimum-cost-tree-from-leaf-values/submissions/477271871/) |
 | [312. 戳气球](https://leetcode.cn/problems/burst-balloons/description/      | (i,j)区间全部戳破分数 = score(i,mid) + score(mid,j) + num[mid]*num[i]*num[j] | [我的提交](https://leetcode.cn/problems/burst-balloons/submissions/488054077/) |
+| [375. 猜数字大小 II](https://leetcode.cn/problems/guess-number-higher-or-lower-ii/description/ | (i,j)区间内确定的最小花费 = (i,mid-1) + (mid+1,j) + mid + 1                    | [我的提交](https://leetcode.cn/problems/guess-number-higher-or-lower-ii/submissions/488693223/) |
 
 > 6> 根据题意使用多维动态规划
 >
