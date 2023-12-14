@@ -69,7 +69,7 @@ Hash 表的空间如果远远大于实际存储的记录数据的个数，则造
 |-------------------------------------------------------------------------------|--------------|-------------------------------------------------------------------------------|
 | [41. 缺失的第一个正数](https://leetcode.cn/problems/first-missing-positive/description/) | 数值n存到数组中的n-1位置 | [我的提交](https://leetcode.cn/problems/first-missing-positive/submissions/485428083/) |
 | [LCR 120. 寻找文件副本](https://leetcode.cn/problems/shu-zu-zhong-zhong-fu-de-shu-zi-lcof/description/) | 数值n存到数组中的n位置 | [我的提交](https://leetcode.cn/problems/shu-zu-zhong-zhong-fu-de-shu-zi-lcof/submissions/485438142/) |
-
+| [442. 数组中重复的数据](https://leetcode.cn/problems/find-all-duplicates-in-an-array/description/) | 数值n存到数组中的n-1位置 | [我的提交](https://leetcode.cn/problems/find-all-duplicates-in-an-array/submissions/488940179/) |
 
 ### 3. 更多练习
 
