@@ -70,6 +70,13 @@ for left<right{
 | [1712. 将数组分成三个子数组的方案数](https://leetcode.cn/problems/ways-to-split-array-into-three-subarrays/) | 固定left和mid交点，求mid区间右端点的取值区间，累加区间长度 | [我的提交](https://leetcode.cn/problems/ways-to-split-array-into-three-subarrays/submissions/473290077/) |
 | [2563. 统计公平数对的数目](https://leetcode.cn/problems/count-the-number-of-fair-pairs/description/) | i，求j的取值区间，累加区间长度 | [我的提交](https://leetcode.cn/problems/count-the-number-of-fair-pairs/description/) |
 
+> 5> 依次从数组中找出最接近某一目标的值，通过排序优化时间
+>
+| 题目                                                                                           | 说明                                      | 实现                                                                            |
+|----------------------------------------------------------------------------------------------|-----------------------------------------|-------------------------------------------------------------------------------|
+| [475. 供暖器](https://leetcode.cn/problems/heaters/description/) | max(某一house左右最近的两个供暖器的最短距离) for 所有house | [我的提交](https://leetcode.cn/problems/heaters/submissions/489172246/) |
+
+
 ### 3. 更多练习
 
 #### 3.1. 二分求下标
