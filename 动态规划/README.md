@@ -80,11 +80,12 @@
 
 > 6> 根据题意使用多维动态规划
 >
-| 题目          | 说明                        | 实现                                                                            |
-|-------------|---------------------------|-------------------------------------------------------------------------------|
-| [873. 最长的斐波那契子序列的长度](https://leetcode.cn/problems/length-of-longest-fibonacci-subsequence/description/) | 使用二维状态表示以i和j位置结尾的最长长度     | [我的提交](https://leetcode.cn/problems/length-of-longest-fibonacci-subsequence/submissions/475668428/) |
-| [1027. 最长等差数列](https://leetcode.cn/problems/longest-arithmetic-subsequence/description/) | 使用二维状态表示以i和j位置结尾的最长长度     | [我的提交](https://leetcode.cn/problems/longest-arithmetic-subsequence/submissions/477005039/) |
-| [87. 扰乱字符串](https://leetcode.cn/problems/scramble-string/description/) | 可以分解成子问题，s1、s2位置、长度三维动态规划 | [我的提交](https://leetcode.cn/problems/scramble-string/submissions/485794249/) |
+| 题目          | 说明                                                                                | 实现                                                                            |
+|-------------|-----------------------------------------------------------------------------------|-------------------------------------------------------------------------------|
+| [873. 最长的斐波那契子序列的长度](https://leetcode.cn/problems/length-of-longest-fibonacci-subsequence/description/) | 使用二维状态表示以i和j位置结尾的最长长度                                                             | [我的提交](https://leetcode.cn/problems/length-of-longest-fibonacci-subsequence/submissions/475668428/) |
+| [1027. 最长等差数列](https://leetcode.cn/problems/longest-arithmetic-subsequence/description/) | 使用二维状态表示以i和j位置结尾的最长长度                                                             | [我的提交](https://leetcode.cn/problems/longest-arithmetic-subsequence/submissions/477005039/) |
+| [87. 扰乱字符串](https://leetcode.cn/problems/scramble-string/description/) | 可以分解成子问题，s1、s2位置、长度三维动态规划                                                         | [我的提交](https://leetcode.cn/problems/scramble-string/submissions/485794249/) |
+| [474. 一和零](https://leetcode.cn/problems/ones-and-zeroes/description/) | dp(k,i,j) 表示前k个中限制0，1为i,j分别能得到的最大子集数目，集合问题一般就是考虑max(取当前元素后前面的最大值+1，不取当前元素时前面的最大值) | [我的提交](https://leetcode.cn/problems/ones-and-zeroes/submissions/489129829/) |
 
 > 7> 求概率问题从小规模下的概率递推到大规模条件的概率
 >
