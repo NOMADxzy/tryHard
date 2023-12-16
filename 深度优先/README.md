@@ -35,6 +35,12 @@
 |----------------------------------------------------------------------|-----------------------------------------|-------------------------------------------------------------------------------|
 | [282. 给表达式添加运算符](https://leetcode.cn/problems/expression-add-operators/description/) | 分解当前val +- 后续val = target，val再分解为含有多少个* | [我的提交](https://leetcode.cn/problems/expression-add-operators/submissions/487984888/) |
 
+> 4> 去重
+>
+| 题目                                                                   | 说明                                        | 实现                                                                            |
+|----------------------------------------------------------------------|-------------------------------------------|-------------------------------------------------------------------------------|
+| [491. 递增子序列](https://leetcode.cn/problems/non-decreasing-subsequences/description/) | 某一位置累积序列acc，遍历后面每个比当前大的元素，使用map防止遍历相同的val | [我的提交](https://leetcode.cn/problems/non-decreasing-subsequences/submissions/489270807/) |
+
 
 ### 3. 更多练习
 - [ ] [233. 数字 1 的个数](https://leetcode.cn/problems/number-of-digit-one/)：[题解](https://leetcode.cn/problems/number-of-digit-one/solution/by-endlesscheng-h9ua/)
