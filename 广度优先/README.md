@@ -39,6 +39,12 @@
 | [127. 单词接龙](https://leetcode.cn/problems/word-ladder/description/) | leftVisited和rightVisited分别记录左右访问的节点，选取startWord和endWord中邻居少的节点开始扩散 | [我的提交](https://leetcode.cn/problems/word-ladder/submissions/486138990/) |
 | [2359. 找到离给定两个节点最近的节点](https://leetcode.cn/problems/word-ladder/description/) | 双向同步扩散直到有交集为止                                                      | [我的提交](https://leetcode.cn/problems/find-closest-node-to-given-two-nodes/submissions/486518756/) |
 
+> 3> 广度优先搜索求最短路径，距离等问题，学会剪枝
+
+>
+| 题目                                                                         | 说明                                                   | 实现                                                                            |
+|----------------------------------------------------------------------------|------------------------------------------------------|-------------------------------------------------------------------------------|
+| [488. 祖玛游戏](https://leetcode.cn/problems/zuma-game/description/) | 经分析，只有 相同序列的右端插入相同球（简化），或相同序列的中间插入不同球 两种选择是有效的（保留备用） | [我的提交](https://leetcode.cn/problems/zuma-game/description/) |
 
 
 ### 3. 更多练习
