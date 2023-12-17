@@ -13,9 +13,10 @@
 
 > 2> 使用优先堆解决区间问题
 >
-| 题目                                                                            | 说明                        | 实现                                                                            |
-|-------------------------------------------------------------------------------|---------------------------|-------------------------------------------------------------------------------|
-| [1353. 最多可以参加的会议数目](https://leetcode.cn/problems/maximum-number-of-events-that-can-be-attended/description/) | 第i天应当参加所有当天可参加的会议中结束时间最早的 | [我的提交](https://leetcode.cn/problems/maximum-number-of-events-that-can-be-attended/submissions/479644501/) |
+| 题目                                                                            | 说明                                                 | 实现                                                                            |
+|-------------------------------------------------------------------------------|----------------------------------------------------|-------------------------------------------------------------------------------|
+| [1353. 最多可以参加的会议数目](https://leetcode.cn/problems/maximum-number-of-events-that-can-be-attended/description/) | 第i天应当参加所有当天可参加的会议中结束时间最早的                          | [我的提交](https://leetcode.cn/problems/maximum-number-of-events-that-can-be-attended/submissions/479644501/) |
+| [480. 滑动窗口中位数](https://leetcode.cn/problems/sliding-window-median/description/) | 窗口分成凉拌菜，分别用大小顶堆维护，belongTO bool数组记录每个元素属于哪个堆，完成堆平衡 | [我的提交](https://leetcode.cn/problems/sliding-window-median/submissions/489497146/) |
 
 > 3> 扫描线+优先队列解决 区间问题
 > 遍历横坐标i ：
