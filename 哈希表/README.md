@@ -71,6 +71,13 @@ Hash 表的空间如果远远大于实际存储的记录数据的个数，则造
 | [LCR 120. 寻找文件副本](https://leetcode.cn/problems/shu-zu-zhong-zhong-fu-de-shu-zi-lcof/description/) | 数值n存到数组中的n位置 | [我的提交](https://leetcode.cn/problems/shu-zu-zhong-zhong-fu-de-shu-zi-lcof/submissions/485438142/) |
 | [442. 数组中重复的数据](https://leetcode.cn/problems/find-all-duplicates-in-an-array/description/) | 数值n存到数组中的n-1位置 | [我的提交](https://leetcode.cn/problems/find-all-duplicates-in-an-array/submissions/488940179/) |
 
+> 2> 大量无规则数据问题的简化
+>
+| 题目                                                                           | 说明                            | 实现                                                                            |
+|------------------------------------------------------------------------------|-------------------------------|-------------------------------------------------------------------------------|
+| [554. 砖墙](https://leetcode.cn/problems/brick-wall/description/) | 前缀和的方式记录每块砖的右端点，hash找出最大出现次数的 | [我的提交](https://leetcode.cn/problems/brick-wall/submissions/489660313/) |
+
+
 ### 3. 更多练习
 
 
