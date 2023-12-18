@@ -28,6 +28,7 @@
 | 题目                                                                   | 说明               | 实现                                                                            |
 |----------------------------------------------------------------------|------------------|-------------------------------------------------------------------------------|
 | [2476. 二叉搜索树最近节点查询](https://leetcode.cn/problems/closest-nodes-queries-in-a-binary-search-tree/description/) | 中序遍历 + 排序 + 二分查找 | [我的提交](https://leetcode.cn/problems/closest-nodes-queries-in-a-binary-search-tree/submissions/486976544/) |
+| [538. 把二叉搜索树转换为累加树](https://leetcode.cn/problems/convert-bst-to-greater-tree/description/) | 先右后左遍历二叉搜索树      | [我的提交](https://leetcode.cn/problems/convert-bst-to-greater-tree/submissions/489578707/) |
 
 > 3> 递归分解问题
 >
