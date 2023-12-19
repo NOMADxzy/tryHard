@@ -8,12 +8,13 @@
 
 > 1> [前缀树](https://blog.csdn.net/DeveloperFire/article/details/128861092)
 > 
-| 题目                                                                            | 说明                                                    | 实现                                                                            |
-|-------------------------------------------------------------------------------|-------------------------------------------------------|-------------------------------------------------------------------------------|
+| 题目                                                                          | 说明                                                    | 实现                                                                            |
+|-----------------------------------------------------------------------------|-------------------------------------------------------|-------------------------------------------------------------------------------|
 | [1268. 搜索推荐系统](https://leetcode.cn/problems/search-suggestions-system/description/) | 一眼前缀树                    | [我的提交](https://leetcode.cn/problems/search-suggestions-system/submissions/479543984/) |
 | [1233. 删除子文件夹](https://leetcode.cn/problems/remove-sub-folders-from-the-filesystem/description/) | 使用哈希表存储子前缀树，ref存储在列表中的位置 | [我的提交](https://leetcode.cn/problems/remove-sub-folders-from-the-filesystem/submissions/482986495/) |
 | [140. 单词拆分 II](https://leetcode.cn/problems/word-break-ii/description/) | 前缀树                      | [我的提交](https://leetcode.cn/problems/word-break-ii/submissions/487470460/) |
 | [212. 单词搜索 II](https://leetcode.cn/problems/word-search-ii/description/) | 对已搜索到的单词剪去，大大降低搜索时间      | [我的提交](https://leetcode.cn/problems/word-search-ii/submissions/487614649/) |
+| [648. 单词替换](https://leetcode.cn/problems/replace-words/description/) | 前缀树                      | [我的提交](https://leetcode.cn/problems/replace-words/submissions/489921442/) |
 
 
 > 2> [树状数组](https://zhuanlan.zhihu.com/p/546893960)
