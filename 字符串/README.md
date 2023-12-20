@@ -17,6 +17,30 @@
 |------------------------------------------------------------------------------|----------------------|-------------------------------------------------------------------------------|
 | [640. 求解方程](https://leetcode.cn/problems/solve-the-equation/description/) | 通过分割字符串统计x的系数和方程的常数项 | [我的提交](https://leetcode.cn/problems/solve-the-equation/submissions/489859079/) |
 
+> 2> 字符串匹配
+> KMP算法：next数组
+```go
+i, l := 1, 0
+	for i < len(s) {
+		if s[i] == s[l] {
+			l++
+			next[i] = l
+			i++
+		} else {
+			if l == 0 {
+				next[i] = 0
+				i++
+			} else {
+				l = next[l-1]
+			}
+		}
+	}
+```
+>
+| 题目                                                                          | 说明                              | 实现                                                                            |
+|-----------------------------------------------------------------------------|---------------------------------|-------------------------------------------------------------------------------|
+| [686. 重复叠加字符串匹配](https://leetcode.cn/problems/repeated-string-match/description/) | KMP算法，如果直到i>ab长度之和都未匹配成功，则一定无法匹配 | [我的提交](https://leetcode.cn/problems/repeated-string-match/submissions/490194187/) |
+| [210. 课程表 II](https://leetcode.cn/problems/course-schedule-ii/description/) | KMP算法 | [我的提交](https://leetcode.cn/problems/course-schedule-ii/submissions/484717117/) |
 
 ### 3. 更多练习
 
