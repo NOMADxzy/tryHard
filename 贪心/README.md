@@ -49,12 +49,17 @@
 | [135. 分发糖果](https://leetcode.cn/problems/candy/description/) | 从左到右/从右到左 分别给每个需要增加糖果的增加到恰好可以 | [我的提交](https://leetcode.cn/problems/candy/submissions/487449654/) |
 
 
-> 3> 弄清什么是局部，贪心优化，排序等方法确定具体怎么取局部
+> 4> 弄清什么是局部，贪心优化，排序等方法确定具体怎么取局部
 >
 | 题目                                                              | 说明                    | 实现                                                                            |
 |-----------------------------------------------------------------|-----------------------|-------------------------------------------------------------------------------|
 | [781. 森林中的兔子](https://leetcode.cn/problems/rabbits-in-forest/description/) | 排序，只有答案相同的兔子才有可能是相同颜色 | [我的提交](https://leetcode.cn/problems/rabbits-in-forest/submissions/471254724/) |
 
+> 5> 利用数据结构（小顶堆，哈希表）维护贪心所需的信息
+>
+| 题目                                                              | 说明                        | 实现                                                                            |
+|-----------------------------------------------------------------|---------------------------|-------------------------------------------------------------------------------|
+| [659. 分割数组为连续子序列](https://leetcode.cn/problems/split-array-into-consecutive-subsequences/description/) | 哈希表、小顶堆，每个元素只分配给长度最小的累积序列 | [我的提交](https://leetcode.cn/problems/split-array-into-consecutive-subsequences/submissions/490113579/) |
 
 
 ### 3. 更多练习
