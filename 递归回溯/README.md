@@ -96,13 +96,14 @@ def backtrack(路径, 选择列表):
 
 > 7> 预处理条件，使用map形式方便查找`下一合法位置`
 >
-| 题目                                                                    | 说明                              | 实现                                                                            |
-|-----------------------------------------------------------------------|---------------------------------|-------------------------------------------------------------------------------|
-| [851. 喧闹和富有](https://leetcode.cn/problems/loud-and-rich/description/) | map记录比每个用户有钱的直接用户               | [我的提交](https://leetcode.cn/problems/loud-and-rich/submissions/482111789/) |
-| [690. 员工的重要性](https://leetcode.cn/problems/employee-importance/description/) | map记录比每个id对应的实体                 | [我的提交](https://leetcode.cn/problems/employee-importance/submissions/490199624/) |
-| [756. 金字塔转换矩阵](https://leetcode.cn/problems/pyramid-transition-matrix/description/) | map记录每个二元组上面能放的合法字符             | [我的提交](https://leetcode.cn/problems/pyramid-transition-matrix/submissions/481909980/) |
-| [1042. 不邻接植花](https://leetcode.cn/problems/flower-planting-with-no-adjacent/description/) | map记录比每个花园的邻居                   | [我的提交](https://leetcode.cn/problems/flower-planting-with-no-adjacent/submissions/482632241/) |
-| [2368. 受限条件下可到达节点的数目](https://leetcode.cn/problems/reachable-nodes-with-restrictions/description/) | nexts记录每个节点邻居，visited记录受限/已访问节点 | [我的提交](https://leetcode.cn/problems/reachable-nodes-with-restrictions/submissions/486732689/) |
+| 题目                                                                    | 说明                                        | 实现                                                                            |
+|-----------------------------------------------------------------------|-------------------------------------------|-------------------------------------------------------------------------------|
+| [851. 喧闹和富有](https://leetcode.cn/problems/loud-and-rich/description/) | map记录比每个用户有钱的直接用户                         | [我的提交](https://leetcode.cn/problems/loud-and-rich/submissions/482111789/) |
+| [690. 员工的重要性](https://leetcode.cn/problems/employee-importance/description/) | map记录比每个id对应的实体                           | [我的提交](https://leetcode.cn/problems/employee-importance/submissions/490199624/) |
+| [753. 破解保险箱](https://leetcode.cn/problems/cracking-the-safe/description/) | map记录比每个可能的钥匙，通过每次在字符串后面添加一位，搜索直至所有key都出现 | [我的提交](https://leetcode.cn/problems/cracking-the-safe/submissions/490411462/) |
+| [756. 金字塔转换矩阵](https://leetcode.cn/problems/pyramid-transition-matrix/description/) | map记录每个二元组上面能放的合法字符                       | [我的提交](https://leetcode.cn/problems/pyramid-transition-matrix/submissions/481909980/) |
+| [1042. 不邻接植花](https://leetcode.cn/problems/flower-planting-with-no-adjacent/description/) | map记录比每个花园的邻居                             | [我的提交](https://leetcode.cn/problems/flower-planting-with-no-adjacent/submissions/482632241/) |
+| [2368. 受限条件下可到达节点的数目](https://leetcode.cn/problems/reachable-nodes-with-restrictions/description/) | nexts记录每个节点邻居，visited记录受限/已访问节点           | [我的提交](https://leetcode.cn/problems/reachable-nodes-with-restrictions/submissions/486732689/) |
 
 
 > 8> 利用二叉树性质，转换、简化题目问题为可以递归的问题
