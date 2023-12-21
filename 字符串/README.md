@@ -42,6 +42,13 @@ i, l := 1, 0
 | [686. 重复叠加字符串匹配](https://leetcode.cn/problems/repeated-string-match/description/) | KMP算法，如果直到i>ab长度之和都未匹配成功，则一定无法匹配 | [我的提交](https://leetcode.cn/problems/repeated-string-match/submissions/490194187/) |
 | [210. 课程表 II](https://leetcode.cn/problems/course-schedule-ii/description/) | KMP算法 | [我的提交](https://leetcode.cn/problems/course-schedule-ii/submissions/484717117/) |
 
+> 3> 字符串问题分类讨论
+>
+| 题目                                                                          | 说明               | 实现                                                                            |
+|-----------------------------------------------------------------------------|------------------|-------------------------------------------------------------------------------|
+| [809. 情感丰富的文字](https://leetcode.cn/problems/expressive-words/description/) | 使用双指针匹配，分类讨论所有情况 | [我的提交](https://leetcode.cn/problems/expressive-words/submissions/490440072/) |
+
+
 ### 3. 更多练习
 
 
