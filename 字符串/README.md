@@ -44,9 +44,10 @@ i, l := 1, 0
 
 > 3> 字符串问题分类讨论
 >
-| 题目                                                                          | 说明               | 实现                                                                            |
-|-----------------------------------------------------------------------------|------------------|-------------------------------------------------------------------------------|
-| [809. 情感丰富的文字](https://leetcode.cn/problems/expressive-words/description/) | 使用双指针匹配，分类讨论所有情况 | [我的提交](https://leetcode.cn/problems/expressive-words/submissions/490440072/) |
+| 题目                                                                          | 说明                 | 实现                                                                            |
+|-----------------------------------------------------------------------------|--------------------|-------------------------------------------------------------------------------|
+| [809. 情感丰富的文字](https://leetcode.cn/problems/expressive-words/description/) | 使用双指针匹配，分类讨论所有情况   | [我的提交](https://leetcode.cn/problems/expressive-words/submissions/490440072/) |
+| [816. 模糊坐标](https://leetcode.cn/problems/ambiguous-coordinates/description/) | 分左右，分长度，再分首尾字母是否为0 | [我的提交](https://leetcode.cn/problems/ambiguous-coordinates/submissions/490614053/) |
 
 
 ### 3. 更多练习
