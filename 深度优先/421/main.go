@@ -66,7 +66,7 @@ func findMaximumXOR(nums []int) int {
 		k := nums[i]
 		r := root
 		for m := mask; m > 0; m /= 2 {
-			if k&m > 0 {
+			if k&m > 0 { //剪枝
 				if r.Left != nil {
 					sum += m
 					r = r.Left

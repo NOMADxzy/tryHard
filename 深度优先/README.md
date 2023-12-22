@@ -48,6 +48,12 @@
 |----------------------------------------------------------------------|-----------------|-------------------------------------------------------------------------------|
 | [785. 判断二分图](https://leetcode.cn/problems/is-graph-bipartite/description/) | 假设是二分图，按照定义探索矛盾 | [我的提交](https://leetcode.cn/problems/is-graph-bipartite/submissions/490514280/) |
 
+> 6> 剪枝
+>
+| 题目                                                                   | 说明                             | 实现                                                                            |
+|----------------------------------------------------------------------|--------------------------------|-------------------------------------------------------------------------------|
+| [421. 数组中两个数的最大异或值](https://leetcode.cn/problems/maximum-xor-of-two-numbers-in-an-array/description/) | 根据二进制建立二叉树                     | [我的提交](https://leetcode.cn/problems/maximum-xor-of-two-numbers-in-an-array/submissions/469824077/) |
+| [789. 逃脱阻碍者](https://leetcode.cn/problems/escape-the-ghosts/description/) | 想像成阻碍者能否在吃豆人到达某一位置前到达某一位置，能则剪枝 | [我的提交](https://leetcode.cn/problems/maximum-xor-of-two-numbers-in-an-array/submissions/469824077/) |
 
 ### 3. 更多练习
 - [ ] [233. 数字 1 的个数](https://leetcode.cn/problems/number-of-digit-one/)：[题解](https://leetcode.cn/problems/number-of-digit-one/solution/by-endlesscheng-h9ua/)
