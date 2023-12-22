@@ -42,6 +42,12 @@
 |----------------------------------------------------------------------|-------------------------------------------|-------------------------------------------------------------------------------|
 | [491. 递增子序列](https://leetcode.cn/problems/non-decreasing-subsequences/description/) | 某一位置累积序列acc，遍历后面每个比当前大的元素，使用map防止遍历相同的val | [我的提交](https://leetcode.cn/problems/non-decreasing-subsequences/submissions/489270807/) |
 
+> 5> 反证法递归（假设条件）
+>
+| 题目                                                                   | 说明              | 实现                                                                            |
+|----------------------------------------------------------------------|-----------------|-------------------------------------------------------------------------------|
+| [785. 判断二分图](https://leetcode.cn/problems/is-graph-bipartite/description/) | 假设是二分图，按照定义探索矛盾 | [我的提交](https://leetcode.cn/problems/is-graph-bipartite/submissions/490514280/) |
+
 
 ### 3. 更多练习
 - [ ] [233. 数字 1 的个数](https://leetcode.cn/problems/number-of-digit-one/)：[题解](https://leetcode.cn/problems/number-of-digit-one/solution/by-endlesscheng-h9ua/)
