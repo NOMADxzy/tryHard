@@ -24,17 +24,18 @@
 
 > 1> 最需要原则，元素选择问题，贪婪的选择某个最需要被选择的元素
 > 
-| 题目                                                                                 | 说明                                                 | 实现                                                                           |
-|------------------------------------------------------------------------------------|----------------------------------------------------|------------------------------------------------------------------------------|
-| [621. 任务调度器](https://leetcode.cn/problems/task-scheduler/description/)             | 当前剩下最多的任务最需要被调度                                    | [我的提交](https://leetcode.cn/problems/task-scheduler/submissions/478746885/) |
-| [670. 最大交换](https://leetcode.cn/problems/maximum-swap/description/)                | 最靠左的元素最需要被增大，故从左到右遍历到i位置，i右边最大的位置大于i则结果为交换i和该最大的位置 | [我的提交](https://leetcode.cn/problems/maximum-swap/submissions/471160121/) |
+| 题目                                                                                  | 说明                                                 | 实现                                                                           |
+|-------------------------------------------------------------------------------------|----------------------------------------------------|------------------------------------------------------------------------------|
+| [621. 任务调度器](https://leetcode.cn/problems/task-scheduler/description/)              | 当前剩下最多的任务最需要被调度                                    | [我的提交](https://leetcode.cn/problems/task-scheduler/submissions/478746885/) |
+| [670. 最大交换](https://leetcode.cn/problems/maximum-swap/description/)                 | 最靠左的元素最需要被增大，故从左到右遍历到i位置，i右边最大的位置大于i则结果为交换i和该最大的位置 | [我的提交](https://leetcode.cn/problems/maximum-swap/submissions/471160121/) |
 | [678. 有效的括号字符串](https://leetcode.cn/problems/valid-parenthesis-string/description/) | 左括号最需要被消除，两个栈存放左括号和星号，每次遍历到右括号，优先消除左括号，没有左括号时再消除星号 | [我的提交](https://leetcode.cn/problems/valid-parenthesis-string/submissions/471177162/) |
-| [738. 单调递增的数字](https://leetcode.cn/problems/monotone-increasing-digits/)           | 左边元素最需要选大的，从左往右遍历到i位置，i后全变为9，i前变为单增的最大形式           | [我的提交](https://leetcode.cn/problems/valid-parenthesis-string/submissions/471177162/) |
-| [767. 重构字符串](https://leetcode.cn/problems/reorganize-string/description/)             | 记录当前所有字母的数量，最多的元素（不和上一个相同）是最需要被选择的元素               | [我的提交](https://leetcode.cn/problems/reorganize-string/submissions/471209764/) |
-| [870. 优势洗牌](https://leetcode.cn/problems/advantage-shuffle/description/)               | nums1中最小的元素最需要超越对方的数，双指针                           | [我的提交](https://leetcode.cn/problems/advantage-shuffle/submissions/471365063/) |
-| [881. 救生艇](https://leetcode.cn/problems/boats-to-save-people/description/)                   | 体重最重的人最需要充分利用船                                     | [我的提交](https://leetcode.cn/problems/boats-to-save-people/submissions/471367754/) |
-| [630. 课程表 III](https://leetcode.cn/problems/course-schedule-iii/description/)               | 时间越短的课程越优先，按照结束时间从小到大排序并遍历                         | [我的提交](https://leetcode.cn/problems/course-schedule-iii/submissions/485409704/) |
-| [407. 接雨水 II](https://leetcode.cn/problems/trapping-rain-water-ii/description/ | 木桶效应，先接最短边周围的水，再更新木桶边                              | [我的提交](https://leetcode.cn/problems/trapping-rain-water-ii/submissions/488936221/) |
+| [738. 单调递增的数字](https://leetcode.cn/problems/monotone-increasing-digits/)            | 左边元素最需要选大的，从左往右遍历到i位置，i后全变为9，i前变为单增的最大形式           | [我的提交](https://leetcode.cn/problems/valid-parenthesis-string/submissions/471177162/) |
+| [767. 重构字符串](https://leetcode.cn/problems/reorganize-string/description/)           | 记录当前所有字母的数量，最多的元素（不和上一个相同）是最需要被选择的元素               | [我的提交](https://leetcode.cn/problems/reorganize-string/submissions/471209764/) |
+| [870. 优势洗牌](https://leetcode.cn/problems/advantage-shuffle/description/)            | nums1中最小的元素最需要超越对方的数，双指针                           | [我的提交](https://leetcode.cn/problems/advantage-shuffle/submissions/471365063/) |
+| [881. 救生艇](https://leetcode.cn/problems/boats-to-save-people/description/)          | 体重最重的人最需要充分利用船                                     | [我的提交](https://leetcode.cn/problems/boats-to-save-people/submissions/471367754/) |
+| [630. 课程表 III](https://leetcode.cn/problems/course-schedule-iii/description/)       | 时间越短的课程越优先，按照结束时间从小到大排序并遍历                         | [我的提交](https://leetcode.cn/problems/course-schedule-iii/submissions/485409704/) |
+| [407. 接雨水 II](https://leetcode.cn/problems/trapping-rain-water-ii/description/)     | 木桶效应，先接最短边周围的水，再更新木桶边                              | [我的提交](https://leetcode.cn/problems/trapping-rain-water-ii/submissions/488936221/) |
+| [407. 接雨水 II](https://leetcode.cn/problems/bag-of-tokens/description/)              | 贪心的从小到大翻开token，从大到小闭合token                         | [我的提交](https://leetcode.cn/problems/bag-of-tokens/submissions/490914671/) |
 
 > 2> 递归回溯，每次做局部最优选择，注意使用状态压缩防止重复搜索
 >
