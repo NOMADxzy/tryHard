@@ -35,6 +35,13 @@
 | [331. 验证二叉树的前序序列化](https://leetcode.cn/problems/verify-preorder-serialization-of-a-binary-tree/description/) | 数值节点当作2，#节点当作0，两个0会消除上一个元素，并再入一个0               | [我的提交](https://leetcode.cn/problems/verify-preorder-serialization-of-a-binary-tree/submissions/488584791/) |
 | [388. 文件的最长绝对路径](https://leetcode.cn/problems/longest-absolute-file-path/description/) | \t个数表示层数，curLayer  < 栈顶，循环pop构建树直至curLayer > 栈顶 | [我的提交](https://leetcode.cn/problems/longest-absolute-file-path/submissions/488677676/) |
 
+> 5> 计算表达式，将数值和括号一并入栈讨论
+>
+| 题目                                                                        | 说明                       | 实现                                                                           |
+|---------------------------------------------------------------------------|--------------------------|------------------------------------------------------------------------------|
+| [856. 括号的分数](https://leetcode.cn/problems/score-of-parentheses/description/) | 数值和左括号入栈，遇到右括号时按栈顶类型分别处理 | [我的提交](https://leetcode.cn/problems/score-of-parentheses/submissions/490988393/) |
+
+
 ### 3. 更多练习
 
 **基础**
