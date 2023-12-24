@@ -15,6 +15,12 @@
 | [649. Dota2 参议院](https://leetcode.cn/problems/dota2-senate/description/) | 题中每个议员最好表现 = 禁止后面最近的对方议员 或 禁止前面最远的对方议员 | [我的提交](https://leetcode.cn/problems/dota2-senate/submissions/489933502/) |
 
 
+> 2> 迭代次数过多，寻找周期、规律
+>
+| 题目                                                                           | 说明                                   | 实现                                                                            |
+|------------------------------------------------------------------------------|--------------------------------------|-------------------------------------------------------------------------------|
+| [957. N 天后的牢房](https://leetcode.cn/problems/prison-cells-after-n-days/description/) | 题中最多有2^8=256种状态，每个状态仅与上一状态有关，故必然存在周期 | [我的提交](https://leetcode.cn/problems/prison-cells-after-n-days/submissions/490928555/) |
+
 
 ### 3. 更多练习
 
