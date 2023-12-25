@@ -37,6 +37,8 @@
 - [深度优先](深度优先/README.md)
 - [高级数据结构](高级数据结构/README.md)
 - [字符串](字符串/README.md)
+- [分治](分治/README.md)
+- [规律](规律/README.md)
 
 ## Golang 常见面试题目解析
 
