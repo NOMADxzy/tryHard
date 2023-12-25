@@ -99,6 +99,12 @@ type Trie struct {
 |-------------------------------------------------------------------------------|-----------------------------------------|-------------------------------------------------------------------------------|
 | [1727. 重新排列后的最大子矩阵](https://leetcode.cn/problems/largest-submatrix-with-rearrangements/description/) | 记录每列每个位置开始的最大连续1个数，分类讨论从每个位置开始的最大矩形(排序) | [我的提交](https://leetcode.cn/problems/largest-submatrix-with-rearrangements/submissions/479963584/) |
 
+> 7> 变种排序
+>
+| 题目                                                                            | 说明                                                                                                                    | 实现                                                                            |
+|-------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------|
+| [899. 有序队列](https://leetcode.cn/problems/orderly-queue/description/) | k>2时一定能使s有序，[参考](https://leetcode.cn/problems/orderly-queue/solutions/1717847/you-xu-dui-lie-by-capital-worker-p1oz/) | [我的提交](https://leetcode.cn/problems/orderly-queue/submissions/491207673/) |
+
 
 ### 3. 更多练习
 
