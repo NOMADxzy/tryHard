@@ -43,10 +43,10 @@
 
 > 4> 数学分析，简化问题
 >
-| 题目                                                                         | 说明                 | 实现                                                                            |
-|----------------------------------------------------------------------------|--------------------|-------------------------------------------------------------------------------|
-| [754. 到达终点数字](https://leetcode.cn/problems/reach-a-number/description/) | 考虑sum-target能被2整除  | [我的提交](https://leetcode.cn/problems/reach-a-number/submissions/490423313/) |
-
+| 题目                                                                         | 说明                                    | 实现                                                                            |
+|----------------------------------------------------------------------------|---------------------------------------|-------------------------------------------------------------------------------|
+| [754. 到达终点数字](https://leetcode.cn/problems/reach-a-number/description/) | 考虑sum-target能被2整除                     | [我的提交](https://leetcode.cn/problems/reach-a-number/submissions/490423313/) |
+| [991. 坏了的计算器](https://leetcode.cn/problems/broken-calculator/description/) | 考虑先*2到大于target 再由大到小减去2的k次方直至得到target | [我的提交](https://leetcode.cn/problems/broken-calculator/submissions/491418210/) |
 
 ### 3. 更多练习
 
