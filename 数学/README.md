@@ -1,10 +1,17 @@
 ## 枚举
 
 ### 1. 概念
-位运算
-加法器
-模数 (A*B)%K = ((A%K)*(B%K))%K
-素数 
+1⃣️位运算
+2⃣️加法器
+3⃣️模运算
+```text
+1.基本性质：amod b的结果一定小于b。
+2.加法性质： (a + b) mod c = (a mod c + b mod c) mod c。
+3.乘法性质： (a * b) mod c = (a mod c * b mod c) mod c。
+4.减法性质： (a - b) mod c = (a mod c- b mod c + c) mod c。
+5.幂运算性质： a^b mod c = (a mod c)^b mod c。
+```
+4⃣️素数 
 
 ### 2. 解题技巧（我的总结）
 
@@ -34,19 +41,25 @@
 |-----------------------------------------------------------------------------|----------------------------------|-------------------------------------------------------------------------------|
 | [592. 分数加减运算](https://leetcode.cn/problems/fraction-addition-and-subtraction/description/) | a,b 的最小公倍数 = a * b / (a,b的最大公约数) | [我的提交](https://leetcode.cn/problems/fraction-addition-and-subtraction/submissions/489696067/) |
 
-> 3> 几何图形问题
+> 5> 几何图形问题
 >
 | 题目                                                                         | 说明              | 实现                                                                            |
 |----------------------------------------------------------------------------|-----------------|-------------------------------------------------------------------------------|
 | [593. 有效的正方形](https://leetcode.cn/problems/valid-square/description/) | 枚举可能性，不断尝试，注意边界条件 | [我的提交](https://leetcode.cn/problems/valid-square/submissions/489702623/) |
 | [858. 镜面反射](https://leetcode.cn/problems/mirror-reflection/) | 补出镜像即可          | [我的提交](https://leetcode.cn/problems/mirror-reflection/submissions/490986394/) |
 
-> 4> 数学分析，简化问题
+> 6> 数学分析，简化问题
 >
 | 题目                                                                         | 说明                                    | 实现                                                                            |
 |----------------------------------------------------------------------------|---------------------------------------|-------------------------------------------------------------------------------|
 | [754. 到达终点数字](https://leetcode.cn/problems/reach-a-number/description/) | 考虑sum-target能被2整除                     | [我的提交](https://leetcode.cn/problems/reach-a-number/submissions/490423313/) |
 | [991. 坏了的计算器](https://leetcode.cn/problems/broken-calculator/description/) | 考虑先*2到大于target 再由大到小减去2的k次方直至得到target | [我的提交](https://leetcode.cn/problems/broken-calculator/submissions/491418210/) |
+
+> 7> 模运算简化问题
+>
+| 题目                                                                         | 说明                                                       | 实现                                                                            |
+|----------------------------------------------------------------------------|----------------------------------------------------------|-------------------------------------------------------------------------------|
+| [1015. 可被 K 整除的最小整数](https://leetcode.cn/problems/smallest-integer-divisible-by-k/description/) | newVal = 10*val + 1，故只需记录上一个val的模值，即可推出当前模值，出现的值且一定是周期性的 | [我的提交](https://leetcode.cn/problems/smallest-integer-divisible-by-k/submissions/491568700/) |
 
 ### 3. 更多练习
 
