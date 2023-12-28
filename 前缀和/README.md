@@ -22,6 +22,12 @@
 |--------------------------------------------------------------------------|----------------|-------------------------------------------------------------------------------|
 | [1664. 生成平衡数组的方案数](https://leetcode.cn/problems/ways-to-make-a-fair-array/description/) | 对奇数位和偶数位分别求前缀和 | [我的提交](https://leetcode.cn/problems/ways-to-make-a-fair-array/submissions/477957501/) |
 
+> 2> 前缀和➕哈希表解决子数组目标和问题（容斥原理）
+>
+| 题目                                                                       | 说明   | 实现                                                                            |
+|--------------------------------------------------------------------------|------|-------------------------------------------------------------------------------|
+| [1074. 元素和为目标值的子矩阵数量](https://leetcode.cn/problems/number-of-submatrices-that-sum-to-target/description/) | 容斥原理 | [我的提交](https://leetcode.cn/problems/number-of-submatrices-that-sum-to-target/submissions/491814427/) |
+
 
 ### 3. 更多练习
 
