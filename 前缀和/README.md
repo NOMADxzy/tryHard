@@ -27,7 +27,7 @@
 | 题目                                                                       | 说明   | 实现                                                                            |
 |--------------------------------------------------------------------------|------|-------------------------------------------------------------------------------|
 | [1074. 元素和为目标值的子矩阵数量](https://leetcode.cn/problems/number-of-submatrices-that-sum-to-target/description/) | 容斥原理 | [我的提交](https://leetcode.cn/problems/number-of-submatrices-that-sum-to-target/submissions/491814427/) |
-
+| [1010. 总持续时间可被 60 整除的歌曲](https://leetcode.cn/problems/pairs-of-songs-with-total-durations-divisible-by-60/description/) | 容斥原理 | [我的提交](https://leetcode.cn/problems/pairs-of-songs-with-total-durations-divisible-by-60/submissions/491964237/) |
 
 ### 3. 更多练习
 
