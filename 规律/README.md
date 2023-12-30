@@ -22,6 +22,13 @@
 | [957. N 天后的牢房](https://leetcode.cn/problems/prison-cells-after-n-days/description/) | 题中最多有2^8=256种状态，每个状态仅与上一状态有关，故必然存在周期 | [我的提交](https://leetcode.cn/problems/prison-cells-after-n-days/submissions/490928555/) |
 | [1041. 困于环中的机器人](https://leetcode.cn/problems/robot-bounded-in-circle/description/) | 一个周期后方向发生改变或位置不发生改变 则一定会有环           | [我的提交](https://leetcode.cn/problems/robot-bounded-in-circle/submissions/491787188/) |
 
+> 3> 适当更改题目条件，满足规律
+>
+| 题目                                                                           | 说明                  | 实现                                                                            |
+|------------------------------------------------------------------------------|---------------------|-------------------------------------------------------------------------------|
+| [1104. 二叉树寻路](https://leetcode.cn/problems/path-in-zigzag-labelled-binary-tree/description/) | 利用Z字型索引每个元素，再对称变换索引 | [我的提交](https://leetcode.cn/problems/path-in-zigzag-labelled-binary-tree/submissions/492205983/) |
+
+
 
 ### 3. 更多练习
 
