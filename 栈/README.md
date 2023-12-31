@@ -37,10 +37,10 @@
 
 > 5> 计算表达式，将数值和括号一并入栈讨论
 >
-| 题目                                                                        | 说明                       | 实现                                                                           |
-|---------------------------------------------------------------------------|--------------------------|------------------------------------------------------------------------------|
-| [856. 括号的分数](https://leetcode.cn/problems/score-of-parentheses/description/) | 数值和左括号入栈，遇到右括号时按栈顶类型分别处理 | [我的提交](https://leetcode.cn/problems/score-of-parentheses/submissions/490988393/) |
-
+| 题目                                                                        | 说明                                                   | 实现                                                                           |
+|---------------------------------------------------------------------------|------------------------------------------------------|------------------------------------------------------------------------------|
+| [856. 括号的分数](https://leetcode.cn/problems/score-of-parentheses/description/) | 数值和左括号入栈，遇到右括号时按栈顶类型分别处理                             | [我的提交](https://leetcode.cn/problems/score-of-parentheses/submissions/490988393/) |
+| [1190. 反转每对括号间的子串](https://leetcode.cn/problems/reverse-substrings-between-each-pair-of-parentheses/description/) | 字符串和左括号入栈，遇到右括号时将与前一个左括号之间的字符串pop出来，每个字符串都单独的reverse | [我的提交](https://leetcode.cn/problems/reverse-substrings-between-each-pair-of-parentheses/submissions/492379575/) |
 
 ### 3. 更多练习
 
