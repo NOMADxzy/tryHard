@@ -155,6 +155,12 @@
 |----------------------------------------------------------------------|-------------------------|-------------------------------------------------------------------------------|
 | [174. 地下城游戏](https://leetcode.cn/problems/dungeon-game/description/) | dp(i,j)表示i，j到终点所需的最小初始值 | [我的提交](https://leetcode.cn/problems/dungeon-game/submissions/487272183/) |
 
+> 14> 线性dp
+>
+| 题目                                                                   | 说明                              | 实现                                                                            |
+|----------------------------------------------------------------------|---------------------------------|-------------------------------------------------------------------------------|
+| [1269. 停在原地的方案数](https://leetcode.cn/problems/number-of-ways-to-stay-in-the-same-place-after-some-steps/description/) | 记录各个位置的方案数，当前位置方案由上一位置+-1/不变转换来 | [我的提交](https://leetcode.cn/problems/number-of-ways-to-stay-in-the-same-place-after-some-steps/submissions/492664290/) |
+
 
 ### 3. 更多练习
 
