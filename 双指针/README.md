@@ -42,6 +42,11 @@
 | [633. 平方数之和](https://leetcode.cn/problems/sum-of-square-numbers/description/) | 想象成二维数组，每一步都只是 排除一行左/一列下 的所有元素，从而不会漏掉目标元素 | [我的提交](https://leetcode.cn/problems/sum-of-square-numbers/submissions/489916110/) |
 | [1234. 替换子串得到平衡字符串](https://leetcode.cn/problems/replace-the-substring-for-balanced-string/description/) | 某一子串符合条件，则在该子串位置扩展的串也一定可以                 | [我的提交](https://leetcode.cn/problems/replace-the-substring-for-balanced-string/submissions/492491313/) |
 
+> 3> 采用双指针 查找合法区间数目
+>
+| 题目                                                                            | 说明                              | 实现                                                                            |
+|-------------------------------------------------------------------------------|---------------------------------|-------------------------------------------------------------------------------|
+| [1248. 统计「优美子数组」](https://leetcode.cn/problems/count-number-of-nice-subarrays/description/) | 依次讨论每连续k个点所能形成的区间范围，左指针范围*右指针范围 | [我的提交](https://leetcode.cn/problems/count-number-of-nice-subarrays/submissions/492589727/) |
 
 
 ### 3. 更多练习
