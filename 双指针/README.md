@@ -44,10 +44,10 @@
 
 > 3> 采用双指针 查找合法区间数目
 >
-| 题目                                                                            | 说明                              | 实现                                                                            |
-|-------------------------------------------------------------------------------|---------------------------------|-------------------------------------------------------------------------------|
-| [1248. 统计「优美子数组」](https://leetcode.cn/problems/count-number-of-nice-subarrays/description/) | 依次讨论每连续k个点所能形成的区间范围，左指针范围*右指针范围 | [我的提交](https://leetcode.cn/problems/count-number-of-nice-subarrays/submissions/492589727/) |
-
+| 题目                                                                            | 说明                                       | 实现                                                                            |
+|-------------------------------------------------------------------------------|------------------------------------------|-------------------------------------------------------------------------------|
+| [1248. 统计「优美子数组」](https://leetcode.cn/problems/count-number-of-nice-subarrays/description/) | 依次讨论每连续k个点所能形成的区间范围，左指针范围*右指针范围          | [我的提交](https://leetcode.cn/problems/count-number-of-nice-subarrays/submissions/492589727/) |
+| [1358. 包含所有三种字符的子字符串数目](https://leetcode.cn/problems/count-number-of-nice-subarrays/description/) | 利用左右指针找到所有满足的最小区间，该区间右指针一直移到末尾的所有区间都满足条件 | [我的提交](https://leetcode.cn/problems/number-of-substrings-containing-all-three-characters/description/) |
 
 ### 3. 更多练习
 
