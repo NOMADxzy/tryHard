@@ -35,13 +35,19 @@
 |-------------------------------------------------------------------------------|-----------------------|-------------------------------------------------------------------------------|
 | [4. 寻找两个正序数组的中位数](https://leetcode.cn/problems/median-of-two-sorted-arrays/description/) | 两个数组中有序右移较小的元素指针，直到中点 | [我的提交](https://leetcode.cn/problems/median-of-two-sorted-arrays/submissions/484064191/) |
 
-> 2> 夹逼定理
+> 2> 夹逼定理，右指针负责探索正确解，左指针负责找最优
 >
 | 题目                                                                            | 说明                                        | 实现                                                                            |
 |-------------------------------------------------------------------------------|-------------------------------------------|-------------------------------------------------------------------------------|
 | [633. 平方数之和](https://leetcode.cn/problems/sum-of-square-numbers/description/) | 想象成二维数组，每一步都只是 排除一行左/一列下 的所有元素，从而不会漏掉目标元素 | [我的提交](https://leetcode.cn/problems/sum-of-square-numbers/submissions/489916110/) |
+| [1234. 替换子串得到平衡字符串](https://leetcode.cn/problems/replace-the-substring-for-balanced-string/description/) | 某一子串符合条件，则在该子串位置扩展的串也一定可以                 | [我的提交](https://leetcode.cn/problems/replace-the-substring-for-balanced-string/submissions/492491313/) |
 
-
+> 3> 采用双指针 查找合法区间数目
+>
+| 题目                                                                            | 说明                                       | 实现                                                                            |
+|-------------------------------------------------------------------------------|------------------------------------------|-------------------------------------------------------------------------------|
+| [1248. 统计「优美子数组」](https://leetcode.cn/problems/count-number-of-nice-subarrays/description/) | 依次讨论每连续k个点所能形成的区间范围，左指针范围*右指针范围          | [我的提交](https://leetcode.cn/problems/count-number-of-nice-subarrays/submissions/492589727/) |
+| [1358. 包含所有三种字符的子字符串数目](https://leetcode.cn/problems/count-number-of-nice-subarrays/description/) | 利用左右指针找到所有满足的最小区间，该区间右指针一直移到末尾的所有区间都满足条件 | [我的提交](https://leetcode.cn/problems/number-of-substrings-containing-all-three-characters/description/) |
 
 ### 3. 更多练习
 

@@ -24,11 +24,12 @@ step3 合并：将各个子问题的解合并为原问题的解。
 
 ### 2. 解题技巧（我的总结）
 
-> 1> 构造类型，奇偶分治
+> 1> 构造类型，奇偶分治，位分治
 > 
-| 题目                                                                           | 说明                                           | 实现                                                                            |
-|------------------------------------------------------------------------------|----------------------------------------------|-------------------------------------------------------------------------------|
-| [932. 漂亮数组](https://leetcode.cn/problems/beautiful-array/description/) | 题意即两数之和不能为偶数，故数组分为偶数部分和奇数部分，因为 偶数 + 奇数 != 偶数 | [我的提交](https://leetcode.cn/problems/beautiful-array/submissions/471518075/) |
+| 题目                                                                          | 说明                                               | 实现                                                                            |
+|-----------------------------------------------------------------------------|--------------------------------------------------|-------------------------------------------------------------------------------|
+| [932. 漂亮数组](https://leetcode.cn/problems/beautiful-array/description/) | 题意即两数之和不能为偶数，故数组分为偶数部分和奇数部分，因为 偶数 + 奇数 != 偶数     | [我的提交](https://leetcode.cn/problems/beautiful-array/submissions/471518075/) |
+| [1238. 循环码排列](https://leetcode.cn/problems/circular-permutation-in-binary-representation/description/) | 先不考虑start，按最高位为0、1将数据分为左右部分构造，后面再循环移动至start到0位置处 | [我的提交](https://leetcode.cn/problems/circular-permutation-in-binary-representation/submissions/492496087/) |
 
 
 > 2> 根据条件分解问题
