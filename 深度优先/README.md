@@ -31,6 +31,7 @@
 | [538. 把二叉搜索树转换为累加树](https://leetcode.cn/problems/convert-bst-to-greater-tree/description/) | 先右后左遍历二叉搜索树                 | [我的提交](https://leetcode.cn/problems/convert-bst-to-greater-tree/submissions/489578707/) |
 | [958. 二叉树的完全性检验](https://leetcode.cn/problems/check-completeness-of-a-binary-tree/description/) | dfs(root)返回三个值，深度、是否完美、是否完全 | [我的提交](https://leetcode.cn/problems/check-completeness-of-a-binary-tree/submissions/490780299/) |
 | [987. 二叉树的垂序遍历](https://leetcode.cn/problems/vertical-order-traversal-of-a-binary-tree/description/) | 先dfs一边获取矩阵的宽高，再dfs向对应位置添加元素 | [我的提交](https://leetcode.cn/problems/vertical-order-traversal-of-a-binary-tree/submissions/491392426/) |
+| [1373. 二叉搜索子树的最大键值和](https://leetcode.cn/problems/maximum-sum-bst-in-binary-tree/description/) | 返回4个值：树是否合法，树最大值，树最小值，元素和   | [我的提交](https://leetcode.cn/problems/maximum-sum-bst-in-binary-tree/submissions/493000220/) |
 
 > 3> 递归分解问题
 >
