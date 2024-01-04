@@ -46,10 +46,10 @@
 
 > 3> 问题分解子问题，贪心的求解每个子问题
 >
-| 题目                                                             | 说明                            | 实现                                                                            |
-|----------------------------------------------------------------|-------------------------------|-------------------------------------------------------------------------------|
-| [135. 分发糖果](https://leetcode.cn/problems/candy/description/) | 从左到右/从右到左 分别给每个需要增加糖果的增加到恰好可以 | [我的提交](https://leetcode.cn/problems/candy/submissions/487449654/) |
-
+| 题目                                                             | 说明                              | 实现                                                                            |
+|----------------------------------------------------------------|---------------------------------|-------------------------------------------------------------------------------|
+| [135. 分发糖果](https://leetcode.cn/problems/candy/description/) | 从左到右/从右到左 分别给每个需要增加糖果的增加到恰好可以   | [我的提交](https://leetcode.cn/problems/candy/submissions/487449654/) |
+| [1414. 和为 K 的最少斐波那契数字数目](https://leetcode.cn/problems/find-the-minimum-number-of-fibonacci-numbers-whose-sum-is-k/description/) | 结合二分查找，贪心的每轮都选择最 左接近目标的值，再产生新目标 | [我的提交](https://leetcode.cn/problems/find-the-minimum-number-of-fibonacci-numbers-whose-sum-is-k/submissions/493239895/) |
 
 > 4> 弄清什么是局部，贪心优化，排序等方法确定具体怎么取局部
 >
