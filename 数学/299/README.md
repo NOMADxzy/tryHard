@@ -1,4 +1,4 @@
-[题目](https://leetcode.cn/problems/bulls-and-cows/)
+##### [题目](https://leetcode.cn/problems/bulls-and-cows/)
 ![pic](img.png)
-结果：
+##### 结果：
 ![pic](result.png)

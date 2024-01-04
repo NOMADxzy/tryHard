@@ -1,4 +1,4 @@
-[题目](https://leetcode.cn/problems/super-ugly-number/)
+##### [题目](https://leetcode.cn/problems/super-ugly-number/)
 ![pic](img.png)
-结果：
+##### 结果：
 ![pic](result.png)

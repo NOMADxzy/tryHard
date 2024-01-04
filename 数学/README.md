@@ -63,6 +63,13 @@
 |----------------------------------------------------------------------------|----------------------------------------------------------|-------------------------------------------------------------------------------|
 | [1015. 可被 K 整除的最小整数](https://leetcode.cn/problems/smallest-integer-divisible-by-k/description/) | newVal = 10*val + 1，故只需记录上一个val的模值，即可推出当前模值，出现的值且一定是周期性的 | [我的提交](https://leetcode.cn/problems/smallest-integer-divisible-by-k/submissions/491568700/) |
 
+> 8> 二进制，模拟加法器
+>
+| 题目                                                                         | 说明                               | 实现                                                                            |
+|----------------------------------------------------------------------------|----------------------------------|-------------------------------------------------------------------------------|
+| [1404. 将二进制表示减到 1 的步骤数](https://leetcode.cn/problems/number-of-steps-to-reduce-a-number-in-binary-representation-to-one/description/) | 从右到左模拟加法器，c表示进位，ans遇'0'加1，遇'1'加2 | [我的提交](https://leetcode.cn/problems/number-of-steps-to-reduce-a-number-in-binary-representation-to-one/submissions/493169292/) |
+
+
 ### 3. 更多练习
 
 
