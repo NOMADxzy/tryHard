@@ -64,6 +64,12 @@
 |----------------------------------------------------------------------|----------------------------------|-------------------------------------------------------------------------------|
 | [959. 由斜杠划分区域](https://leetcode.cn/problems/regions-cut-by-slashes/description/) | 每个方格分成4个部分，用map存储不同条件下的相邻区域，简化过程 | [我的提交](https://leetcode.cn/problems/regions-cut-by-slashes/submissions/490966770/) |
 
+> 8> 深度优先按序搜索，查找第k个答案
+>
+| 题目                                                                   | 说明                         | 实现                                                                            |
+|----------------------------------------------------------------------|----------------------------|-------------------------------------------------------------------------------|
+| [1415. 长度为 n 的开心字符串中字典序第 k 小的字符串](https://leetcode.cn/problems/the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/description/) | 深度优先，按字典序遍历，记录答案排名，到第k个时输出 | [我的提交](https://leetcode.cn/problems/the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/submissions/493244190/) |
+
 
 ### 3. 更多练习
 - [ ] [233. 数字 1 的个数](https://leetcode.cn/problems/number-of-digit-one/)：[题解](https://leetcode.cn/problems/number-of-digit-one/solution/by-endlesscheng-h9ua/)
