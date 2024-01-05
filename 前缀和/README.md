@@ -24,10 +24,11 @@
 
 > 2> 前缀和➕哈希表解决子数组目标和问题（容斥原理）
 >
-| 题目                                                                       | 说明   | 实现                                                                            |
-|--------------------------------------------------------------------------|------|-------------------------------------------------------------------------------|
-| [1074. 元素和为目标值的子矩阵数量](https://leetcode.cn/problems/number-of-submatrices-that-sum-to-target/description/) | 容斥原理 | [我的提交](https://leetcode.cn/problems/number-of-submatrices-that-sum-to-target/submissions/491814427/) |
-| [1010. 总持续时间可被 60 整除的歌曲](https://leetcode.cn/problems/pairs-of-songs-with-total-durations-divisible-by-60/description/) | 容斥原理 | [我的提交](https://leetcode.cn/problems/pairs-of-songs-with-total-durations-divisible-by-60/submissions/491964237/) |
+| 题目                                                                       | 说明                        | 实现                                                                            |
+|--------------------------------------------------------------------------|---------------------------|-------------------------------------------------------------------------------|
+| [1074. 元素和为目标值的子矩阵数量](https://leetcode.cn/problems/number-of-submatrices-that-sum-to-target/description/) | 容斥原理                      | [我的提交](https://leetcode.cn/problems/number-of-submatrices-that-sum-to-target/submissions/491814427/) |
+| [1010. 总持续时间可被 60 整除的歌曲](https://leetcode.cn/problems/pairs-of-songs-with-total-durations-divisible-by-60/description/) | 容斥原理                      | [我的提交](https://leetcode.cn/problems/pairs-of-songs-with-total-durations-divisible-by-60/submissions/491964237/) |
+| [1442. 形成两个异或相等数组的三元组数目](https://leetcode.cn/problems/count-triplets-that-can-form-two-arrays-of-equal-xor/description/) | 注意初始值{0:{-1}, arr[0]:{0}} | [我的提交](https://leetcode.cn/problems/count-triplets-that-can-form-two-arrays-of-equal-xor/submissions/493361982/) |
 
 ### 3. 更多练习
 
