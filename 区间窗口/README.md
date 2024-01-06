@@ -39,6 +39,13 @@
 | [76. 最小覆盖子串](https://leetcode.cn/problems/minimum-window-substring/description/) | 先从左0右端点恰满足条件的位置不断右滑窗口，左端点每次取极右，记录过程中最小窗口 | [我的提交](https://leetcode.cn/problems/minimum-window-substring/submissions/485666331/) |
 | [986. 区间列表的交集](https://leetcode.cn/problems/interval-list-intersections/description/) | 固定区间一，依次讨论区间二逐渐向右的所有情况                   | [我的提交](https://leetcode.cn/problems/interval-list-intersections/submissions/491367127/) |
 
+> 2> 问题可抽象为区间，则排序、双指针找窗口
+>
+| 题目                                                                            | 说明               | 实现                                                                            |
+|-------------------------------------------------------------------------------|------------------|-------------------------------------------------------------------------------|
+| [1498. 满足条件的子序列数目](https://leetcode.cn/problems/number-of-subsequences-that-satisfy-the-given-sum-condition/description/) | 枚举最小值，搜索最右端，得到窗口 | [我的提交](https://leetcode.cn/problems/number-of-subsequences-that-satisfy-the-given-sum-condition/submissions/493624449/) |
+
+
 ### 3. 更多练习
 
 
