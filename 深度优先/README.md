@@ -32,12 +32,14 @@
 | [958. 二叉树的完全性检验](https://leetcode.cn/problems/check-completeness-of-a-binary-tree/description/) | dfs(root)返回三个值，深度、是否完美、是否完全 | [我的提交](https://leetcode.cn/problems/check-completeness-of-a-binary-tree/submissions/490780299/) |
 | [987. 二叉树的垂序遍历](https://leetcode.cn/problems/vertical-order-traversal-of-a-binary-tree/description/) | 先dfs一边获取矩阵的宽高，再dfs向对应位置添加元素 | [我的提交](https://leetcode.cn/problems/vertical-order-traversal-of-a-binary-tree/submissions/491392426/) |
 | [1373. 二叉搜索子树的最大键值和](https://leetcode.cn/problems/maximum-sum-bst-in-binary-tree/description/) | 返回4个值：树是否合法，树最大值，树最小值，元素和   | [我的提交](https://leetcode.cn/problems/maximum-sum-bst-in-binary-tree/submissions/493000220/) |
+| [1519. 子树中标签相同的节点数](https://leetcode.cn/problems/number-of-nodes-in-the-sub-tree-with-the-same-label/description/) | 返回1个数组：记录26个字母的出现次数         | [我的提交](https://leetcode.cn/problems/number-of-nodes-in-the-sub-tree-with-the-same-label/submissions/493666630/) |
 
 > 3> 递归分解问题
 >
 | 题目                                                                   | 说明                                      | 实现                                                                            |
 |----------------------------------------------------------------------|-----------------------------------------|-------------------------------------------------------------------------------|
 | [282. 给表达式添加运算符](https://leetcode.cn/problems/expression-add-operators/description/) | 分解当前val +- 后续val = target，val再分解为含有多少个* | [我的提交](https://leetcode.cn/problems/expression-add-operators/submissions/487984888/) |
+
 
 > 4> 去重
 >
