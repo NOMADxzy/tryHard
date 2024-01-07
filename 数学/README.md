@@ -15,11 +15,13 @@
 
 ### 2. 解题技巧（我的总结）
 
-> 1> 通过位表示信息
+> 1> 位表示信息
 > 
 | 题目                                                                           | 说明                                      | 实现                                                                            |
 |------------------------------------------------------------------------------|-----------------------------------------|-------------------------------------------------------------------------------|
 | [458. 可怜的小猪](https://leetcode.cn/problems/poor-pigs/description/) | 共k个时段内检测出结果的信息向量长度 = buckets 的 k+1进制数长度 | [我的提交](https://leetcode.cn/problems/poor-pigs/submissions/488982309/) |
+| [1558. 得到目标数组的最少函数调用次数](https://leetcode.cn/problems/minimum-numbers-of-function-calls-to-make-target-array/description/) | 减次数 = 二进制1的个数之和，除次数 = 二进制最高位数           | [我的提交](https://leetcode.cn/problems/minimum-numbers-of-function-calls-to-make-target-array/solutions/403707/de-dao-mu-biao-shu-zu-de-zui-shao-han-shu-diao-y-2/) |
+
 
 > 2> 素数查找，最小堆，多路归并
 >
