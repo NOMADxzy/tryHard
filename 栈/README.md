@@ -27,6 +27,7 @@
 | 题目                                                                         | 说明                                     | 实现                                                                           |
 |----------------------------------------------------------------------------|----------------------------------------|------------------------------------------------------------------------------|
 | [301. 删除无效的括号](https://leetcode.cn/problems/remove-invalid-parentheses/description/) | 从左到右，判断每个字符删除/不删除，维护leftCnt < rightCnt | [我的提交](https://leetcode.cn/problems/remove-invalid-parentheses/submissions/487992077/) |
+| [1541. 平衡括号字符串的最少插入次数](https://leetcode.cn/problems/minimum-insertions-to-balance-a-parentheses-string/description/) | 维护左括号数量始终>=0                           | [我的提交](https://leetcode.cn/problems/minimum-insertions-to-balance-a-parentheses-string/submissions/493731327/) |
 
 > 4> 格式校验， 利用栈的特性不断消除元素,(树的先序遍历==栈)
 >
