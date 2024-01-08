@@ -25,14 +25,15 @@
 
 > 2> 前序、中序、后序遍历，二叉搜索树
 >
-| 题目                                                                   | 说明                          | 实现                                                                            |
-|----------------------------------------------------------------------|-----------------------------|-------------------------------------------------------------------------------|
-| [2476. 二叉搜索树最近节点查询](https://leetcode.cn/problems/closest-nodes-queries-in-a-binary-search-tree/description/) | 中序遍历 + 排序 + 二分查找            | [我的提交](https://leetcode.cn/problems/closest-nodes-queries-in-a-binary-search-tree/submissions/486976544/) |
-| [538. 把二叉搜索树转换为累加树](https://leetcode.cn/problems/convert-bst-to-greater-tree/description/) | 先右后左遍历二叉搜索树                 | [我的提交](https://leetcode.cn/problems/convert-bst-to-greater-tree/submissions/489578707/) |
-| [958. 二叉树的完全性检验](https://leetcode.cn/problems/check-completeness-of-a-binary-tree/description/) | dfs(root)返回三个值，深度、是否完美、是否完全 | [我的提交](https://leetcode.cn/problems/check-completeness-of-a-binary-tree/submissions/490780299/) |
-| [987. 二叉树的垂序遍历](https://leetcode.cn/problems/vertical-order-traversal-of-a-binary-tree/description/) | 先dfs一边获取矩阵的宽高，再dfs向对应位置添加元素 | [我的提交](https://leetcode.cn/problems/vertical-order-traversal-of-a-binary-tree/submissions/491392426/) |
-| [1373. 二叉搜索子树的最大键值和](https://leetcode.cn/problems/maximum-sum-bst-in-binary-tree/description/) | 返回4个值：树是否合法，树最大值，树最小值，元素和   | [我的提交](https://leetcode.cn/problems/maximum-sum-bst-in-binary-tree/submissions/493000220/) |
-| [1519. 子树中标签相同的节点数](https://leetcode.cn/problems/number-of-nodes-in-the-sub-tree-with-the-same-label/description/) | 返回1个数组：记录26个字母的出现次数         | [我的提交](https://leetcode.cn/problems/number-of-nodes-in-the-sub-tree-with-the-same-label/submissions/493666630/) |
+| 题目                                                                   | 说明                            | 实现                                                                            |
+|----------------------------------------------------------------------|-------------------------------|-------------------------------------------------------------------------------|
+| [2476. 二叉搜索树最近节点查询](https://leetcode.cn/problems/closest-nodes-queries-in-a-binary-search-tree/description/) | 中序遍历 + 排序 + 二分查找              | [我的提交](https://leetcode.cn/problems/closest-nodes-queries-in-a-binary-search-tree/submissions/486976544/) |
+| [538. 把二叉搜索树转换为累加树](https://leetcode.cn/problems/convert-bst-to-greater-tree/description/) | 先右后左遍历二叉搜索树                   | [我的提交](https://leetcode.cn/problems/convert-bst-to-greater-tree/submissions/489578707/) |
+| [958. 二叉树的完全性检验](https://leetcode.cn/problems/check-completeness-of-a-binary-tree/description/) | dfs(root)返回三个值，深度、是否完美、是否完全   | [我的提交](https://leetcode.cn/problems/check-completeness-of-a-binary-tree/submissions/490780299/) |
+| [987. 二叉树的垂序遍历](https://leetcode.cn/problems/vertical-order-traversal-of-a-binary-tree/description/) | 先dfs一边获取矩阵的宽高，再dfs向对应位置添加元素   | [我的提交](https://leetcode.cn/problems/vertical-order-traversal-of-a-binary-tree/submissions/491392426/) |
+| [1373. 二叉搜索子树的最大键值和](https://leetcode.cn/problems/maximum-sum-bst-in-binary-tree/description/) | 返回4个值：树是否合法，树最大值，树最小值，元素和     | [我的提交](https://leetcode.cn/problems/maximum-sum-bst-in-binary-tree/submissions/493000220/) |
+| [1519. 子树中标签相同的节点数](https://leetcode.cn/problems/number-of-nodes-in-the-sub-tree-with-the-same-label/description/) | 返回1个数组：记录26个字母的出现次数           | [我的提交](https://leetcode.cn/problems/number-of-nodes-in-the-sub-tree-with-the-same-label/submissions/493666630/) |
+| [1609. 奇偶树](https://leetcode.cn/problems/even-odd-tree/description/) | 记录每层的最近值，dfs可保证每层都是从左到右顺序访问到的 | [我的提交](https://leetcode.cn/problems/even-odd-tree/submissions/493981516/) |
 
 > 3> 递归分解问题
 >
