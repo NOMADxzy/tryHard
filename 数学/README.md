@@ -68,6 +68,7 @@
 |----------------------------------------------------------------------------|----------------------------------------------------------|-------------------------------------------------------------------------------|
 | [1015. 可被 K 整除的最小整数](https://leetcode.cn/problems/smallest-integer-divisible-by-k/description/) | newVal = 10*val + 1，故只需记录上一个val的模值，即可推出当前模值，出现的值且一定是周期性的 | [我的提交](https://leetcode.cn/problems/smallest-integer-divisible-by-k/submissions/491568700/) |
 | [1497. 检查数组对是否可以被 k 整除](https://leetcode.cn/problems/check-if-array-pairs-are-divisible-by-k/description/) | 记录所有mod结果出现的次数，判断每一对是否相等                                 | [我的提交](https://leetcode.cn/problems/check-if-array-pairs-are-divisible-by-k/submissions/493611446/) |
+| [1625. 执行操作后字典序最小的字符串](https://leetcode.cn/problems/lexicographically-smallest-string-after-applying-operations/description/) | 循环移动问题，总长度为n，增量为d时，最大增量Dmax = （i*d % n) ==0 时的i取值        | [我的提交](https://leetcode.cn/problems/lexicographically-smallest-string-after-applying-operations/submissions/494147403/) |
 
 
 > 8> 二进制，模拟加法器
