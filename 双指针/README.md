@@ -49,11 +49,17 @@
 | [1248. 统计「优美子数组」](https://leetcode.cn/problems/count-number-of-nice-subarrays/description/) | 依次讨论每连续k个点所能形成的区间范围，左指针范围*右指针范围          | [我的提交](https://leetcode.cn/problems/count-number-of-nice-subarrays/submissions/492589727/) |
 | [1358. 包含所有三种字符的子字符串数目](https://leetcode.cn/problems/count-number-of-nice-subarrays/description/) | 利用左右指针找到所有满足的最小区间，该区间右指针一直移到末尾的所有区间都满足条件 | [我的提交](https://leetcode.cn/problems/number-of-substrings-containing-all-three-characters/description/) |
 
-> 3> 头尾双指针
+> 4> 头尾双指针
 >
 | 题目                                                                            | 说明                          | 实现                                                                            |
 |-------------------------------------------------------------------------------|-----------------------------|-------------------------------------------------------------------------------|
 | [1616. 分割两个字符串得到回文串](https://leetcode.cn/problems/split-two-strings-to-make-palindrome/description/) | 最终头尾一定是匹配的，中间可以不匹配，故采用头尾双指针 | [我的提交](https://leetcode.cn/problems/split-two-strings-to-make-palindrome/submissions/494084151/) |
+
+> 5> 记录lastIdx保持窗口无重复
+>
+| 题目                                                                            | 说明                             | 实现                                                                           |
+|-------------------------------------------------------------------------------|--------------------------------|------------------------------------------------------------------------------|
+| [1695. 删除子数组的最大得分](https://leetcode.cn/problems/maximum-erasure-value/description/) | lastIdx记录每个数上一次出现位置，每次l移到该位置即可 | [我的提交](https://leetcode.cn/problems/maximum-erasure-value/submissions/494313744/) |
 
 
 ### 3. 更多练习
