@@ -13,6 +13,7 @@
 | 题目                                                                            | 说明                                     | 实现                                                                            |
 |-------------------------------------------------------------------------------|----------------------------------------|-------------------------------------------------------------------------------|
 | [649. Dota2 参议院](https://leetcode.cn/problems/dota2-senate/description/) | 题中每个议员最好表现 = 禁止后面最近的对方议员 或 禁止前面最远的对方议员 | [我的提交](https://leetcode.cn/problems/dota2-senate/submissions/489933502/) |
+| [1702. 修改后的最大二进制字符串](https://leetcode.cn/problems/maximum-binary-string-after-change/description/) | 10->01代表题中所有的1都可以全部移动到末尾，所有0都可以移动到开头   | [我的提交](https://leetcode.cn/problems/maximum-binary-string-after-change/submissions/494372983/) |
 
 
 > 2> 迭代次数过多，寻找周期、规律
