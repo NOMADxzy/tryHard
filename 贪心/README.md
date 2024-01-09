@@ -58,6 +58,7 @@
 | 题目                                                              | 说明                    | 实现                                                                            |
 |-----------------------------------------------------------------|-----------------------|-------------------------------------------------------------------------------|
 | [781. 森林中的兔子](https://leetcode.cn/problems/rabbits-in-forest/description/) | 排序，只有答案相同的兔子才有可能是相同颜色 | [我的提交](https://leetcode.cn/problems/rabbits-in-forest/submissions/471254724/) |
+| [1647. 字符频次唯一的最小删除次数](https://leetcode.cn/problems/minimum-deletions-to-make-character-frequencies-unique/description/) | 排序后，从大到小次数，决定是否要减少    | [我的提交](https://leetcode.cn/problems/minimum-deletions-to-make-character-frequencies-unique/submissions/494236065/) |
 
 > 5> 利用数据结构（小顶堆，哈希表）维护贪心所需的信息
 >
