@@ -71,9 +71,10 @@
 
 > 8> 深度优先按序搜索，查找第k个答案
 >
-| 题目                                                                   | 说明                         | 实现                                                                            |
-|----------------------------------------------------------------------|----------------------------|-------------------------------------------------------------------------------|
-| [1415. 长度为 n 的开心字符串中字典序第 k 小的字符串](https://leetcode.cn/problems/the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/description/) | 深度优先，按字典序遍历，记录答案排名，到第k个时输出 | [我的提交](https://leetcode.cn/problems/the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/submissions/493244190/) |
+| 题目                                                                   | 说明                                      | 实现                                                                            |
+|----------------------------------------------------------------------|-----------------------------------------|-------------------------------------------------------------------------------|
+| [1415. 长度为 n 的开心字符串中字典序第 k 小的字符串](https://leetcode.cn/problems/the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/description/) | 深度优先，按字典序遍历，记录答案排名，到第k个时输出              | [我的提交](https://leetcode.cn/problems/the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/submissions/493244190/) |
+| [1718. 构建字典序最大的可行序列](https://leetcode.cn/problems/construct-the-lexicographically-largest-valid-sequence/description/) | 深度优先，c从大到小填值，i没使用且，pos和pos+i位置都是空的则可以填入 | [我的提交](https://leetcode.cn/problems/construct-the-lexicographically-largest-valid-sequence/submissions/494480407/) |
 
 
 ### 3. 更多练习
