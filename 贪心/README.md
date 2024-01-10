@@ -56,10 +56,11 @@
 
 > 4> 弄清什么是局部，贪心优化，排序等方法确定具体怎么取局部
 >
-| 题目                                                              | 说明                    | 实现                                                                            |
-|-----------------------------------------------------------------|-----------------------|-------------------------------------------------------------------------------|
-| [781. 森林中的兔子](https://leetcode.cn/problems/rabbits-in-forest/description/) | 排序，只有答案相同的兔子才有可能是相同颜色 | [我的提交](https://leetcode.cn/problems/rabbits-in-forest/submissions/471254724/) |
-| [1647. 字符频次唯一的最小删除次数](https://leetcode.cn/problems/minimum-deletions-to-make-character-frequencies-unique/description/) | 排序后，从大到小次数，决定是否要减少    | [我的提交](https://leetcode.cn/problems/minimum-deletions-to-make-character-frequencies-unique/submissions/494236065/) |
+| 题目                                                              | 说明                              | 实现                                                                            |
+|-----------------------------------------------------------------|---------------------------------|-------------------------------------------------------------------------------|
+| [781. 森林中的兔子](https://leetcode.cn/problems/rabbits-in-forest/description/) | 排序，只有答案相同的兔子才有可能是相同颜色           | [我的提交](https://leetcode.cn/problems/rabbits-in-forest/submissions/471254724/) |
+| [1647. 字符频次唯一的最小删除次数](https://leetcode.cn/problems/minimum-deletions-to-make-character-frequencies-unique/description/) | 排序后，从大到小次数，决定是否要减少              | [我的提交](https://leetcode.cn/problems/minimum-deletions-to-make-character-frequencies-unique/submissions/494236065/) |
+| [1733. 需要教语言的最少人数](https://leetcode.cn/problems/minimum-number-of-people-to-teach/description/) | 统计所有不能交流涉及的人员，选择他们中最广泛的语言教会他们即可 | [我的提交](https://leetcode.cn/problems/minimum-number-of-people-to-teach/submissions/494597518/) |
 
 > 5> 利用数据结构（小顶堆，哈希表）维护贪心所需的信息
 >
