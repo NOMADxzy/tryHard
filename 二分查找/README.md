@@ -51,15 +51,16 @@ for left<right{
 
 > 2> 答案为固定数值时，可以直接对答案进行二分查找
 >
-| 题目                                                                                             | 说明                                   | 实现                                                                            |
-|------------------------------------------------------------------------------------------------|--------------------------------------|-------------------------------------------------------------------------------|
-| [287. 寻找重复数](https://leetcode.cn/problems/find-the-duplicate-number/description/)              | 答案是数组最小值和最大值之间的一个值                   | [我的提交](https://leetcode.cn/problems/find-the-duplicate-number/submissions/465110299/) |
+| 题目                                                                                            | 说明                                   | 实现                                                                            |
+|-----------------------------------------------------------------------------------------------|--------------------------------------|-------------------------------------------------------------------------------|
+| [287. 寻找重复数](https://leetcode.cn/problems/find-the-duplicate-number/description/)             | 答案是数组最小值和最大值之间的一个值                   | [我的提交](https://leetcode.cn/problems/find-the-duplicate-number/submissions/465110299/) |
 | [719. 找出第 K 小的数对距离](https://leetcode.cn/problems/find-k-th-smallest-pair-distance/description/) | 排序数组 答案是 0 和 (右端点-左端点) 之间的一个值，需要二重二分 | [我的提交](https://leetcode.cn/problems/find-k-th-smallest-pair-distance/submissions/468777437/) |
 | [875. 爱吃香蕉的珂珂](https://leetcode.cn/problems/koko-eating-bananas/) | 答案是数组最小值和最大值之间的一个                    | [我的提交](https://leetcode.cn/problems/koko-eating-bananas/submissions/466078855/) |
 | [1300. 转变数组后最接近目标值的数组和](https://leetcode.cn/problems/sum-of-mutated-array-closest-to-target/description/) | 答案是数组最大值和0之间的一个                      | [我的提交](https://leetcode.cn/problems/sum-of-mutated-array-closest-to-target/submissions/479566095/) |
 | [1011. 在 D 天内送达包裹的能力](https://leetcode.cn/problems/capacity-to-ship-packages-within-d-days/description/) | 答案是数组Sum和maxVal之间的一个                 | [我的提交](https://leetcode.cn/problems/capacity-to-ship-packages-within-d-days/submissions/491984799/) |
 | [1482. 制作 m 束花所需的最少天数](https://leetcode.cn/problems/minimum-number-of-days-to-make-m-bouquets/description/) | 答案是1和maxVal之间的一个                     | [我的提交](https://leetcode.cn/problems/minimum-number-of-days-to-make-m-bouquets/submissions/493555319/) |
 | [1552. 两球之间的磁力](https://leetcode.cn/problems/minimum-number-of-days-to-make-m-bouquets/description/) | 答案是1和(end-start/m)之间的一个              | [我的提交](https://leetcode.cn/problems/magnetic-force-between-two-balls/submissions/493738863/) |
+| [1760. 袋子里最少数目的球](https://leetcode.cn/problems/minimum-limit-of-balls-in-a-bag/description/) | 答案是1和maxVal之间的一个                     | [我的提交](https://leetcode.cn/problems/minimum-limit-of-balls-in-a-bag/submissions/494766006/) |
 
 
 > 3> 数组无须有序，只要中点两边特性不同
