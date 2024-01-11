@@ -46,6 +46,8 @@ def backtrack(路径, 选择列表):
 | [1020. 飞地的数量](https://leetcode.cn/problems/number-of-enclaves/description/) | 从边界扩散，剩余的是有效的1                                         | [我的提交](https://leetcode.cn/problems/number-of-enclaves/submissions/482424903/) |
 | [1034. 边界着色](https://leetcode.cn/problems/coloring-a-border/description/) | dfs，是边界标记为-1，不是标记为0，（不是边界 ：4个方向的val=target/0/-1的数量==4） | [我的提交](https://leetcode.cn/problems/coloring-a-border/submissions/482530829/) |
 | [1254. 统计封闭岛屿的数目](https://leetcode.cn/problems/number-of-closed-islands/description/) | 边缘的0开始扩散并标志为1，接着深度优先搜索所有独立岛屿                           | [我的提交](https://leetcode.cn/problems/number-of-closed-islands/submissions/483169743/) |
+| [1765. 地图中的最高点](https://leetcode.cn/problems/map-of-highest-peak/description/) | 预处理所有的格子标记为-1，大于等于0代表格子被访问了，从睡眠水面扩散高度，每轮增加1            | [我的提交](https://leetcode.cn/problems/map-of-highest-peak/submissions/494843225/) |
+
 
 > 3> 二叉树技巧
 > 只考虑根节点 (先考虑根节点为nil，再考虑和根节点的关系，递归到下一层) 
