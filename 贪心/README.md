@@ -67,6 +67,8 @@
 | 题目                                                              | 说明                        | 实现                                                                            |
 |-----------------------------------------------------------------|---------------------------|-------------------------------------------------------------------------------|
 | [659. 分割数组为连续子序列](https://leetcode.cn/problems/split-array-into-consecutive-subsequences/description/) | 哈希表、小顶堆，每个元素只分配给长度最小的累积序列 | [我的提交](https://leetcode.cn/problems/split-array-into-consecutive-subsequences/submissions/490113579/) |
+| [1792. 最大平均通过率](https://leetcode.cn/problems/maximum-average-pass-ratio/description/) | 增量会越来越小，优先选择增量最大的         | [我的提交](https://leetcode.cn/problems/maximum-average-pass-ratio/submissions/495059257/) |
+
 
 > 6> 贪心构造
 >
