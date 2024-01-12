@@ -61,7 +61,7 @@ for left<right{
 | [1482. 制作 m 束花所需的最少天数](https://leetcode.cn/problems/minimum-number-of-days-to-make-m-bouquets/description/) | 答案是1和maxVal之间的一个                     | [我的提交](https://leetcode.cn/problems/minimum-number-of-days-to-make-m-bouquets/submissions/493555319/) |
 | [1552. 两球之间的磁力](https://leetcode.cn/problems/minimum-number-of-days-to-make-m-bouquets/description/) | 答案是1和(end-start/m)之间的一个              | [我的提交](https://leetcode.cn/problems/magnetic-force-between-two-balls/submissions/493738863/) |
 | [1760. 袋子里最少数目的球](https://leetcode.cn/problems/minimum-limit-of-balls-in-a-bag/description/) | 答案是1和maxVal之间的一个                     | [我的提交](https://leetcode.cn/problems/minimum-limit-of-balls-in-a-bag/submissions/494766006/) |
-
+| [1802. 有界数组中指定下标处的最大值](https://leetcode.cn/problems/maximum-value-at-a-given-index-in-a-bounded-array/description/) | 答案是1和maxVal之间的一个                     | [我的提交](https://leetcode.cn/problems/maximum-value-at-a-given-index-in-a-bounded-array/submissions/495137089/) |
 
 > 3> 数组无须有序，只要中点两边特性不同
 >
