@@ -78,6 +78,11 @@
 |----------------------------------------------------------------------------|----------------------------------|-------------------------------------------------------------------------------|
 | [1404. 将二进制表示减到 1 的步骤数](https://leetcode.cn/problems/number-of-steps-to-reduce-a-number-in-binary-representation-to-one/description/) | 从右到左模拟加法器，c表示进位，ans遇'0'加1，遇'1'加2 | [我的提交](https://leetcode.cn/problems/number-of-steps-to-reduce-a-number-in-binary-representation-to-one/submissions/493169292/) |
 
+> 9> 数学归纳法：从初始简单情况出发，递推出后面所有情况
+>
+| 题目                                                              | 说明                                                | 实现                                                                            |
+|-----------------------------------------------------------------|---------------------------------------------------|-------------------------------------------------------------------------------|
+| [1798. 你能构造出连续值的最大数目](https://leetcode.cn/problems/maximum-number-of-consecutive-values-you-can-make/description/) | 贪心的从小到大排序，归纳法：初始{0}连续， 前i个的和连续 -> 前i+1和也连续，否则终止循环 | [我的提交](https://leetcode.cn/problems/maximum-number-of-consecutive-values-you-can-make/submissions/495128436/) |
 
 ### 3. 更多练习
 
