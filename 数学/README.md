@@ -43,6 +43,7 @@
 | 题目                                                                          | 说明                               | 实现                                                                            |
 |-----------------------------------------------------------------------------|----------------------------------|-------------------------------------------------------------------------------|
 | [592. 分数加减运算](https://leetcode.cn/problems/fraction-addition-and-subtraction/description/) | a,b 的最小公倍数 = a * b / (a,b的最大公约数) | [我的提交](https://leetcode.cn/problems/fraction-addition-and-subtraction/submissions/489696067/) |
+| [1806. 还原排列的最少操作步数](https://leetcode.cn/problems/minimum-number-of-operations-to-reinitialize-a-permutation/description/) | a,b 的最小公倍数 = a * b / (a,b的最大公约数) | [我的提交](https://leetcode.cn/problems/minimum-number-of-operations-to-reinitialize-a-permutation/submissions/495170590/) |
 
 > 5> 几何图形问题
 >
