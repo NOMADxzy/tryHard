@@ -22,6 +22,8 @@
 | [456. 132 模式](https://leetcode.cn/problems/132-pattern/) | 从右到左，单调递减栈，k记录上次被pop出去的值，一定有 栈顶 < k                            | [我的提交](https://leetcode.cn/problems/132-pattern/submissions/470350335/) |
 | [84. 柱状图中最大的矩形](https://leetcode.cn/problems/largest-rectangle-in-histogram/description/) | 以每个元素为基准形成的最大矩形面积，记录前面连续大于等于它和后面连续大于等于它的个数，使用单调栈求nextSmaller即可 | [我的提交](https://leetcode.cn/problems/largest-rectangle-in-histogram/submissions/485671889/) |
 | [1673. 找出最具竞争力的子序列](https://leetcode.cn/problems/find-the-most-competitive-subsequence/description/) | 维护单调递增栈，每个元素能挤掉栈尾大于它的，且能挤掉后剩余元素足够k个的                           | [我的提交](https://leetcode.cn/problems/find-the-most-competitive-subsequence/submissions/494296537/) |
+| [1856. 子数组最小乘积的最大值](https://leetcode.cn/problems/maximum-subarray-min-product/description/) | 依次计算已每个元素为极小值的情况                                               | [我的提交](https://leetcode.cn/problems/maximum-subarray-min-product/submissions/495622116/) |
+
 
 > 3> 括号匹配，从头至尾每个位置累计的左括号数量 > 右括号数量
 >
