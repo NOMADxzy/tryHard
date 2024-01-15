@@ -63,12 +63,13 @@
 | [1647. 字符频次唯一的最小删除次数](https://leetcode.cn/problems/minimum-deletions-to-make-character-frequencies-unique/description/) | 排序后，从大到小次数，决定是否要减少              | [我的提交](https://leetcode.cn/problems/minimum-deletions-to-make-character-frequencies-unique/submissions/494236065/) |
 | [1733. 需要教语言的最少人数](https://leetcode.cn/problems/minimum-number-of-people-to-teach/description/) | 统计所有不能交流涉及的人员，选择他们中最广泛的语言教会他们即可 | [我的提交](https://leetcode.cn/problems/minimum-number-of-people-to-teach/submissions/494597518/) |
 
-> 5> 利用数据结构（小顶堆，哈希表）维护贪心所需的信息
+> 5> 利用排序 或 数据结构（小顶堆，哈希表）维护贪心所需的信息
 >
 | 题目                                                              | 说明                        | 实现                                                                            |
 |-----------------------------------------------------------------|---------------------------|-------------------------------------------------------------------------------|
 | [659. 分割数组为连续子序列](https://leetcode.cn/problems/split-array-into-consecutive-subsequences/description/) | 哈希表、小顶堆，每个元素只分配给长度最小的累积序列 | [我的提交](https://leetcode.cn/problems/split-array-into-consecutive-subsequences/submissions/490113579/) |
 | [1792. 最大平均通过率](https://leetcode.cn/problems/maximum-average-pass-ratio/description/) | 增量会越来越小，优先选择增量最大的         | [我的提交](https://leetcode.cn/problems/maximum-average-pass-ratio/submissions/495059257/) |
+| [1877. 数组中最大数对和的最小值](https://leetcode.cn/problems/minimize-maximum-pair-sum-in-array/description/) | 从2对情况递推到所有对，分配方式一定是对称的    | [我的提交](https://leetcode.cn/problems/minimize-maximum-pair-sum-in-array/submissions/495810369/) |
 
 
 > 6> 贪心构造
