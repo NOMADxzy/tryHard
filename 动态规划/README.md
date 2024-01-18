@@ -151,6 +151,7 @@
 | 题目          | 说明                                           | 实现                                                                            |
 |-------------|----------------------------------------------|-------------------------------------------------------------------------------|
 | [1947. 最大兼容性评分和](https://leetcode.cn/problems/maximum-compatibility-score-sum/description/) | mark第j位表示第j个教授是否被选择，mark中1的数量k表示现在为第k个学生匹配教授 | [我的提交](https://leetcode.cn/problems/maximum-compatibility-score-sum/submissions/478437655/) |
+| [1986. 完成任务的最少工作时间段](https://leetcode.cn/problems/minimum-number-of-work-sessions-to-finish-the-tasks/description/) | 子集型状态压缩                | [我的提交](https://leetcode.cn/problems/minimum-number-of-work-sessions-to-finish-the-tasks/submissions/496511309/) |
 
 > 13> 倒序动态规划
 >
