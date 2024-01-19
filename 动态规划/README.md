@@ -166,6 +166,13 @@
 | [1269. 停在原地的方案数](https://leetcode.cn/problems/number-of-ways-to-stay-in-the-same-place-after-some-steps/description/) | 记录各个位置的方案数，当前位置方案由上一位置+-1/不变转换来   | [我的提交](https://leetcode.cn/problems/number-of-ways-to-stay-in-the-same-place-after-some-steps/submissions/492664290/) |
 | [1449. 数位成本和为目标值的最大数字](https://leetcode.cn/problems/form-largest-integer-with-digits-that-add-up-to-target/description/) | 记录各个target的最大字符串，当前位置方案由上一位置+v转换来 | [我的提交](https://leetcode.cn/problems/form-largest-integer-with-digits-that-add-up-to-target/submissions/493441227/) |
 
+> 14> 数型dp
+>
+| 题目                                                                   | 说明                                                     | 实现                                                                           |
+|----------------------------------------------------------------------|--------------------------------------------------------|------------------------------------------------------------------------------|
+| [LCP 34. 二叉树染色](https://leetcode.cn/problems/er-cha-shu-ran-se-UGC/description/) | 记录各个节点为根有连续i个节点的最大值（i取值从0到k），优化：i越小越有价值，dp[i]取前i个中的最大值 | [我的提交](https://leetcode.cn/problems/er-cha-shu-ran-se-UGC/submissions/496721688/) |
+
+
 ### 3. 更多练习
 
 | 题目                                                         | 说明                                                         | 题解                                                         |
