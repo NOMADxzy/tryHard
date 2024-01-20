@@ -99,11 +99,12 @@
 
 > 8> 博弈游戏类型（当前用户最优选择 = max(当前选择 + 当前选择导致的状态下当前用户（即另一用户）最优选择)）
 >
-| 题目                                                                   | 说明                                        | 实现                                                                            |
-|----------------------------------------------------------------------|-------------------------------------------|-------------------------------------------------------------------------------|
-| [486. 预测赢家](https://leetcode.cn/problems/predict-the-winner/description/) | 抽象成当前用户和下一用户之间的状态转移，利用区间类型动态规划            | [我的提交](https://leetcode.cn/problems/predict-the-winner/submissions/476010042/) |
-| [464. 我能赢吗](https://leetcode.cn/problems/can-i-win/description/) | 类似的思路，使用记忆化搜索的方法                          | [我的提交](https://leetcode.cn/problems/can-i-win/submissions/466755816/) |
-| [1140. 石子游戏 II](https://leetcode.cn/problems/stone-game-ii/description/) | dp(i)(j) 表示玩家在stones(i:)开始选择，M=j时能获得的最多分数 | [我的提交](https://leetcode.cn/problems/stone-game-ii/submissions/477461605/) |
+| 题目                                                                   | 说明                                                        | 实现                                                                            |
+|----------------------------------------------------------------------|-----------------------------------------------------------|-------------------------------------------------------------------------------|
+| [486. 预测赢家](https://leetcode.cn/problems/predict-the-winner/description/) | 抽象成当前用户和下一用户之间的状态转移，利用区间类型动态规划                            | [我的提交](https://leetcode.cn/problems/predict-the-winner/submissions/476010042/) |
+| [464. 我能赢吗](https://leetcode.cn/problems/can-i-win/description/) | 类似的思路，使用记忆化搜索的方法                                          | [我的提交](https://leetcode.cn/problems/can-i-win/submissions/466755816/) |
+| [1140. 石子游戏 II](https://leetcode.cn/problems/stone-game-ii/description/) | dp(i)(j) 表示玩家在stones(i:)开始选择，M=j时能获得的最多分数                 | [我的提交](https://leetcode.cn/problems/stone-game-ii/submissions/477461605/) |
+| [2029. 石子游戏 IX](https://leetcode.cn/problems/stone-game-ix/description/) | Loss() 表示当前玩家无论做任何选择都会输，则Loss返回False的前提是某个选择后对手Loss返回true | [我的提交](https://leetcode.cn/problems/stone-game-ix/submissions/496996328/) |
 
 > 9> 当前状态可能由前面一个或多个特定状态转移得到，根据题目条件分析
 >
