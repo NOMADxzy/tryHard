@@ -128,6 +128,7 @@
 | [795. 区间子数组个数](https://leetcode.cn/problems/number-of-subarrays-with-bounded-maximum/description/)                        | 要同时记录以i结尾的不超过right的连续子数组数目，不然会漏掉很多解                                                | [我的提交](https://leetcode.cn/problems/number-of-subarrays-with-bounded-maximum/submissions/490558136/) |
 | [960. 删列造序 III](https://leetcode.cn/problems/delete-columns-to-make-sorted-iii/description/)                                         | 即求一个字符串的最长上升序列动态规划问题，限制转移条件要对所有字符串满足即可                                             | [我的提交](https://leetcode.cn/problems/delete-columns-to-make-sorted-iii/submissions/490791318/) |
 | [1029. 两地调度](https://leetcode.cn/problems/two-city-scheduling/description/)                                          | 逐个遍历costs，记录前i个面试者在A地个数分别为minA,maxA的最小花费                                           | [我的提交](https://leetcode.cn/problems/two-city-scheduling/submissions/491598145/) |
+| [2054. 两个最好的不重叠活动](https://leetcode.cn/problems/two-best-non-overlapping-events/description/)                                          | 分成选择1个和选择2个的最大收益两个子状态分别根据最先满足endtime<starttime的结果转移                                | [我的提交](https://leetcode.cn/problems/two-best-non-overlapping-events/submissions/497138632/) |
 
 
 > 10> 我称之为状态扩散，从某个状态按规则扩散到其余新状态
