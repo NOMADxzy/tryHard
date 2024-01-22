@@ -44,10 +44,11 @@
 
 > 1> 链表递归修改、查询
 > 
-| 题目                                                                            | 说明                          | 实现                                                                            |
-|-------------------------------------------------------------------------------|-----------------------------|-------------------------------------------------------------------------------|
+| 题目                                                                        | 说明                          | 实现                                                                            |
+|---------------------------------------------------------------------------|-----------------------------|-------------------------------------------------------------------------------|
 | [430. 扁平化多级双向链表](https://leetcode.cn/problems/flatten-a-multilevel-doubly-linked-list/) | 设func(l)可以扁平化子链表l，递归修改      | [我的提交](https://leetcode.cn/problems/flatten-a-multilevel-doubly-linked-list/submissions/470308756/) |
 | [2058. 找出临界点之间的最小和最大距离](https://leetcode.cn/problems/find-the-minimum-and-maximum-number-of-nodes-between-critical-points/description/) | 保存某个节点往后的极点中的最大和最小位置，递归查找计算 | [我的提交](https://leetcode.cn/problems/find-the-minimum-and-maximum-number-of-nodes-between-critical-points/submissions/497488297/) |
+| [2074. 反转偶数长度组的节点](https://leetcode.cn/problems/reverse-nodes-in-even-length-groups/description/) | 每次跳到一个组的末尾，看是否要反转下一个组，递归    | [我的提交](https://leetcode.cn/problems/reverse-nodes-in-even-length-groups/submissions/497501976/) |
 
 
 
