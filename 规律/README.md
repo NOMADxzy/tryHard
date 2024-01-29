@@ -18,10 +18,11 @@
 
 > 2> 迭代次数过多，寻找周期、规律
 >
-| 题目                                                                           | 说明                                   | 实现                                                                            |
-|------------------------------------------------------------------------------|--------------------------------------|-------------------------------------------------------------------------------|
-| [957. N 天后的牢房](https://leetcode.cn/problems/prison-cells-after-n-days/description/) | 题中最多有2^8=256种状态，每个状态仅与上一状态有关，故必然存在周期 | [我的提交](https://leetcode.cn/problems/prison-cells-after-n-days/submissions/490928555/) |
-| [1041. 困于环中的机器人](https://leetcode.cn/problems/robot-bounded-in-circle/description/) | 一个周期后方向发生改变或位置不发生改变 则一定会有环           | [我的提交](https://leetcode.cn/problems/robot-bounded-in-circle/submissions/491787188/) |
+| 题目                                                                           | 说明                                                  | 实现                                                                            |
+|------------------------------------------------------------------------------|-----------------------------------------------------|-------------------------------------------------------------------------------|
+| [957. N 天后的牢房](https://leetcode.cn/problems/prison-cells-after-n-days/description/) | 题中最多有2^8=256种状态，每个状态仅与上一状态有关，故必然存在周期                | [我的提交](https://leetcode.cn/problems/prison-cells-after-n-days/submissions/490928555/) |
+| [1041. 困于环中的机器人](https://leetcode.cn/problems/robot-bounded-in-circle/description/) | 一个周期后方向发生改变或位置不发生改变 则一定会有环                          | [我的提交](https://leetcode.cn/problems/robot-bounded-in-circle/submissions/491787188/) |
+| 2178. 拆分成最多数目的正偶数之和](https://leetcode.cn/problems/maximum-split-of-positive-even-integers/description/) | 从小到大累加，加上最后一个数后超过了finalNum，一定可以从前面删去一个数 来得到finalNum | [我的提交](https://leetcode.cn/problems/maximum-split-of-positive-even-integers/submissions/499241015/) |
 
 > 3> 适当更改题目条件，满足规律
 >
