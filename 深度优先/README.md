@@ -22,6 +22,7 @@
 | [2376. 统计特殊整数](https://leetcode.cn/problems/count-special-integers/description/) | 使用一个mark，第i位标记i是否被使用，从而压缩状态         | [我的提交](https://leetcode.cn/problems/count-special-integers/submissions/473515507/) |
 | [60. 排列序列](https://leetcode.cn/problems/permutation-sequence/description/) | 从左到右递归累计排名                          | [我的提交](https://leetcode.cn/problems/permutation-sequence/submissions/485525438/) |
 | [233. 数字 1 的个数](https://leetcode.cn/problems/number-of-digit-one/description/) | 使用 +(-)pos*10 + pre1sum 作为key存储中间结果 | [我的提交](https://leetcode.cn/problems/number-of-digit-one/submissions/487833449/) |
+| [600. 不含连续1的非负整数](https://leetcode.cn/problems/non-negative-integers-without-consecutive-ones/description/) | 只要不限制数字的长度 就可以无视前导0 直接dfs           | [我的提交](https://leetcode.cn/problems/non-negative-integers-without-consecutive-ones/submissions/499424741/) |
 
 > 2> 前序、中序、后序遍历，二叉搜索树
 >
