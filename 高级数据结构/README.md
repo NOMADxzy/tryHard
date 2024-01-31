@@ -18,12 +18,15 @@
 
 
 > 2> [树状数组](https://zhuanlan.zhihu.com/p/546893960)
+> ①普通
+> ②离散化
 >
-| 题目                                                                        | 说明  | 实现                                                                            |
-|---------------------------------------------------------------------------|-----|-------------------------------------------------------------------------------|
-| [315. 计算右侧小于当前元素的个数](https://leetcode.cn/problems/count-of-smaller-numbers-after-self/) | 前缀和 | [我的提交](https://leetcode.cn/problems/count-of-smaller-numbers-after-self/submissions/488075059/) |
-| [2250. 统计包含每个点的矩形数目](https://leetcode.cn/problems/count-number-of-rectangles-containing-each-point/description/) | 前缀和 | [我的提交](https://leetcode.cn/problems/count-number-of-rectangles-containing-each-point/submissions/469494008/) |
-| [775. 全局倒置与局部倒置](https://leetcode.cn/problems/global-and-local-inversions/description/) | 前缀和 | [我的提交](https://leetcode.cn/problems/global-and-local-inversions/submissions/490980495/) |
+| 题目                                                                        | 说明                                            | 实现                                                                            |
+|---------------------------------------------------------------------------|-----------------------------------------------|-------------------------------------------------------------------------------|
+| [315. 计算右侧小于当前元素的个数](https://leetcode.cn/problems/count-of-smaller-numbers-after-self/) | 前缀和                                           | [我的提交](https://leetcode.cn/problems/count-of-smaller-numbers-after-self/submissions/488075059/) |
+| [2250. 统计包含每个点的矩形数目](https://leetcode.cn/problems/count-number-of-rectangles-containing-each-point/description/) | 前缀和                                           | [我的提交](https://leetcode.cn/problems/count-number-of-rectangles-containing-each-point/submissions/469494008/) |
+| [775. 全局倒置与局部倒置](https://leetcode.cn/problems/global-and-local-inversions/description/) | 前缀和                                           | [我的提交](https://leetcode.cn/problems/global-and-local-inversions/submissions/490980495/) |
+| [327. 区间和的个数](https://leetcode.cn/problems/count-of-range-sum/description/) | 记录前缀和，每个i结尾的合法区间数 = 特定区间内前缀和的的数目，数据太大所以预处理离散化 | [我的提交](https://leetcode.cn/problems/count-of-range-sum/submissions/499683923/) |
 
 > 3> [跳表](https://zhuanlan.zhihu.com/p/637407262?utm_id=0)
 
