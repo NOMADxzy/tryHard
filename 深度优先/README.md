@@ -41,6 +41,7 @@
 | 题目                                                                   | 说明                                      | 实现                                                                            |
 |----------------------------------------------------------------------|-----------------------------------------|-------------------------------------------------------------------------------|
 | [282. 给表达式添加运算符](https://leetcode.cn/problems/expression-add-operators/description/) | 分解当前val +- 后续val = target，val再分解为含有多少个* | [我的提交](https://leetcode.cn/problems/expression-add-operators/submissions/487984888/) |
+| [224. 基本计算器](https://leetcode.cn/problems/basic-calculator/description/) | 用栈预处理获取每个左括号对应右位置，然后 每轮读取 一符号+一数值       | [我的提交](https://leetcode.cn/problems/basic-calculator/submissions/499661657/) |
 
 
 > 4> 去重
