@@ -58,12 +58,13 @@
 
 > 6> 搜索所有答案（求最优值）剪枝
 >
-| 题目                                                                   | 说明                             | 实现                                                                            |
-|----------------------------------------------------------------------|--------------------------------|-------------------------------------------------------------------------------|
-| [421. 数组中两个数的最大异或值](https://leetcode.cn/problems/maximum-xor-of-two-numbers-in-an-array/description/) | 根据二进制建立二叉树                     | [我的提交](https://leetcode.cn/problems/maximum-xor-of-two-numbers-in-an-array/submissions/469824077/) |
-| [789. 逃脱阻碍者](https://leetcode.cn/problems/escape-the-ghosts/description/) | 想像成阻碍者能否在吃豆人到达某一位置前到达某一位置，能则剪枝 | [我的提交](https://leetcode.cn/problems/escape-the-ghosts/submissions/490546599/) |
-| [1593. 拆分字符串使唯一子字符串的数目最大](https://leetcode.cn/problems/split-a-string-into-the-max-number-of-unique-substrings/description/) | 剩余能达到的最大数量小于已有最优数量，则剪枝         | [我的提交](https://leetcode.cn/problems/split-a-string-into-the-max-number-of-unique-substrings/submissions/493840857/) |
-| [1901. 寻找峰值 II](https://leetcode.cn/problems/find-a-peak-element-ii/description/) | 每次都向周围4个中最大的移动                 | [我的提交](https://leetcode.cn/problems/find-a-peak-element-ii/submissions/495909101/) |
+| 题目                                                                   | 说明                                                                  | 实现                                                                            |
+|----------------------------------------------------------------------|---------------------------------------------------------------------|-------------------------------------------------------------------------------|
+| [421. 数组中两个数的最大异或值](https://leetcode.cn/problems/maximum-xor-of-two-numbers-in-an-array/description/) | 根据二进制建立二叉树                                                          | [我的提交](https://leetcode.cn/problems/maximum-xor-of-two-numbers-in-an-array/submissions/469824077/) |
+| [789. 逃脱阻碍者](https://leetcode.cn/problems/escape-the-ghosts/description/) | 想像成阻碍者能否在吃豆人到达某一位置前到达某一位置，能则剪枝                                      | [我的提交](https://leetcode.cn/problems/escape-the-ghosts/submissions/490546599/) |
+| [1593. 拆分字符串使唯一子字符串的数目最大](https://leetcode.cn/problems/split-a-string-into-the-max-number-of-unique-substrings/description/) | 剩余能达到的最大数量小于已有最优数量，则剪枝                                              | [我的提交](https://leetcode.cn/problems/split-a-string-into-the-max-number-of-unique-substrings/submissions/493840857/) |
+| [1901. 寻找峰值 II](https://leetcode.cn/problems/find-a-peak-element-ii/description/) | 每次都向周围4个中最大的移动                                                      | [我的提交](https://leetcode.cn/problems/find-a-peak-element-ii/submissions/495909101/) |
+| [691. 贴纸拼词](https://leetcode.cn/problems/stickers-to-spell-word/description/) | state记录每个字母剩余个数，选择一个可以使state减小的word，dfs(state) = 1 + dfs(nextState) | [我的提交](https://leetcode.cn/problems/stickers-to-spell-word/submissions/499690857/) |
 
 
 > 7> 预处理条件，简化递归过程
