@@ -65,6 +65,7 @@
 | [1593. 拆分字符串使唯一子字符串的数目最大](https://leetcode.cn/problems/split-a-string-into-the-max-number-of-unique-substrings/description/) | 剩余能达到的最大数量小于已有最优数量，则剪枝                                              | [我的提交](https://leetcode.cn/problems/split-a-string-into-the-max-number-of-unique-substrings/submissions/493840857/) |
 | [1901. 寻找峰值 II](https://leetcode.cn/problems/find-a-peak-element-ii/description/) | 每次都向周围4个中最大的移动                                                      | [我的提交](https://leetcode.cn/problems/find-a-peak-element-ii/submissions/495909101/) |
 | [691. 贴纸拼词](https://leetcode.cn/problems/stickers-to-spell-word/description/) | state记录每个字母剩余个数，选择一个可以使state减小的word，dfs(state) = 1 + dfs(nextState) | [我的提交](https://leetcode.cn/problems/stickers-to-spell-word/submissions/499690857/) |
+| [514. 自由之路](https://leetcode.cn/problems/freedom-trail/description/) | 缓存 （ring位置，key位置）进行状态压缩，预处理记录每个字符出现的位置列表                            | [我的提交](https://leetcode.cn/problems/freedom-trail/submissions/499875669/) |
 
 
 > 7> 预处理条件，简化递归过程
