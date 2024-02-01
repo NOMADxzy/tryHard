@@ -41,14 +41,15 @@ for left<right{
 
 > 1> 有时不能一眼看出来，需要提炼有序部分
 > 
-| 题目                                                                                                                         | 说明                                          | 实现                                                                            |
-|----------------------------------------------------------------------------------------------------------------------------|---------------------------------------------|-------------------------------------------------------------------------------|
-| [792. 匹配子序列的单词数](https://leetcode.cn/problems/number-of-matching-subsequences/description/)                                | 记录26个字母分别在s中从前到后出现的位置                       | [我的提交](https://leetcode.cn/problems/number-of-matching-subsequences/submissions/474655365/) |
+| 题目                                                                                                                  | 说明                                          | 实现                                                                            |
+|---------------------------------------------------------------------------------------------------------------------|---------------------------------------------|-------------------------------------------------------------------------------|
+| [792. 匹配子序列的单词数](https://leetcode.cn/problems/number-of-matching-subsequences/description/)                         | 记录26个字母分别在s中从前到后出现的位置                       | [我的提交](https://leetcode.cn/problems/number-of-matching-subsequences/submissions/474655365/) |
 | [1477. 找两个和为目标值且不重叠的子数组](https://leetcode.cn/problems/find-two-non-overlapping-sub-arrays-each-with-target-sum/description/) | 因为元素都是>0, 所以前缀和是有序的，求每个位置结尾的子数组为target的长度   | [我的提交](https://leetcode.cn/problems/find-two-non-overlapping-sub-arrays-each-with-target-sum/submissions/477743362/) |
-| [1838. 最高频元素的频数](https://leetcode.cn/problems/frequency-of-the-most-frequent-element/description/)                         | 排序，要变成i元素的区间的左边界越小，对应的k越大，从而探索最大左边界         | [我的提交](https://leetcode.cn/problems/frequency-of-the-most-frequent-element/submissions/480483834/) |
-| [483. 最小好进制](https://leetcode.cn/problems/smallest-good-base/description/)                                                 | 1的位数固定时，表示的值随着进制的增大而增大，从64到2取位数，二分查找进制判断可行性 | [我的提交](https://leetcode.cn/problems/smallest-good-base/submissions/489297643/) |
-| [962. 最大宽度坡](https://leetcode.cn/problems/maximum-width-ramp/description/)                                                 | 数组某一位置右边的最大值从左到右单调递减，只需找出最靠右的大于i位置值的点即为右边界  | [我的提交](https://leetcode.cn/problems/maximum-width-ramp/submissions/490971362/) |
-| [1818. 绝对差值和](https://leetcode.cn/problems/minimum-absolute-sum-difference/description/)          | 排序数组1，对nums2每个元素，二分查找最接近的                   | [我的提交](https://leetcode.cn/problems/minimum-absolute-sum-difference/submissions/495182974/) |
+| [1838. 最高频元素的频数](https://leetcode.cn/problems/frequency-of-the-most-frequent-element/description/)                  | 排序，要变成i元素的区间的左边界越小，对应的k越大，从而探索最大左边界         | [我的提交](https://leetcode.cn/problems/frequency-of-the-most-frequent-element/submissions/480483834/) |
+| [483. 最小好进制](https://leetcode.cn/problems/smallest-good-base/description/)                                          | 1的位数固定时，表示的值随着进制的增大而增大，从64到2取位数，二分查找进制判断可行性 | [我的提交](https://leetcode.cn/problems/smallest-good-base/submissions/489297643/) |
+| [962. 最大宽度坡](https://leetcode.cn/problems/maximum-width-ramp/description/)                                          | 数组某一位置右边的最大值从左到右单调递减，只需找出最靠右的大于i位置值的点即为右边界  | [我的提交](https://leetcode.cn/problems/maximum-width-ramp/submissions/490971362/) |
+| [1818. 绝对差值和](https://leetcode.cn/problems/minimum-absolute-sum-difference/description/)    | 排序数组1，对nums2每个元素，二分查找最接近的                   | [我的提交](https://leetcode.cn/problems/minimum-absolute-sum-difference/submissions/495182974/) |
+| [2517. 礼盒的最大甜蜜度](https://leetcode.cn/problems/maximum-tastiness-of-candy-basket/description/)          | 排序数组，记录前i个中取m个的最大甜蜜度，二分查找最优                 | [我的提交](https://leetcode.cn/problems/maximum-tastiness-of-candy-basket/submissions/499949047/) |
 
 > 2> 答案为固定数值时，可以直接对答案进行二分查找
 >
