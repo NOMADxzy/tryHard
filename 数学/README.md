@@ -88,9 +88,10 @@
 
 > 10> 异或运算：可以任意调换顺序、任何数异或0都是本身、任何数异或本身都是0
 >
-| 题目                                                              | 说明                      | 实现                                                                            |
-|-----------------------------------------------------------------|-------------------------|-------------------------------------------------------------------------------|
-| [2425. 所有数对的异或和](https://leetcode.cn/problems/bitwise-xor-of-all-pairings/description/) | 对方长度是偶数则最终表达式中有本数组的所有元素 | [我的提交](https://leetcode.cn/problems/bitwise-xor-of-all-pairings/submissions/500083980/) |
+| 题目                                                         | 说明                          | 实现                                                                            |
+|------------------------------------------------------------|-----------------------------|-------------------------------------------------------------------------------|
+| [2425. 所有数对的异或和](https://leetcode.cn/problems/bitwise-xor-of-all-pairings/description/) | 对方长度是偶数则最终表达式中有本数组的所有元素     | [我的提交](https://leetcode.cn/problems/bitwise-xor-of-all-pairings/submissions/500083980/) |
+| [2429. 最小异或](https://leetcode.cn/problems/minimize-xor/description/) | 从低到高依次填1，如果预算超过就填1，预算不足就不填1 | [我的提交](https://leetcode.cn/problems/minimize-xor/submissions/500106752/) |
 
 
 ### 3. 更多练习
