@@ -68,6 +68,7 @@
 | [467. 环绕字符串中唯一的子字符串](https://leetcode.cn/problems/unique-substrings-in-wraparound-string/description/) | 针对26个字母分类巧妙去重                                                     | [我的题解](https://leetcode.cn/problems/unique-substrings-in-wraparound-string/solutions/2481172/ji-lu-26ge-zi-mu-jie-wei-de-zi-chuan-de-4v1uf/) |
 | [2008. 出租车的最大盈利](https://leetcode.cn/problems/maximum-earnings-from-taxi/description/) | 根据到达地点从小到大排序                                                      | [我的题解](https://leetcode.cn/problems/maximum-earnings-from-taxi/submissions/480784919/) |
 | [940. 不同的子序列 II](https://leetcode.cn/problems/distinct-subsequences-ii/description/) | 记录26个字母最后出现的位置，探索每个字符结尾的序列数目，不关心它们之间的重复，最终答案是26个字母最后出现位置的结尾序列数目之和 | [我的题解](https://leetcode.cn/problems/distinct-subsequences-ii/submissions/490743658/) |
+| [2405. 子字符串的最优划分](https://leetcode.cn/problems/optimal-partition-of-string/description/) | 记录26个字母倒数第二次出现的位置，每次取26个位置中最大的那个后面可以划分为一个                 | [我的题解](https://leetcode.cn/problems/optimal-partition-of-string/submissions/500110429/) |
 
 > 5> 区间类型的动态规划
 >
