@@ -166,10 +166,11 @@
 
 > 14> 线性dp
 >
-| 题目                                                                   | 说明                                | 实现                                                                            |
-|----------------------------------------------------------------------|-----------------------------------|-------------------------------------------------------------------------------|
-| [1269. 停在原地的方案数](https://leetcode.cn/problems/number-of-ways-to-stay-in-the-same-place-after-some-steps/description/) | 记录各个位置的方案数，当前位置方案由上一位置+-1/不变转换来   | [我的提交](https://leetcode.cn/problems/number-of-ways-to-stay-in-the-same-place-after-some-steps/submissions/492664290/) |
-| [1449. 数位成本和为目标值的最大数字](https://leetcode.cn/problems/form-largest-integer-with-digits-that-add-up-to-target/description/) | 记录各个target的最大字符串，当前位置方案由上一位置+v转换来 | [我的提交](https://leetcode.cn/problems/form-largest-integer-with-digits-that-add-up-to-target/submissions/493441227/) |
+| 题目                                                                   | 说明                                                              | 实现                                                                            |
+|----------------------------------------------------------------------|-----------------------------------------------------------------|-------------------------------------------------------------------------------|
+| [1269. 停在原地的方案数](https://leetcode.cn/problems/number-of-ways-to-stay-in-the-same-place-after-some-steps/description/) | 记录各个位置的方案数，当前位置方案由上一位置+-1/不变转换来                                 | [我的提交](https://leetcode.cn/problems/number-of-ways-to-stay-in-the-same-place-after-some-steps/submissions/492664290/) |
+| [1449. 数位成本和为目标值的最大数字](https://leetcode.cn/problems/form-largest-integer-with-digits-that-add-up-to-target/description/) | 记录各个target的最大字符串，当前位置方案由上一位置+v转换来                               | [我的提交](https://leetcode.cn/problems/form-largest-integer-with-digits-that-add-up-to-target/submissions/493441227/) |
+| [2400. 恰好移动 k 步到达某一位置的方法数目](https://leetcode.cn/problems/number-of-ways-to-reach-a-position-after-exactly-k-steps/description/) | 线性dp，只需记录离终点距离k以内的数组（长度2k+1），不断减小k，newDp[i] = dp[i-1] + dp[i+1] | [我的提交](https://leetcode.cn/problems/number-of-ways-to-reach-a-position-after-exactly-k-steps/submissions/500260296/) |
 
 > 14> 数型dp
 >
