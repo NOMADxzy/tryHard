@@ -24,13 +24,16 @@
 | [1734. 解码异或后的排列](https://leetcode.cn/problems/decode-xored-permutation/description/) | 偶数和其加1值的异或结果为1，故题中所有数异或结果为1或0，给第一个数初值0，求出所有后续的数，再将所有数都异或真实firstVal | [我的提交](https://leetcode.cn/problems/decode-xored-permutation/submissions/494590270/) |
 
 
-> 2> 素数查找，最小堆，多路归并
+> 2> 素数查找，最小堆
+> ①埃筛法
+> ②多路归并
 >
-| 题目                                                                          | 说明                          | 实现                                                                            |
-|-----------------------------------------------------------------------------|-----------------------------|-------------------------------------------------------------------------------|
-| [313. 超级丑数](https://leetcode.cn/problems/super-ugly-number/description/) | 所有丑数由已有丑数 * 素数列表诞生，从小到大多路归并 | [我的提交](https://leetcode.cn/problems/super-ugly-number/submissions/468697927/) |
-| [786. 第 K 个最小的素数分数](https://leetcode.cn/problems/k-th-smallest-prime-fraction/) | 所有丑数由已有丑数 * 素数列表诞生，从小到大多路归并 | [我的提交](https://leetcode.cn/problems/k-th-smallest-prime-fraction/submissions/468733547/) |
-| [1508. 子数组和排序后的区间和](https://leetcode.cn/problems/range-sum-of-sorted-subarray-sums/description/) | 多路归并递增产生区间和                 | [我的提交](https://leetcode.cn/problems/range-sum-of-sorted-subarray-sums/submissions/468741186/) |
+| 题目                                                                 | 说明                                                   | 实现                                                                            |
+|--------------------------------------------------------------------|------------------------------------------------------|-------------------------------------------------------------------------------|
+| [313. 超级丑数](https://leetcode.cn/problems/super-ugly-number/description/) | 所有丑数由已有丑数 * 素数列表诞生，从小到大多路归并                          | [我的提交](https://leetcode.cn/problems/super-ugly-number/submissions/468697927/) |
+| [786. 第 K 个最小的素数分数](https://leetcode.cn/problems/k-th-smallest-prime-fraction/) | 所有丑数由已有丑数 * 素数列表诞生，从小到大多路归并                          | [我的提交](https://leetcode.cn/problems/k-th-smallest-prime-fraction/submissions/468733547/) |
+| [1447. 最简分数](https://leetcode.cn/problems/simplified-fractions/description/) | 思想（多个非最简分数都对应前面一个最简分数）x/y，从小到大每找到一个最简就将所有的i*x/i*y给标记 | [我的提交](https://leetcode.cn/problems/simplified-fractions/submissions/500359700/) |
+| [1508. 子数组和排序后的区间和](https://leetcode.cn/problems/range-sum-of-sorted-subarray-sums/description/) | 多路归并递增产生区间和                                          | [我的提交](https://leetcode.cn/problems/range-sum-of-sorted-subarray-sums/submissions/468741186/) |
 
 > 3> 汉明距离，每个维度的汉明距离相互独立
 >
