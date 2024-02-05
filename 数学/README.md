@@ -44,10 +44,11 @@
 
 > 4> 最大公约数，最小公倍数，辗转相除法
 >
-| 题目                                                                          | 说明                               | 实现                                                                            |
-|-----------------------------------------------------------------------------|----------------------------------|-------------------------------------------------------------------------------|
-| [592. 分数加减运算](https://leetcode.cn/problems/fraction-addition-and-subtraction/description/) | a,b 的最小公倍数 = a * b / (a,b的最大公约数) | [我的提交](https://leetcode.cn/problems/fraction-addition-and-subtraction/submissions/489696067/) |
-| [1806. 还原排列的最少操作步数](https://leetcode.cn/problems/minimum-number-of-operations-to-reinitialize-a-permutation/description/) | a,b 的最小公倍数 = a * b / (a,b的最大公约数) | [我的提交](https://leetcode.cn/problems/minimum-number-of-operations-to-reinitialize-a-permutation/submissions/495170590/) |
+| 题目                                                                          | 说明                                  | 实现                                                                            |
+|-----------------------------------------------------------------------------|-------------------------------------|-------------------------------------------------------------------------------|
+| [592. 分数加减运算](https://leetcode.cn/problems/fraction-addition-and-subtraction/description/) | a,b 的最小公倍数 = a * b / (a,b的最大公约数)    | [我的提交](https://leetcode.cn/problems/fraction-addition-and-subtraction/submissions/489696067/) |
+| [1806. 还原排列的最少操作步数](https://leetcode.cn/problems/minimum-number-of-operations-to-reinitialize-a-permutation/description/) | a,b 的最小公倍数 = a * b / (a,b的最大公约数)    | [我的提交](https://leetcode.cn/problems/minimum-number-of-operations-to-reinitialize-a-permutation/submissions/495170590/) |
+| [2001. 可互换矩形的组数](https://leetcode.cn/problems/number-of-pairs-of-interchangeable-rectangles/description/) | 可替换的矩形，对应着唯一的最简比例，即组合计数问题，采用用容斥定理解决 | [我的提交](https://leetcode.cn/problems/number-of-pairs-of-interchangeable-rectangles/submissions/500720933/) |
 
 > 5> 几何图形问题
 >
