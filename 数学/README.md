@@ -91,13 +91,14 @@
 | 题目                                                              | 说明                                                | 实现                                                                            |
 |-----------------------------------------------------------------|---------------------------------------------------|-------------------------------------------------------------------------------|
 | [1798. 你能构造出连续值的最大数目](https://leetcode.cn/problems/maximum-number-of-consecutive-values-you-can-make/description/) | 贪心的从小到大排序，归纳法：初始{0}连续， 前i个的和连续 -> 前i+1和也连续，否则终止循环 | [我的提交](https://leetcode.cn/problems/maximum-number-of-consecutive-values-you-can-make/submissions/495128436/) |
+| [1798. 你能构造出连续值的最大数目](https://leetcode.cn/problems/number-of-ways-to-buy-pens-and-pencils/description/) | 贪心的从小到大排序，归纳法：初始{0}连续， 前i个的和连续 -> 前i+1和也连续，否则终止循环 | [我的提交](https://leetcode.cn/problems/maximum-number-of-consecutive-values-you-can-make/submissions/495128436/) |
 
 > 10> 异或运算：可以任意调换顺序、任何数异或0都是本身、任何数异或本身都是0
 >
-| 题目                                                         | 说明                          | 实现                                                                            |
-|------------------------------------------------------------|-----------------------------|-------------------------------------------------------------------------------|
-| [2425. 所有数对的异或和](https://leetcode.cn/problems/bitwise-xor-of-all-pairings/description/) | 对方长度是偶数则最终表达式中有本数组的所有元素     | [我的提交](https://leetcode.cn/problems/bitwise-xor-of-all-pairings/submissions/500083980/) |
-| [2429. 最小异或](https://leetcode.cn/problems/minimize-xor/description/) | 从低到高依次填1，如果预算超过就填1，预算不足就不填1 | [我的提交](https://leetcode.cn/problems/minimize-xor/submissions/500106752/) |
+| 题目                                                         | 说明                                         | 实现                                                                            |
+|------------------------------------------------------------|--------------------------------------------|-------------------------------------------------------------------------------|
+| [2425. 所有数对的异或和](https://leetcode.cn/problems/bitwise-xor-of-all-pairings/description/) | 对方长度是偶数则最终表达式中有本数组的所有元素                    | [我的提交](https://leetcode.cn/problems/bitwise-xor-of-all-pairings/submissions/500083980/) |
+| [2240. 买钢笔和铅笔的方案数](https://leetcode.cn/problems/minimize-xor/description/) | 依次选择各个item，dp[i]表示 有i数量钱时购买任意数量前k个item的方案数 | [我的提交](https://leetcode.cn/problems/number-of-ways-to-buy-pens-and-pencils/submissions/500810358/) |
 
 
 ### 3. 更多练习
