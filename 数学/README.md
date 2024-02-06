@@ -100,6 +100,12 @@
 | [2425. 所有数对的异或和](https://leetcode.cn/problems/bitwise-xor-of-all-pairings/description/) | 对方长度是偶数则最终表达式中有本数组的所有元素                    | [我的提交](https://leetcode.cn/problems/bitwise-xor-of-all-pairings/submissions/500083980/) |
 | [2240. 买钢笔和铅笔的方案数](https://leetcode.cn/problems/minimize-xor/description/) | 依次选择各个item，dp[i]表示 有i数量钱时购买任意数量前k个item的方案数 | [我的提交](https://leetcode.cn/problems/number-of-ways-to-buy-pens-and-pencils/submissions/500810358/) |
 
+> 11> 分类讨论
+>
+| 题目                                                         | 说明                                | 实现                                                                            |
+|------------------------------------------------------------|-----------------------------------|-------------------------------------------------------------------------------|
+| [2249. 统计圆内格点数目](https://leetcode.cn/problems/count-lattice-points-inside-a-circle/description/) | 按每行分类，将每个圆在所有行上的截距添加到对应列表中，最后统一处理 | [我的提交](https://leetcode.cn/problems/count-lattice-points-inside-a-circle/submissions/501024130/) |
+
 
 ### 3. 更多练习
 
