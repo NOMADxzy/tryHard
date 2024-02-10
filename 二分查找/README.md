@@ -162,3 +162,4 @@ for left<right{
 1. 大部分参考自：[写对二分查找不是套模板并往里面填空，需要仔细分析题意](https://leetcode.cn/problems/search-insert-position/solution/te-bie-hao-yong-de-er-fen-cha-fa-fa-mo-ban-python-/)
 2. 另模板1参考自：[代码随想录](https://leetcode.cn/problems/search-insert-position/solution/by-carlsun-2-2dlr/)
 3. 另模板2参考自：[图解二分](https://leetcode.cn/problems/find-first-and-last-position-of-element-in-sorted-array/solution/tu-jie-er-fen-zui-qing-xi-yi-dong-de-jia-ddvc/)
+4. 总库：[tryHard](https://github.com/NOMADxzy/tryHard)
