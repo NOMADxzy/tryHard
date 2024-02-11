@@ -1,11 +1,13 @@
 package main
 
+import "fmt"
+
 type ListNode struct {
 	Val  int
 	Next *ListNode
 }
 
-func reorderList(head *ListNode) {
+func reorderList1(head *ListNode) {
 	if head == nil {
 		return
 	}
@@ -26,18 +28,29 @@ func reorderList(head *ListNode) {
 	nodes[i].Next = nil
 }
 
-//func reorderList1(head *ListNode) {
-//	var changeNext func(head *ListNode, last bool) *ListNode
-//	h1 := &ListNode{0,nil}
-//	h2 := &ListNode{0,nil}
-//	isFirst := true
-//	for p := head; p != nil ; p=p.Next {
-//		if isFirst{
-//			h1.Next =
-//		}
-//	}
-//}
-//
-//func main() {
-//	fmt.Println(reorderList())
-//}
+func reorderList(head *ListNode) {
+	pre := map[*ListNode]*ListNode{}
+	var p *ListNode
+	for p = head; p.Next != nil; p = p.Next {
+		pre[p.Next] = p
+	}
+	var dfs func(l, r *ListNode) *ListNode
+	dfs = func(l, r *ListNode) *ListNode {
+		if l == r || l.Next == r {
+			r.Next = nil
+			return l
+		}
+		nextL := l.Next
+		l.Next = r
+		nextNode := dfs(nextL, pre[r])
+		r.Next = nextNode
+		return l
+	}
+	dfs(head, p)
+}
+
+func main() {
+	head := &ListNode{1, &ListNode{2, &ListNode{3, nil}}}
+	reorderList(head)
+	fmt.Println(head)
+}
