@@ -38,10 +38,11 @@
 
 > 3> 递归分解问题
 >
-| 题目                                                                   | 说明                                      | 实现                                                                            |
-|----------------------------------------------------------------------|-----------------------------------------|-------------------------------------------------------------------------------|
-| [282. 给表达式添加运算符](https://leetcode.cn/problems/expression-add-operators/description/) | 分解当前val +- 后续val = target，val再分解为含有多少个* | [我的提交](https://leetcode.cn/problems/expression-add-operators/submissions/487984888/) |
-| [224. 基本计算器](https://leetcode.cn/problems/basic-calculator/description/) | 用栈预处理获取每个左括号对应右位置，然后 每轮读取 一符号+一数值       | [我的提交](https://leetcode.cn/problems/basic-calculator/submissions/499661657/) |
+| 题目                                                                   | 说明                                          | 实现                                                                            |
+|----------------------------------------------------------------------|---------------------------------------------|-------------------------------------------------------------------------------|
+| [282. 给表达式添加运算符](https://leetcode.cn/problems/expression-add-operators/description/) | 分解当前val +- 后续val = target，val再分解为含有多少个*     | [我的提交](https://leetcode.cn/problems/expression-add-operators/submissions/487984888/) |
+| [224. 基本计算器](https://leetcode.cn/problems/basic-calculator/description/) | 用栈预处理获取每个左括号对应右位置，然后 每轮读取 一符号+一数值           | [我的提交](https://leetcode.cn/problems/basic-calculator/submissions/499661657/) |
+| [761. 特殊的二进制序列](https://leetcode.cn/problems/special-binary-string/description/) | 特殊串一定是1***0这种形式，相邻交换即冒泡排序，且特殊串的所有特殊字串一定是相邻的 | [我的提交](https://leetcode.cn/problems/special-binary-string/submissions/501935866/) |
 
 
 > 4> 去重

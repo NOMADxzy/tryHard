@@ -105,7 +105,7 @@ type Trie struct {
 |-------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------|
 | [899. 有序队列](https://leetcode.cn/problems/orderly-queue/description/) | k>2时一定能使s有序，[参考](https://leetcode.cn/problems/orderly-queue/solutions/1717847/you-xu-dui-lie-by-capital-worker-p1oz/) | [我的提交](https://leetcode.cn/problems/orderly-queue/submissions/491207673/) |
 | [1535. 找出数组游戏的赢家](https://leetcode.cn/problems/find-the-winner-of-an-array-game/description/) | 等价于冒泡排序  | [我的提交](https://leetcode.cn/problems/find-the-winner-of-an-array-game/submissions/493729970/) |
-
+| [761. 特殊的二进制序列](https://leetcode.cn/problems/special-binary-string/description/) | 特殊串一定是1***0这种形式，相邻交换即冒泡排序，且特殊串的所有特殊字串一定是相邻的 | [我的提交](https://leetcode.cn/problems/special-binary-string/submissions/501935866/) |
 
 ### 3. 更多练习
 

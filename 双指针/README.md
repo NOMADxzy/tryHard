@@ -78,3 +78,4 @@
 
 ### 4. 参考
 1. [基础算法-双指针算法](https://blog.csdn.net/weixin_45891612/article/details/127993189) 
+2. 总库：[tryHard](https://github.com/NOMADxzy/tryHard)
