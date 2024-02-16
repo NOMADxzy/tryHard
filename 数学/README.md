@@ -28,13 +28,14 @@
 > ①埃筛法
 > ②多路归并
 >
-| 题目                                                                 | 说明                                                  | 实现                                                                            |
-|--------------------------------------------------------------------|-----------------------------------------------------|-------------------------------------------------------------------------------|
-| [313. 超级丑数](https://leetcode.cn/problems/super-ugly-number/description/) | 所有丑数由已有丑数 * 素数列表诞生，从小到大多路归并                         | [我的提交](https://leetcode.cn/problems/super-ugly-number/submissions/468697927/) |
-| [786. 第 K 个最小的素数分数](https://leetcode.cn/problems/k-th-smallest-prime-fraction/) | 所有丑数由已有丑数 * 素数列表诞生，从小到大多路归并                         | [我的提交](https://leetcode.cn/problems/k-th-smallest-prime-fraction/submissions/468733547/) |
-| [1390. 四因数](https://leetcode.cn/problems/four-divisors/description/) | num有4个因数 等价于 num = x*y 其中x是素数，且y是素数或y=x*x           | [我的提交](https://leetcode.cn/problems/four-divisors/submissions/500598218/) |
+| 题目                                                                 | 说明                                                   | 实现                                                                            |
+|--------------------------------------------------------------------|------------------------------------------------------|-------------------------------------------------------------------------------|
+| [313. 超级丑数](https://leetcode.cn/problems/super-ugly-number/description/) | 所有丑数由已有丑数 * 素数列表诞生，从小到大多路归并                          | [我的提交](https://leetcode.cn/problems/super-ugly-number/submissions/468697927/) |
+| [786. 第 K 个最小的素数分数](https://leetcode.cn/problems/k-th-smallest-prime-fraction/) | 所有丑数由已有丑数 * 素数列表诞生，从小到大多路归并                          | [我的提交](https://leetcode.cn/problems/k-th-smallest-prime-fraction/submissions/468733547/) |
+| [1390. 四因数](https://leetcode.cn/problems/four-divisors/description/) | num有4个因数 等价于 num = x*y 其中x是素数，且y是素数或y=x*x            | [我的提交](https://leetcode.cn/problems/four-divisors/submissions/500598218/) |
 | [1447. 最简分数](https://leetcode.cn/problems/simplified-fractions/description/) | 思想（多个非最简分数都对应前面一个最简分数）x/y，从小到大每找到一个最简就将所有的i*x/i*y给标记 | [我的提交](https://leetcode.cn/problems/simplified-fractions/submissions/500359700/) |
-| [1508. 子数组和排序后的区间和](https://leetcode.cn/problems/range-sum-of-sorted-subarray-sums/description/) | 多路归并递增产生区间和                                         | [我的提交](https://leetcode.cn/problems/range-sum-of-sorted-subarray-sums/submissions/468741186/) |
+| [1508. 子数组和排序后的区间和](https://leetcode.cn/problems/range-sum-of-sorted-subarray-sums/description/) | 多路归并递增产生区间和                                          | [我的提交](https://leetcode.cn/problems/range-sum-of-sorted-subarray-sums/submissions/468741186/) |
+| [2523. 范围内最接近的两个质数](https://leetcode.cn/problems/closest-prime-numbers-in-range/description/) | 线性筛 更高效，数组、哈希表预分配空间降低耗时                              | [我的提交](https://leetcode.cn/problems/closest-prime-numbers-in-range/submissions/502400202/) |
 
 > 3> 汉明距离，每个维度的汉明距离相互独立
 >
