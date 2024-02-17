@@ -90,3 +90,4 @@ Hash 表的空间如果远远大于实际存储的记录数据的个数，则造
 
 ### 4. 参考
 1. [❤数据结构入门❤——哈希表](https://blog.csdn.net/bt_giegie/article/details/120572850) 
+2. 总库：[tryHard](https://github.com/NOMADxzy/tryHard)

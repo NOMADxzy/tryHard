@@ -2,12 +2,8 @@ package main
 
 import "fmt"
 
-func closestPrimes(left int, right int) []int {
-
-}
-
 // 埃筛 超时
-func closestPrimes1(left int, right int) []int {
+func closestPrimes(left int, right int) []int {
 	mark := [1e6 + 1]bool{}           // 预分配降低耗时 TODO
 	altoNums := make([]int, 0, 78500) // 降低耗时
 	pre := -1
