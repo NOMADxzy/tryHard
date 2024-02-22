@@ -84,3 +84,4 @@
 
 ### 4. 参考
 1. [贪心算法详解 ](https://mp.weixin.qq.com/s?__biz=MzU1NjEwMTY0Mw==&mid=2247551986&idx=1&sn=cf291ece55b4f6ef650e13f191cc189b&chksm=fbc87296ccbffb8068158832461e9dab75ee8f7b3a88aa015e709d593ca110ef135e456135d4&scene=27) 
+2. 总库：[tryHard](https://github.com/NOMADxzy/tryHard)
