@@ -113,3 +113,4 @@
 
 ### 4. 参考
 1. 大部分参考自：[算法基础——枚举](https://blog.csdn.net/weixin_45652283/article/details/131244459?utm_medium=distribute.pc_relevant.none-task-blog-2~default~baidujs_baidulandingword~default-1-131244459-blog-129442726.235^v38^pc_relevant_sort_base3&spm=1001.2101.3001.4242.2&utm_relevant_index=4) 
+2. 总库：[tryHard](https://github.com/NOMADxzy/tryHard)

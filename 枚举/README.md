@@ -23,7 +23,7 @@
 | 题目                                                                            | 说明                                                    | 实现                                                                            |
 |-------------------------------------------------------------------------------|-------------------------------------------------------|-------------------------------------------------------------------------------|
 | [1049. 最后一块石头的重量 II](https://leetcode.cn/problems/last-stone-weight-ii/description/) | 每块石头的重量在前面所有可能重量的基础上要么被加上要么被减去，枚举所有可能2^len(stones)种可能 | [我的提交](https://leetcode.cn/problems/last-stone-weight-ii/submissions/477223198/) |
-
+| [1986. 完成任务的最少工作时间段](https://leetcode.cn/problems/maximum-product-of-the-length-of-two-palindromic-subsequences/description) | 通过二进制数记录元素选择状况，state1 & state2 == 0 即不相交，枚举出所有的回文状态即可 | [我的提交](https://leetcode.cn/problems/maximum-product-of-the-length-of-two-palindromic-subsequences/submissions/504255231/) |
 
 > 2> 数组中选择任意个元素，2的m次方中可能，通过 排序，二分查找 优化算法
 >
