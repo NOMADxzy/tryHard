@@ -1,7 +1,7 @@
 ## 并查集
 
 ### 1. 概念
-![img.png](pics/img.png)
+![img.png](pics/bcj.png)
 并查集主要用于解决一些 元素分组 问题，通过以下操作管理一系列不相交的集合：
 
     合并（Union）：把两个不相交的集合合并成一个集合
@@ -10,8 +10,6 @@
 >具体实现方面，使用一个数组 parent 存储每个变量的 父节点信息（每个节点的连通分量信息），其中的每个元
 素表示当前变量所在的连通分量的父节点信息，如果父节点是自身，说明该变量为所在连通分量的根节点。初始化时
 所有变量的父节点都是它们自身
-> 
-![动图](pics/bcj.gif)
 
 ### 2. 解题技巧（我的总结）
 
@@ -60,3 +58,4 @@
 1. [使用并查集处理不相交集合问题（Java、Python）](https://leetcode.cn/problems/satisfiability-of-equality-equations/solution/shi-yong-bing-cha-ji-chu-li-bu-xiang-jiao-ji-he-we/)
 2. [「手画图解」手写UnionFind，并查集 不再畏惧](https://leetcode.cn/problems/satisfiability-of-equality-equations/solution/shou-hui-tu-jie-shou-xie-unionfind-bing-cha-ji-bu-/)
 3. [LC2503：两种写法：离线询问 + 并查集 / 最小堆（Python/Java/C++/Go）](https://leetcode.cn/problems/maximum-number-of-points-from-grid-queries/solution/by-endlesscheng-qeei/)
+4. 总库：[tryHard](https://github.com/NOMADxzy/tryHard)
