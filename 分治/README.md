@@ -55,3 +55,4 @@ step3 合并：将各个子问题的解合并为原问题的解。
 
 ### 4. 参考
 1. [五大常用算法——分治算法详解及经典例题](https://blog.csdn.net/qq_37763204/article/details/79519823) 
+2. 总库：[tryHard](https://github.com/NOMADxzy/tryHard)

@@ -36,3 +36,4 @@
 
 ### 4. 参考
 1. 大部分参考自：[前缀和算法](https://blog.csdn.net/m0_56069910/article/details/132743061) 
+2. 总库：[tryHard](https://github.com/NOMADxzy/tryHard)
