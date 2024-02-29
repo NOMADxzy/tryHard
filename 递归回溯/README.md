@@ -163,3 +163,4 @@ def backtrack(路径, 选择列表):
 - [回溯算法入门级详解 + 练习（持续更新）](https://leetcode.cn/problems/permutations/solution/hui-su-suan-fa-python-dai-ma-java-dai-ma-by-liweiw/)
 - [回溯算法套路①子集型回溯【基础算法精讲 14】](https://www.bilibili.com/video/BV1mG4y1A7Gu/?vd_source=286032bc2c5715c8b50b608028ce57df)
 - [经典回溯算法：集合划分问题「重要更新 🔥🔥🔥」](https://leetcode.cn/link/?target=https://lfool.github.io/LFool-Notes/algorithm/经典回溯算法：集合划分问题.html)
+- 总库：[tryHard](https://github.com/NOMADxzy/tryHard)
