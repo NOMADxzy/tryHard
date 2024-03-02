@@ -61,3 +61,4 @@ i, l := 1, 0
 
 ### 4. 参考
 1. [LeetCode（力扣）初级算法 字符串篇](https://blog.csdn.net/weixin_50803498/article/details/126528554) 
+2. 总库：[tryHard](https://github.com/NOMADxzy/tryHard)

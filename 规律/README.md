@@ -41,4 +41,4 @@
 [找规律](https://blog.csdn.net/qq_49723651/article/details/123485604)
 
 ### 4. 参考 
-1总库：[tryHard](https://github.com/NOMADxzy/tryHard)
+1. 总库：[tryHard](https://github.com/NOMADxzy/tryHard)
