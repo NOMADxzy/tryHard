@@ -1,11 +1,13 @@
-## 枚举
+## 深度优先算法
 
 ### 1. 概念
-数位DP其实就是一种优化之后的暴力枚举方法，有点类似于记忆化搜索。字面意思是就是在数位上进行DP枚举，对于数字的每一位进行枚举，通过相应的约束条件看这次枚举是否符合题意。
-
-对于有一类题型：给定闭区间 \[l, r\]，需要求出区间中满足某种条件的数的总数，这个区间如果比较大，是无法通过简单的暴力枚举解决的，这时候就需要使用数位DP加以优化，具体通过 [2376. 统计特殊整数](https://leetcode.cn/problems/count-special-integers/) 来理解一下，主要参考灵神的 [视频讲解](https://www.bilibili.com/video/BV1rS4y1s721/?vd_source=286032bc2c5715c8b50b608028ce57df)
 
 
+```markdown
+1、对每一个可能的分支路径深入到不能再深入为止，而且每个结点只能访问一次。要特别注意的是，二叉树的深度优先遍历比较特殊，可以细分为先序遍历、中序遍历、后序遍历（我们前面使用的是先序遍历）。
+2、不全部保留结点，占用空间少；有回溯操作(即有入栈、出栈操作)，运行速度慢。
+3、一般无回溯操作，即入栈和出栈的操作，所以运行速度比深度优先搜索要快些
+```
 
 
 ### 2. 解题技巧（我的总结）
@@ -96,3 +98,4 @@
 ### 4. 参考
 1. [数位DP学习整理——数位DP看完这篇你就会了 CSDN](https://blog.csdn.net/hzf0701/article/details/116717851)
 2. [数位 DP 通用模板，附题单（Python/Java/C++/Go）-- 0x3F](https://leetcode.cn/problems/count-special-integers/solution/shu-wei-dp-mo-ban-by-endlesscheng-xtgx/)
+3. 总库：[tryHard](https://github.com/NOMADxzy/tryHard)
