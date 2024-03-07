@@ -60,3 +60,4 @@
 
 ### 4. 参考
 1. [基础算法-链表](https://blog.csdn.net/sy2453/article/details/122571058) 
+2. 总库：[tryHard](https://github.com/NOMADxzy/tryHard)

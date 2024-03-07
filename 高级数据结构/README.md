@@ -147,4 +147,5 @@ LRU 是 Least Recently Used 的缩写，即最近最少使用，是一种常见�
 
 ### 4. 参考
 1. [哈夫曼树&哈夫曼编码](https://blog.csdn.net/m0_73042050/article/details/132637565)
-1. [B+树](https://juejin.cn/post/6929833495082565646?searchId=20240301221957FB5B4942920DC0A4744E)
+2. [B+树](https://juejin.cn/post/6929833495082565646?searchId=20240301221957FB5B4942920DC0A4744E)
+3. 总库：[tryHard](https://github.com/NOMADxzy/tryHard)
