@@ -44,17 +44,12 @@ i, l := 1, 0
 
 > 3> 字符串问题分类讨论
 >
-| 题目                                                                          | 说明                 | 实现                                                                            |
-|-----------------------------------------------------------------------------|--------------------|-------------------------------------------------------------------------------|
-| [809. 情感丰富的文字](https://leetcode.cn/problems/expressive-words/description/) | 使用双指针匹配，分类讨论所有情况   | [我的提交](https://leetcode.cn/problems/expressive-words/submissions/490440072/) |
-| [816. 模糊坐标](https://leetcode.cn/problems/ambiguous-coordinates/description/) | 分左右，分长度，再分首尾字母是否为0 | [我的提交](https://leetcode.cn/problems/ambiguous-coordinates/submissions/490614053/) |
-
-> 3> 字符串问题分类讨论
->
 | 题目                                                                          | 说明                              | 实现                                                                            |
 |-----------------------------------------------------------------------------|---------------------------------|-------------------------------------------------------------------------------|
+| [809. 情感丰富的文字](https://leetcode.cn/problems/expressive-words/description/) | 使用双指针匹配，分类讨论所有情况                | [我的提交](https://leetcode.cn/problems/expressive-words/submissions/490440072/) |
+| [816. 模糊坐标](https://leetcode.cn/problems/ambiguous-coordinates/description/) | 分左右，分长度，再分首尾字母是否为0              | [我的提交](https://leetcode.cn/problems/ambiguous-coordinates/submissions/490614053/) |
 | [955. 删列造序 II](https://leetcode.cn/problems/delete-columns-to-make-sorted-ii/) | 从左到右按列讨论，抽象成单个字符串的情形，使用所有字符串做限制 | [我的提交](https://leetcode.cn/problems/delete-columns-to-make-sorted-ii/submissions/490787364/) |
-
+| [2380. 二进制字符串重新安排顺序需要的时间](https://leetcode.cn/problems/time-needed-to-rearrange-a-binary-string/description/) | max(当前1到最终位置的距离，前一个1到最终位置的时间+1) | [我的提交](https://leetcode.cn/problems/time-needed-to-rearrange-a-binary-string/submissions/509767919/) |
 
 ### 3. 更多练习
 
