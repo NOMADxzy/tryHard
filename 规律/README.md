@@ -15,6 +15,7 @@
 | [649. Dota2 参议院](https://leetcode.cn/problems/dota2-senate/description/) | 题中每个议员最好表现 = 禁止后面最近的对方议员 或 禁止前面最远的对方议员 | [我的提交](https://leetcode.cn/problems/dota2-senate/submissions/489933502/) |
 | [1702. 修改后的最大二进制字符串](https://leetcode.cn/problems/maximum-binary-string-after-change/description/) | 10->01代表题中所有的1都可以全部移动到末尾，所有0都可以移动到开头   | [我的提交](https://leetcode.cn/problems/maximum-binary-string-after-change/submissions/494372983/) |
 | [1536. 排布二进制网格的最少交换次数](https://leetcode.cn/problems/minimum-swaps-to-arrange-a-binary-grid/description/) | 交换相邻两行 = 冒泡过程，贪心的先满足前面的                | [我的提交](https://leetcode.cn/problems/minimum-swaps-to-arrange-a-binary-grid/submissions/500288067/) |
+| [2434. 使用机器人打印字典序最小的字符串](https://leetcode.cn/problems/using-a-robot-to-print-the-lexicographically-smallest-string/description/) | 用一个栈存放缓冲区字符，只有后面没有更小的字符时才能从栈中pop出字符    | [我的提交](https://leetcode.cn/problems/using-a-robot-to-print-the-lexicographically-smallest-string/submissions/509947106/) |
 
 
 > 2> 迭代次数过多，寻找周期、规律
