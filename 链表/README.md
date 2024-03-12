@@ -52,7 +52,11 @@
 | [2095. 删除链表的中间节点](https://leetcode.cn/problems/delete-the-middle-node-of-a-linked-list/description/) | 参数中记录前面多少节点，返回值记录后面多少节点           | [我的提交](https://leetcode.cn/problems/delete-the-middle-node-of-a-linked-list/submissions/497799186/) |
 | [2816. 翻倍以链表形式表示的数字](https://leetcode.cn/problems/double-a-number-represented-as-a-linked-list/description/) | dfs修改下一结点，返回是否进位，最后不能漏掉可能新增头结点的情况 | [我的提交](https://leetcode.cn/problems/double-a-number-represented-as-a-linked-list/submissions/501212327/) |
 
-
+> 2> 链表中利用哈希表
+>
+| 题目                                                                        | 说明                                         | 实现                                                                            |
+|---------------------------------------------------------------------------|--------------------------------------------|-------------------------------------------------------------------------------|
+| [138. 随机链表的复制](https://leetcode.cn/problems/copy-list-with-random-pointer/description/?envType=study-plan-v2&envId=top-100-liked) | 哈希表记录节点的索引（原链表得到指向的索引），以及索引的节点（新链表得到指向的节点） | [我的提交](https://leetcode.cn/problems/copy-list-with-random-pointer/submissions/510983406/?envType=study-plan-v2&envId=top-100-liked) |
 
 
 ### 3. 更多练习
