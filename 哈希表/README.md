@@ -86,9 +86,10 @@ Hash 表的空间如果远远大于实际存储的记录数据的个数，则造
 
 > 4> 滚动哈希
 >
-| 题目                                                                          | 说明                             | 实现                                                                            |
-|-----------------------------------------------------------------------------|--------------------------------|-------------------------------------------------------------------------------|
-| [187. 重复的DNA序列](https://leetcode.cn/problems/repeated-dna-sequences/description/) | 4进制10位的多项式表达式作为哈希函数，可以滚动的求解哈希值 | [我的提交](https://leetcode.cn/problems/repeated-dna-sequences/submissions/511752224/) |
+| 题目                                                                          | 说明                                           | 实现                                                                            |
+|-----------------------------------------------------------------------------|----------------------------------------------|-------------------------------------------------------------------------------|
+| [187. 重复的DNA序列](https://leetcode.cn/problems/repeated-dna-sequences/description/) | 4进制10位的多项式表达式作为哈希函数，可以滚动的求解哈希值               | [我的提交](https://leetcode.cn/problems/repeated-dna-sequences/submissions/511752224/) |
+| [3006. 找出数组中的美丽下标 I](https://leetcode.cn/problems/find-beautiful-indices-in-the-given-array-i/description/) | 26进制len(a),len(b)位的多项式表达式分别作为哈希函数，可以滚动的求解哈希值 | [我的提交](https://leetcode.cn/problems/find-beautiful-indices-in-the-given-array-i/submissions/511771963/) |
 
 
 ### 3. 更多练习
