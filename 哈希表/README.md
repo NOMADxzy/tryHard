@@ -84,6 +84,12 @@ Hash 表的空间如果远远大于实际存储的记录数据的个数，则造
 |-----------------------------------------------------------------------------|------------------------------------------------------------|-------------------------------------------------------------------------------|
 | [1452. 收藏清单](https://leetcode.cn/problems/people-whose-list-of-favorite-companies-is-not-a-subset-of-another-list/description/) | 记录每个字符串出现的idx列表，i位置的字符串j：j出现的位置cnt都+1，看最后是否有个位置cnt和i字符串数相同 | [我的提交](https://leetcode.cn/problems/people-whose-list-of-favorite-companies-is-not-a-subset-of-another-list/submissions/493450888/) |
 
+> 4> 滚动哈希
+>
+| 题目                                                                          | 说明                             | 实现                                                                            |
+|-----------------------------------------------------------------------------|--------------------------------|-------------------------------------------------------------------------------|
+| [187. 重复的DNA序列](https://leetcode.cn/problems/repeated-dna-sequences/description/) | 4进制10位的多项式表达式作为哈希函数，可以滚动的求解哈希值 | [我的提交](https://leetcode.cn/problems/repeated-dna-sequences/submissions/511752224/) |
+
 
 ### 3. 更多练习
 
