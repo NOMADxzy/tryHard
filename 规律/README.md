@@ -35,7 +35,13 @@
 |------------------------------------------------------------------------------|---------------------|-------------------------------------------------------------------------------|
 | [1104. 二叉树寻路](https://leetcode.cn/problems/path-in-zigzag-labelled-binary-tree/description/) | 利用Z字型索引每个元素，再对称变换索引 | [我的提交](https://leetcode.cn/problems/path-in-zigzag-labelled-binary-tree/submissions/492205983/) |
 
+> 4> 模拟
+>
+| 题目                                                                        | 说明                | 实现                                                                            |
+|---------------------------------------------------------------------------|-------------------|-------------------------------------------------------------------------------|
+| [HJ39 判断两个IP是否属于同一子网 ](https://blog.csdn.net/m0_73888323/article/details/132643811) | 分成4块，分别从高位往低位，与计算 | [我的提交](https://www.nowcoder.com/practice/34a597ee15eb4fa2b956f4c595f03218?tpId=37&tqId=21262&rp=1&ru=/exam/oj/ta&qru=/exam/oj/ta&sourceUrl=%2Fexam%2Foj%2Fta%3FtpId%3D37&difficulty=undefined&judgeStatus=undefined&tags=&title=) |
 
+https://blog.csdn.net/m0_73888323/article/details/132643811
 
 ### 3. 更多练习
 
