@@ -31,6 +31,14 @@
 | [1442. 形成两个异或相等数组的三元组数目](https://leetcode.cn/problems/count-triplets-that-can-form-two-arrays-of-equal-xor/description/) | 注意初始值{0:{-1}, arr[0]:{0}} | [我的提交](https://leetcode.cn/problems/count-triplets-that-can-form-two-arrays-of-equal-xor/submissions/493361982/) |
 | [2001. 可互换矩形的组数](https://leetcode.cn/problems/number-of-pairs-of-interchangeable-rectangles/description/) | 可替换的矩形，对应着唯一的最简比例，即组合计数问题，采用用容斥定理解决 | [我的提交](https://leetcode.cn/problems/number-of-pairs-of-interchangeable-rectangles/submissions/500720933/) |
 
+
+> 3> 复杂问题求多个子前缀和简化算法过程
+>
+| 题目                                                                       | 说明         | 实现                                                                            |
+|--------------------------------------------------------------------------|------------|-------------------------------------------------------------------------------|
+| [2381. 字母移位 II](https://leetcode.cn/problems/shifting-letters-ii/description/) | 利用差分数组记录次数 | [我的提交](https://leetcode.cn/problems/shifting-letters-ii/submissions/513167934/) |
+
+
 ### 3. 更多练习
 
 
