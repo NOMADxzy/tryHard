@@ -174,11 +174,17 @@
 | [1449. 数位成本和为目标值的最大数字](https://leetcode.cn/problems/form-largest-integer-with-digits-that-add-up-to-target/description/) | 记录各个target的最大字符串，当前位置方案由上一位置+v转换来                               | [我的提交](https://leetcode.cn/problems/form-largest-integer-with-digits-that-add-up-to-target/submissions/493441227/) |
 | [2400. 恰好移动 k 步到达某一位置的方法数目](https://leetcode.cn/problems/number-of-ways-to-reach-a-position-after-exactly-k-steps/description/) | 线性dp，只需记录离终点距离k以内的数组（长度2k+1），不断减小k，newDp[i] = dp[i-1] + dp[i+1] | [我的提交](https://leetcode.cn/problems/number-of-ways-to-reach-a-position-after-exactly-k-steps/submissions/500260296/) |
 
-> 14> 数型dp
+> 15> 数型dp
 >
 | 题目                                                                   | 说明                                                     | 实现                                                                           |
 |----------------------------------------------------------------------|--------------------------------------------------------|------------------------------------------------------------------------------|
 | [LCP 34. 二叉树染色](https://leetcode.cn/problems/er-cha-shu-ran-se-UGC/description/) | 记录各个节点为根有连续i个节点的最大值（i取值从0到k），优化：i越小越有价值，dp[i]取前i个中的最大值 | [我的提交](https://leetcode.cn/problems/er-cha-shu-ran-se-UGC/submissions/496721688/) |
+
+> 16> 相邻动态规划
+>
+| 题目                                                                   | 说明                       | 实现                                                                            |
+|----------------------------------------------------------------------|--------------------------|-------------------------------------------------------------------------------|
+| [2957. 消除相邻近似相等字符](https://leetcode.cn/problems/remove-adjacent-almost-equal-characters/description/) | 只要两个相邻位置有一个发生变化，那它们就不会相邻 | [我的提交](https://leetcode.cn/problems/remove-adjacent-almost-equal-characters/submissions/514267148/) |
 
 
 ### 3. 更多练习
