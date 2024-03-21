@@ -43,12 +43,13 @@
 | [1234. 替换子串得到平衡字符串](https://leetcode.cn/problems/replace-the-substring-for-balanced-string/description/) | 某一子串符合条件，则在该子串位置扩展的串也一定可以                 | [我的提交](https://leetcode.cn/problems/replace-the-substring-for-balanced-string/submissions/492491313/) |
 | [1839. 所有元音按顺序排布的最长子字符串](https://leetcode.cn/problems/longest-substring-of-all-vowels-in-order/description/) | 利用左右指针找到所有满足的最小区间 | [我的提交](https://leetcode.cn/problems/longest-substring-of-all-vowels-in-order/submissions/495370191/) |
  
-3> 采用双指针 查找合法区间数目
+> 3> 采用双指针 查找合法区间数目
 >
 | 题目                                                                            | 说明                                       | 实现                                                                            |
 |-------------------------------------------------------------------------------|------------------------------------------|-------------------------------------------------------------------------------|
 | [1248. 统计「优美子数组」](https://leetcode.cn/problems/count-number-of-nice-subarrays/description/) | 依次讨论每连续k个点所能形成的区间范围，左指针范围*右指针范围          | [我的提交](https://leetcode.cn/problems/count-number-of-nice-subarrays/submissions/492589727/) |
 | [1358. 包含所有三种字符的子字符串数目](https://leetcode.cn/problems/count-number-of-nice-subarrays/description/) | 利用左右指针找到所有满足的最小区间，该区间右指针一直移到末尾的所有区间都满足条件 | [我的提交](https://leetcode.cn/problems/number-of-substrings-containing-all-three-characters/description/) |
+| [2730. 找到最长的半重复子字符串](https://leetcode.cn/problems/find-the-longest-semi-repetitive-substring/description/) | 使用一个变量记录左指针应该移到的下一位置                     | [我的提交](https://leetcode.cn/problems/find-the-longest-semi-repetitive-substring/submissions/514983243/) |
 
 > 4> 头尾双指针
 >

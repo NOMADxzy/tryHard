@@ -152,13 +152,15 @@
 | [1334. 阈值距离内邻居最少的城市](https://leetcode.cn/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/description/) | 求出每个节点间最小距离 | [我的提交](https://leetcode.cn/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/submissions/477690027/) |
 | [1311. 获取你好友已观看的视频](https://leetcode.cn/problems/get-watched-videos-by-your-friends/description/) | 求出每个好友间最小距离 | [我的提交](https://leetcode.cn/problems/get-watched-videos-by-your-friends/submissions/479635030/) |
 |             |             |                                                                               |
+
 > 12> 状态压缩dp，通常用于数组A和数组B任意匹配问题
 >
-| 题目          | 说明                                                    | 实现                                                                            |
-|-------------|-------------------------------------------------------|-------------------------------------------------------------------------------|
-| [1947. 最大兼容性评分和](https://leetcode.cn/problems/maximum-compatibility-score-sum/description/) | mark第j位表示第j个教授是否被选择，mark中1的数量k表示现在为第k个学生匹配教授          | [我的提交](https://leetcode.cn/problems/maximum-compatibility-score-sum/submissions/478437655/) |
-| [1986. 完成任务的最少工作时间段](https://leetcode.cn/problems/minimum-number-of-work-sessions-to-finish-the-tasks/description/) | 子集型状态压缩                                               | [我的提交](https://leetcode.cn/problems/minimum-number-of-work-sessions-to-finish-the-tasks/submissions/496511309/) |
-| [2305. 公平分发饼干](https://leetcode.cn/problems/fair-distribution-of-cookies/description/) | 子集型状态压缩                                               | [我的提交](https://leetcode.cn/problems/fair-distribution-of-cookies/submissions/504424437/) |
+| 题目          | 说明                                              | 实现                                                                            |
+|-------------|-------------------------------------------------|-------------------------------------------------------------------------------|
+| [1947. 最大兼容性评分和](https://leetcode.cn/problems/maximum-compatibility-score-sum/description/) | mark第j位表示第j个教授是否被选择，mark中1的数量k表示现在为第k个学生匹配教授    | [我的提交](https://leetcode.cn/problems/maximum-compatibility-score-sum/submissions/478437655/) |
+| [1986. 完成任务的最少工作时间段](https://leetcode.cn/problems/minimum-number-of-work-sessions-to-finish-the-tasks/description/) | 子集型状态压缩                                         | [我的提交](https://leetcode.cn/problems/minimum-number-of-work-sessions-to-finish-the-tasks/submissions/496511309/) |
+| [2305. 公平分发饼干](https://leetcode.cn/problems/fair-distribution-of-cookies/description/) | 子集型状态压缩                                         | [我的提交](https://leetcode.cn/problems/fair-distribution-of-cookies/submissions/504424437/) |
+| [2746. 字符串连接删减字母](https://leetcode.cn/problems/decremental-string-concatenation/description/) | 当前acc的第一个字符、最后一个字符、当前数组中的位置 组成了一个三维状态，利用状态压缩dfs | [我的提交](https://leetcode.cn/problems/decremental-string-concatenation/submissions/515005785/) |
 
 > 13> 倒序动态规划
 >
