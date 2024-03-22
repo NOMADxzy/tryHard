@@ -73,11 +73,13 @@ def backtrack(路径, 选择列表):
 > 遍历当前位置所有合法解，进入下一位置
 > 当前位置无合法解，回退，撤销一切更改
 >
-| 题目                                                                    | 说明                   | 实现                                                                            |
-|-----------------------------------------------------------------------|----------------------|-------------------------------------------------------------------------------|
-| [51. N 皇后](https://leetcode.cn/problems/n-queens/description/) | 从上往下为每一行选择Q位置        | [我的提交](https://leetcode.cn/problems/n-queens/submissions/481597366/) |
-| [1391. 检查网格中是否存在有效路径](https://leetcode.cn/problems/check-if-there-is-a-valid-path-in-a-grid/description/) | 使用4维特征记录每种街道的上下左右可行性 | [我的提交](https://leetcode.cn/problems/check-if-there-is-a-valid-path-in-a-grid/submissions/483493723/) |
-| [1905. 统计子岛屿](https://leetcode.cn/problems/count-sub-islands/description/) | ps (每访问一个节点就更改其值以去重)       | [我的提交](https://leetcode.cn/problems/count-sub-islands/submissions/483826848/) |
+| 题目                                                                    | 说明                      | 实现                                                                            |
+|-----------------------------------------------------------------------|-------------------------|-------------------------------------------------------------------------------|
+| [51. N 皇后](https://leetcode.cn/problems/n-queens/description/) | 从上往下为每一行选择Q位置           | [我的提交](https://leetcode.cn/problems/n-queens/submissions/481597366/) |
+| [1391. 检查网格中是否存在有效路径](https://leetcode.cn/problems/check-if-there-is-a-valid-path-in-a-grid/description/) | 使用4维特征记录每种街道的上下左右可行性    | [我的提交](https://leetcode.cn/problems/check-if-there-is-a-valid-path-in-a-grid/submissions/483493723/) |
+| [1905. 统计子岛屿](https://leetcode.cn/problems/count-sub-islands/description/) | ps (每访问一个节点就更改其值以去重)    | [我的提交](https://leetcode.cn/problems/count-sub-islands/submissions/483826848/) |
+| [LCR 157. 套餐内商品的排列顺序](https://leetcode.cn/problems/zi-fu-chuan-de-pai-lie-lcof/description/) | 不重复 = 每类字符按顺序使用 = 计数    | [我的提交](https://leetcode.cn/problems/zi-fu-chuan-de-pai-lie-lcof/submissions/515380258/) |
+| [2767. 将字符串分割为最少的美丽子字符串](https://leetcode.cn/problems/partition-string-into-minimum-beautiful-substrings/description/) | 每个位置选择一个合法串（预处理得到所有合法串） | [我的提交](https://leetcode.cn/problems/partition-string-into-minimum-beautiful-substrings/submissions/515401409/) |
 
 > 5> 降低搜索空间，从排序、忽略顺序、只考虑奇偶性、对实体分类等方面简化
 >
