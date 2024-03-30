@@ -124,6 +124,13 @@ def backtrack(路径, 选择列表):
 | [652. 寻找重复的子树](https://leetcode.cn/problems/find-duplicate-subtrees/description/) | 二叉树的序列化                              | [我的提交](https://leetcode.cn/problems/find-duplicate-subtrees/submissions/483213917/) |
 | [2385. 感染二叉树需要的总时间](https://leetcode.cn/problems/amount-of-time-for-binary-tree-to-be-infected/description/) | 二叉树一个节点将树分成三个部分互不相连 -> （dfs 邻居时间的最大值) + 1 | [我的提交](https://leetcode.cn/problems/amount-of-time-for-binary-tree-to-be-infected/submissions/486738592/) |
 
+> 9> 递归分治
+>
+| 题目                                                                    | 说明                                      | 实现                                                                            |
+|-----------------------------------------------------------------------|-----------------------------------------|-------------------------------------------------------------------------------|
+| [面试题 08.14. 布尔运算](https://leetcode.cn/problems/boolean-evaluation-lcci/description/) | cnt0，cnt1分别记录表达式为0/1的方法数，划分左右两个子区间 递归求解 | [我的提交](https://leetcode.cn/problems/boolean-evaluation-lcci/submissions/518477379/) |
+|
+
 ### 3. 更多练习
 #### 3.1 子集型回溯
 
