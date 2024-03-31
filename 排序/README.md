@@ -55,6 +55,7 @@
 |-------------------------------------------------------------------------------|-----------------------------------------|-------------------------------------------------------------------------------|
 | [462. 最小操作次数使数组元素相等 II](https://leetcode.cn/problems/minimum-moves-to-equal-array-elements-ii/) | 排序后，操作次数 = 左边增加的值 + 右边减小的值              | [我的提交](https://leetcode.cn/problems/minimum-moves-to-equal-array-elements-ii/submissions/478474363/) |
 | [1996. 游戏中弱角色的数量](https://leetcode.cn/problems/the-number-of-weak-characters-in-the-game/description/) | 排序后，从右往左，在每个角色严格右区间内判断，利用dpRightMax记录历史 | [我的提交](https://leetcode.cn/problems/the-number-of-weak-characters-in-the-game/submissions/480770831/) |
+| [面试题 10.11. 峰与谷](https://leetcode.cn/problems/peaks-and-valleys-lcci/description/) | 排序后，分成左右两个数据，交替取值到新数组中即可                | [我的提交](https://leetcode.cn/problems/peaks-and-valleys-lcci/submissions/518837557/) |
 
 > 2> 二重(多重)排序，第一个条件相同时，再通过第二个条件...排序
 >
