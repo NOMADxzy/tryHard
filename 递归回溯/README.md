@@ -38,6 +38,7 @@ def backtrack(路径, 选择列表):
 | [1387. 将整数按权重排序](https://leetcode.cn/problems/sort-integers-by-the-power-value/description/) | 使用int记录已计算过的                             | [我的提交](https://leetcode.cn/problems/sort-integers-by-the-power-value/submissions/477710824/) |
 | [1361. 验证二叉树](https://leetcode.cn/problems/validate-binary-tree-nodes/description/) | 记录每个节点为根时其下的节点数目，直到等于n                   | [我的提交](https://leetcode.cn/problems/validate-binary-tree-nodes/submissions/483028473/) |
 | [2745. 构造最长的新字符串](https://leetcode.cn/problems/construct-the-longest-new-string/description/) | 只要知道每个串剩余数量和前一个串类型，就能唯一确定最大长度，故采用状态压缩dfs | [我的提交](https://leetcode.cn/problems/construct-the-longest-new-string/submissions/501211750/) |
+| [133. 克隆图](https://leetcode.cn/problems/clone-graph/description/?envType=study-plan-v2&envId=top-interview-150) | 哈希表记录所有的新节点，在旧节点上遍历，新节点上修改               | [我的提交](https://leetcode.cn/problems/clone-graph/submissions/520261617/?envType=study-plan-v2&envId=top-interview-150) |
 
 > 2> 岛屿问题：曼哈顿距离，广度优先搜索，某一性质（边界）扩散，通过更改标记防止重复搜索
 >
