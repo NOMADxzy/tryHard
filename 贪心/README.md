@@ -39,8 +39,9 @@
 | [1111. 有效括号的嵌套深度](https://leetcode.cn/problems/bag-of-tokens/description/    | 贪心的将左括号分配给累积左括号更小的一边                                                        | [我的提交](https://leetcode.cn/problems/maximum-nesting-depth-of-two-valid-parentheses-strings/submissions/492209285/) |
 | [1717. 删除子字符串的最大得分](https://leetcode.cn/problems/avoid-flood-in-the-city/description/    | 保持x>y（交换）, 用cnta和cntb记录已有的连续ab数量，优先匹配ab，总匹配数为min(cnta, cntb)                | [我的提交](https://leetcode.cn/problems/maximum-score-from-removing-substrings/submissions/494440624/) |
 | [330. 按要求补齐数组](https://leetcode.cn/problems/patching-array/description/   | 与1798相同思想，数组当前元素 > preMax，一定是补充preMax+1，因为其后的所有元素都无法构成preMax+1这个数           | [我的提交](https://leetcode.cn/problems/patching-array/submissions/495132223/) |
-| [2410. 运动员和训练师的最大匹配数](https://leetcode.cn/problems/maximum-matching-of-players-with-trainers/description/  | 一定是选择运动员最低能力的k个，因如果存在更低的运动员i没被选上，则可以用i替换已经选择的任意一个，故排序后依次从小到大进行双指针匹配         | [我的提交](https://leetcode.cn/problems/maximum-matching-of-players-with-trainers/submissions/504531725/) |
+| [2410. 运动员和训练师的最大匹配数](https://leetcode.cn/problems/maximum-matching-of-players-with-trainers/description/ | 一定是选择运动员最低能力的k个，因如果存在更低的运动员i没被选上，则可以用i替换已经选择的任意一个，故排序后依次从小到大进行双指针匹配         | [我的提交](https://leetcode.cn/problems/maximum-matching-of-players-with-trainers/submissions/504531725/) |
 | [2576. 求出最多标记下标](https://leetcode.cn/problems/find-the-maximum-number-of-marked-indices/description/   | 一定是选择数值最大的的n/2个作为较大者，因如果存在更大的运动员i没被选上较大者，则可以用i替换已经选择的任意一个，故排序后依次从小到大进行双指针匹配 | [我的提交](https://leetcode.cn/problems/find-the-maximum-number-of-marked-indices/submissions/505264017/) |
+| [2375. 根据模式串构造最小数字](https://leetcode.cn/problems/construct-smallest-number-from-di-string/description/   | 前i个位置一定是前i个数字组成的，依次遍历所有位置， 遇到I就全部出栈，遇到D就入栈                                  | [我的提交](https://leetcode.cn/problems/construct-smallest-number-from-di-string/submissions/520421247/) |
 
 > 2> 递归回溯，每次做局部最优选择，注意使用状态压缩防止重复搜索
 >
