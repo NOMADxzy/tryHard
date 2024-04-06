@@ -56,17 +56,18 @@ def backtrack(路径, 选择列表):
 > 只考虑根节点 (先考虑根节点为nil，再考虑和根节点的关系，递归到下一层) 
 > 使用map记录父节点
 >
-| 题目                                                                              | 说明                                      | 实现                                                                            |
-|---------------------------------------------------------------------------------|-----------------------------------------|-------------------------------------------------------------------------------|
-| [669. 修剪二叉搜索树](https://leetcode.cn/problems/trim-a-binary-search-tree/description/) | 根节点不在区间内/在区间内两种情况                       | [我的提交](https://leetcode.cn/problems/trim-a-binary-search-tree/submissions/481581106/) |
-| [623. 在二叉树中增加一行](https://leetcode.cn/problems/add-one-row-to-tree/description/) | 根节点在新层 前两层以上/前一层/新层 三种情况                | [我的提交](https://leetcode.cn/problems/add-one-row-to-tree/submissions/481586093/) |
-| [863. 二叉树中所有距离为 K 的结点](https://leetcode.cn/problems/all-nodes-distance-k-in-binary-tree/description/) | 记录父节点，考虑下面的后再向上考虑每个父节点                  | [我的提交](https://leetcode.cn/problems/all-nodes-distance-k-in-binary-tree/submissions/482123513/) |
-| [971. 翻转二叉树以匹配先序遍历](https://leetcode.cn/problems/add-one-row-to-tree/description/) | 预处理统计每个节点下的节点数目，从而对数组划分                 | [我的提交](https://leetcode.cn/problems/add-one-row-to-tree/submissions/481586093/) |
-| [652. 寻找重复的子树](https://leetcode.cn/problems/find-duplicate-subtrees/description/) | 二叉树的序列化                                 | [我的提交](https://leetcode.cn/problems/find-duplicate-subtrees/submissions/483213917/) |
-| [1443. 收集树上所有苹果的最少时间](https://leetcode.cn/problems/minimum-time-to-collect-all-apples-in-a-tree/description/) | 当前节点time = sum(每个子节点time+2)             | [我的提交](https://leetcode.cn/problems/minimum-time-to-collect-all-apples-in-a-tree/submissions/483523574/) |
-| [124. 二叉树中的最大路径和](https://leetcode.cn/problems/binary-tree-maximum-path-sum/description/) | 递归每个根节点往下的最长路径长度，过程记录每个根节点+左右子树的最大长度    | [我的提交](https://leetcode.cn/problems/binary-tree-maximum-path-sum/submissions/485884544/) |
-| [2925. 在树上执行操作以后得到的最大分数](https://leetcode.cn/problems/maximum-score-after-applying-operations-on-a-tree/description/) | 要么只保留根节点 要么拿走根同时保证所有孩子递归满足题意            | [我的提交](https://leetcode.cn/problems/maximum-score-after-applying-operations-on-a-tree/submissions/487039273/) |
-| [面试题 04.05. 合法二叉搜索树](https://leetcode.cn/problems/legal-binary-search-tree-lcci/description/) | 记录三个值：是否二叉搜索树、最小值、最大值，输入必须是非nil的，防止极端数据 | [我的提交](https://leetcode.cn/problems/legal-binary-search-tree-lcci/submissions/496726622/) |
+| 题目                                                                              | 说明                                              | 实现                                                                            |
+|---------------------------------------------------------------------------------|-------------------------------------------------|-------------------------------------------------------------------------------|
+| [669. 修剪二叉搜索树](https://leetcode.cn/problems/trim-a-binary-search-tree/description/) | 根节点不在区间内/在区间内两种情况                               | [我的提交](https://leetcode.cn/problems/trim-a-binary-search-tree/submissions/481581106/) |
+| [623. 在二叉树中增加一行](https://leetcode.cn/problems/add-one-row-to-tree/description/) | 根节点在新层 前两层以上/前一层/新层 三种情况                        | [我的提交](https://leetcode.cn/problems/add-one-row-to-tree/submissions/481586093/) |
+| [863. 二叉树中所有距离为 K 的结点](https://leetcode.cn/problems/all-nodes-distance-k-in-binary-tree/description/) | 记录父节点，考虑下面的后再向上考虑每个父节点                          | [我的提交](https://leetcode.cn/problems/all-nodes-distance-k-in-binary-tree/submissions/482123513/) |
+| [971. 翻转二叉树以匹配先序遍历](https://leetcode.cn/problems/add-one-row-to-tree/description/) | 预处理统计每个节点下的节点数目，从而对数组划分                         | [我的提交](https://leetcode.cn/problems/add-one-row-to-tree/submissions/481586093/) |
+| [652. 寻找重复的子树](https://leetcode.cn/problems/find-duplicate-subtrees/description/) | 二叉树的序列化                                         | [我的提交](https://leetcode.cn/problems/find-duplicate-subtrees/submissions/483213917/) |
+| [1443. 收集树上所有苹果的最少时间](https://leetcode.cn/problems/minimum-time-to-collect-all-apples-in-a-tree/description/) | 当前节点time = sum(每个子节点time+2)                     | [我的提交](https://leetcode.cn/problems/minimum-time-to-collect-all-apples-in-a-tree/submissions/483523574/) |
+| [124. 二叉树中的最大路径和](https://leetcode.cn/problems/binary-tree-maximum-path-sum/description/) | 递归每个根节点往下的最长路径长度，过程记录每个根节点+左右子树的最大长度            | [我的提交](https://leetcode.cn/problems/binary-tree-maximum-path-sum/submissions/485884544/) |
+| [2925. 在树上执行操作以后得到的最大分数](https://leetcode.cn/problems/maximum-score-after-applying-operations-on-a-tree/description/) | 要么只保留根节点 要么拿走根同时保证所有孩子递归满足题意                    | [我的提交](https://leetcode.cn/problems/maximum-score-after-applying-operations-on-a-tree/submissions/487039273/) |
+| [面试题 04.05. 合法二叉搜索树](https://leetcode.cn/problems/legal-binary-search-tree-lcci/description/) | 记录三个值：是否二叉搜索树、最小值、最大值，输入必须是非nil的，防止极端数据         | [我的提交](https://leetcode.cn/problems/legal-binary-search-tree-lcci/submissions/496726622/) |
+| [1110. 删点成林](https://leetcode.cn/problems/delete-nodes-and-return-forest/description/) | dfs了两个功能：①当前node为目标时与父节点断连，②当前父节点为目标时，将当前节点加入答案 | [我的提交](https://leetcode.cn/problems/delete-nodes-and-return-forest/submissions/520541629/) |
 
 
 > 4> 棋盘问题，三步:
