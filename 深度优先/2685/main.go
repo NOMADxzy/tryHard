@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func countCompleteComponents1(n int, edges [][]int) int {
+func countCompleteComponents(n int, edges [][]int) int {
 	nexts := make([][]int, n)
 	for _, edge := range edges {
 		f, t := edge[0], edge[1]
@@ -13,13 +13,17 @@ func countCompleteComponents1(n int, edges [][]int) int {
 	ans := 0
 	var dfs func(prePos, pos int) (int, int)
 	visited := map[int]bool{}
+	eVisted := map[int]bool{}
 
 	dfs = func(prePos, pos int) (int, int) {
 		edgeCnt := 0
 		pointCnt := 1
 		visited[pos] = true
 		for _, np := range nexts[pos] {
-			if np != prePos {
+			key := (n+1)*pos + np
+			if !eVisted[key] {
+				eVisted[key] = true
+				eVisted[(n+1)*np+pos] = true
 				edgeCnt++
 			}
 			if !visited[np] {
@@ -44,68 +48,6 @@ func countCompleteComponents1(n int, edges [][]int) int {
 		}
 	}
 	return ans
-}
-
-func countCompleteComponents(n int, edges [][]int) (ans int) {
-
-	g := make([][]int, n)
-
-	for _, e := range edges {
-
-		x, y := e[0], e[1]
-
-		g[x] = append(g[x], y)
-
-		g[y] = append(g[y], x)
-
-	}
-
-	vis := make([]bool, n)
-
-	var v, e int
-
-	var dfs func(int)
-
-	dfs = func(x int) {
-
-		vis[x] = true
-
-		v++
-
-		e += len(g[x])
-
-		for _, y := range g[x] {
-
-			if !vis[y] {
-
-				dfs(y)
-
-			}
-
-		}
-
-	}
-
-	for i, b := range vis {
-
-		if !b {
-
-			v, e = 0, 0
-
-			dfs(i)
-
-			if e == v*(v-1) {
-
-				ans++
-
-			}
-
-		}
-
-	}
-
-	return
-
 }
 
 func main() {
