@@ -43,6 +43,28 @@ func test7() {
 	}
 }
 
+func test8() {
+	// 创建一个 Scanner 来读取标准输入
+	scanner := bufio.NewScanner(os.Stdin)
+
+	// 设置缓冲区和最大缓冲区大小
+	const maxCapacity = 500000 // 例如，我们将最大容量设置为500KB
+	buf := make([]byte, maxCapacity)
+	scanner.Buffer(buf, maxCapacity)
+
+	// 在这里使用 scanner 读取数据
+	fmt.Println("Please enter a very long line of text:")
+	if scanner.Scan() {
+		input := scanner.Text()
+		fmt.Printf("You entered: %s\n", input)
+	}
+
+	if err := scanner.Err(); err != nil {
+		fmt.Fprintln(os.Stderr, "Error reading from input:", err)
+	}
+
+}
+
 func main() {
 	test7()
 }

@@ -1,4 +1,4 @@
-# computer basic
+# computer science basic
 
 ![golang_logo.png](assets/golang_logo.jpg)
 

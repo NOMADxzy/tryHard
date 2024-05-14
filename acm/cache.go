@@ -2,44 +2,32 @@ package main
 
 import (
 	"fmt"
+	"time"
 )
 
-func solve(arr []int) string {
-	sum := 1
-	cnt0, cnt1 := 0, 0
-	tol := 0
-	for i := 0; i < len(arr); i++ {
-		sum *= arr[i]
-		if arr[i]%2 == 0 {
-			cnt0++
-		} else {
-			cnt1++
-		}
-		for j := arr[i]; j > 1; j /= 2 {
-			if j%2 == 1 {
-				tol++
-			}
-		}
+func printFunc1(x int, chan1, chan2 chan interface{}) {
+	for x < 100 {
+		_ = <-chan2
+		fmt.Println(x)
+		chan1 <- struct{}{}
+		x += 2
 	}
-	if tol%len(arr) == 0 {
-		return "YES"
-	} else {
-		return "NO"
+}
+func printFunc2(x int, chan1, chan2 chan interface{}) {
+	for x < 100 {
+		_ = <-chan1
+		fmt.Println(x)
+		chan2 <- struct{}{}
+		x += 2
 	}
-
 }
 
 func main() {
-	var T, tmp, n int
-	_, _ = fmt.Scan(&T)
-	for T > 0 {
-		_, _ = fmt.Scan(&n)
-		arr := make([]int, n)
-		for i := 0; i < n; i++ {
-			_, _ = fmt.Scan(&tmp)
-			arr[i] = tmp
-		}
-		fmt.Println(solve(arr))
-		T--
-	}
+	chan1 := make(chan interface{}, 1)
+	chan2 := make(chan interface{}, 1)
+	chan2 <- struct{}{}
+
+	go printFunc1(0, chan1, chan2)
+	go printFunc2(1, chan1, chan2)
+	time.Sleep(10 * time.Second)
 }
