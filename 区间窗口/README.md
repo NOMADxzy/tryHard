@@ -25,9 +25,10 @@
 > 处理队首元素
 > i移动到min(队首元素的终点，区间集合中下一元素的起点)
 >
-| 题目                                                                            | 说明    | 实现                                                                            |
-|-------------------------------------------------------------------------------|-------|-------------------------------------------------------------------------------|
-| [218. 天际线问题](https://leetcode.cn/problems/the-skyline-problem/description/) | i为横坐标 | [我的提交](https://leetcode.cn/problems/the-skyline-problem/submissions/487828082/) |
+| 题目                                                                           | 说明                         | 实现                                                                            |
+|------------------------------------------------------------------------------|----------------------------|-------------------------------------------------------------------------------|
+| [218. 天际线问题](https://leetcode.cn/problems/the-skyline-problem/description/) | i为横坐标                      | [我的提交](https://leetcode.cn/problems/the-skyline-problem/submissions/487828082/) |
+| [850. 矩形面积 II](https://leetcode.cn/problems/rectangle-area-ii/description/) | 纵坐标离散化为若干个区间，扫描记录每个区间上的矩形数 | [我的提交](https://leetcode.cn/problems/rectangle-area-ii/submissions/533164098/) |
 
 
 > 4> 滑动窗口问题，遍历right，滑动left使区间符合条件
