@@ -37,11 +37,12 @@ i, l := 1, 0
 	}
 ```
 >
-| 题目                                                                                                           | 说明                               | 实现                                                                               |
-|--------------------------------------------------------------------------------------------------------------|----------------------------------|----------------------------------------------------------------------------------|
-| [686. 重复叠加字符串匹配](https://leetcode.cn/problems/repeated-string-match/description/)                            | KMP算法，如果直到i>ab长度之和都未匹配成功，则一定无法匹配 | [我的提交](https://leetcode.cn/problems/repeated-string-match/submissions/490194187/) |
-| [210. 课程表 II](https://leetcode.cn/problems/course-schedule-ii/description/)                                  | KMP算法                            | [我的提交](https://leetcode.cn/problems/course-schedule-ii/submissions/484717117/)   |
-| [2800. 包含三个字符串的最短字符串](https://leetcode.cn/problems/shortest-string-that-contains-three-strings/description/) | 先分解问题为 a,b 两个字符串的匹配，依次在a每个位置尝试匹配   ，最后合并答案     | [我的提交](https://leetcode.cn/problems/shortest-string-that-contains-three-strings/submissions/515538112/) |
+| 题目                                                                                                          | 说明                                         | 实现                                                                               |
+|-------------------------------------------------------------------------------------------------------------|--------------------------------------------|----------------------------------------------------------------------------------|
+| [686. 重复叠加字符串匹配](https://leetcode.cn/problems/repeated-string-match/description/)                           | KMP算法，如果直到i>ab长度之和都未匹配成功，则一定无法匹配           | [我的提交](https://leetcode.cn/problems/repeated-string-match/submissions/490194187/) |
+| [210. 课程表 II](https://leetcode.cn/problems/course-schedule-ii/description/)                                 | KMP算法                                      | [我的提交](https://leetcode.cn/problems/course-schedule-ii/submissions/484717117/)   |
+| [2800. 包含三个字符串的最短字符串](https://leetcode.cn/problems/shortest-string-that-contains-three-strings/description/) | 先分解问题为 a,b 两个字符串的匹配，依次在a每个位置尝试匹配   ，最后合并答案 | [我的提交](https://leetcode.cn/problems/shortest-string-that-contains-three-strings/submissions/515538112/) |
+| [2844. 生成特殊数字的最少操作](https://leetcode.cn/problems/minimum-operations-to-make-a-special-number/description/) | 4种模式从后向前匹配，注意特殊情况                          | [我的提交](https://leetcode.cn/problems/minimum-operations-to-make-a-special-number/submissions/533442146/) |
 
 > 3> 字符串问题分类讨论
 >
