@@ -31,6 +31,7 @@
 |----------------------------------------------------------------------------|----------------------------------------|------------------------------------------------------------------------------|
 | [301. 删除无效的括号](https://leetcode.cn/problems/remove-invalid-parentheses/description/) | 从左到右，判断每个字符删除/不删除，维护leftCnt < rightCnt | [我的提交](https://leetcode.cn/problems/remove-invalid-parentheses/submissions/487992077/) |
 | [1541. 平衡括号字符串的最少插入次数](https://leetcode.cn/problems/minimum-insertions-to-balance-a-parentheses-string/description/) | 维护左括号数量始终>=0                           | [我的提交](https://leetcode.cn/problems/minimum-insertions-to-balance-a-parentheses-string/submissions/493731327/) |
+| [1963. 使字符串平衡的最小交换次数](https://leetcode.cn/problems/minimum-number-of-swaps-to-make-the-string-balanced/description/) | 遇到匹配的直接消掉就行，最后剩下一定是 "]]][[["的形式        | [我的提交](https://leetcode.cn/problems/minimum-number-of-swaps-to-make-the-string-balanced/submissions/533418045/) |
 
 > 4> 格式校验， 利用栈的特性不断消除元素,(树的先序遍历==栈)
 >
