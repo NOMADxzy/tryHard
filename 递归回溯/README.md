@@ -82,6 +82,7 @@ def backtrack(路径, 选择列表):
 | [1905. 统计子岛屿](https://leetcode.cn/problems/count-sub-islands/description/) | ps (每访问一个节点就更改其值以去重)    | [我的提交](https://leetcode.cn/problems/count-sub-islands/submissions/483826848/) |
 | [LCR 157. 套餐内商品的排列顺序](https://leetcode.cn/problems/zi-fu-chuan-de-pai-lie-lcof/description/) | 不重复 = 每类字符按顺序使用 = 计数    | [我的提交](https://leetcode.cn/problems/zi-fu-chuan-de-pai-lie-lcof/submissions/515380258/) |
 | [2767. 将字符串分割为最少的美丽子字符串](https://leetcode.cn/problems/partition-string-into-minimum-beautiful-substrings/description/) | 每个位置选择一个合法串（预处理得到所有合法串） | [我的提交](https://leetcode.cn/problems/partition-string-into-minimum-beautiful-substrings/submissions/515401409/) |
+| 2930. 重新排列后包含指定子字符串的字符串数目(https://leetcode.cn/problems/number-of-strings-which-can-be-rearranged-to-contain-substring/description/) | 记录当前还需要多少个l、e、t，状态压缩dfs | [我的提交](https://leetcode.cn/problems/number-of-strings-which-can-be-rearranged-to-contain-substring/submissions/533752234/) |
 
 > 5> 降低搜索空间，从排序、忽略顺序、只考虑奇偶性、对实体分类等方面简化
 >
