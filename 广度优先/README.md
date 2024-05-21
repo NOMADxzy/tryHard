@@ -53,6 +53,7 @@
 | 题目                                                                         | 说明                                                   | 实现                                                                            |
 |----------------------------------------------------------------------------|------------------------------------------------------|-------------------------------------------------------------------------------|
 | [488. 祖玛游戏](https://leetcode.cn/problems/zuma-game/description/) | 经分析，只有 相同序列的右端插入相同球（简化），或相同序列的中间插入不同球 两种选择是有效的（保留备用） | [我的提交](https://leetcode.cn/problems/zuma-game/description/) |
+| [847. 访问所有节点的最短路径](https://leetcode.cn/problems/shortest-path-visiting-all-nodes/description/) | 依次从每个节点并发的bfs，用（节点，已访问节点） 标记以访问的状态，直到所有节点都被访问过 | [我的提交](https://leetcode.cn/problems/shortest-path-visiting-all-nodes/submissions/533745315/)|
 
 
 ### 3. 更多练习
