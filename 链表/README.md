@@ -44,13 +44,14 @@
 
 > 1> 链表递归修改、查询
 > 
-| 题目                                                                        | 说明                                | 实现                                                                            |
-|---------------------------------------------------------------------------|-----------------------------------|-------------------------------------------------------------------------------|
-| [430. 扁平化多级双向链表](https://leetcode.cn/problems/flatten-a-multilevel-doubly-linked-list/) | 设func(l)可以扁平化子链表l，递归修改            | [我的提交](https://leetcode.cn/problems/flatten-a-multilevel-doubly-linked-list/submissions/470308756/) |
-| [2058. 找出临界点之间的最小和最大距离](https://leetcode.cn/problems/find-the-minimum-and-maximum-number-of-nodes-between-critical-points/description/) | 保存某个节点往后的极点中的最大和最小位置，递归查找计算       | [我的提交](https://leetcode.cn/problems/find-the-minimum-and-maximum-number-of-nodes-between-critical-points/submissions/497488297/) |
-| [2074. 反转偶数长度组的节点](https://leetcode.cn/problems/reverse-nodes-in-even-length-groups/description/) | 每次跳到一个组的末尾，看是否要反转下一个组，递归          | [我的提交](https://leetcode.cn/problems/reverse-nodes-in-even-length-groups/submissions/497501976/) |
-| [2095. 删除链表的中间节点](https://leetcode.cn/problems/delete-the-middle-node-of-a-linked-list/description/) | 参数中记录前面多少节点，返回值记录后面多少节点           | [我的提交](https://leetcode.cn/problems/delete-the-middle-node-of-a-linked-list/submissions/497799186/) |
-| [2816. 翻倍以链表形式表示的数字](https://leetcode.cn/problems/double-a-number-represented-as-a-linked-list/description/) | dfs修改下一结点，返回是否进位，最后不能漏掉可能新增头结点的情况 | [我的提交](https://leetcode.cn/problems/double-a-number-represented-as-a-linked-list/submissions/501212327/) |
+| 题目                                                                        | 说明                                           | 实现                                                                            |
+|---------------------------------------------------------------------------|----------------------------------------------|-------------------------------------------------------------------------------|
+| [430. 扁平化多级双向链表](https://leetcode.cn/problems/flatten-a-multilevel-doubly-linked-list/) | 设func(l)可以扁平化子链表l，递归修改                       | [我的提交](https://leetcode.cn/problems/flatten-a-multilevel-doubly-linked-list/submissions/470308756/) |
+| [2058. 找出临界点之间的最小和最大距离](https://leetcode.cn/problems/find-the-minimum-and-maximum-number-of-nodes-between-critical-points/description/) | 保存某个节点往后的极点中的最大和最小位置，递归查找计算                  | [我的提交](https://leetcode.cn/problems/find-the-minimum-and-maximum-number-of-nodes-between-critical-points/submissions/497488297/) |
+| [2074. 反转偶数长度组的节点](https://leetcode.cn/problems/reverse-nodes-in-even-length-groups/description/) | 每次跳到一个组的末尾，看是否要反转下一个组，递归                     | [我的提交](https://leetcode.cn/problems/reverse-nodes-in-even-length-groups/submissions/497501976/) |
+| [2095. 删除链表的中间节点](https://leetcode.cn/problems/delete-the-middle-node-of-a-linked-list/description/) | 参数中记录前面多少节点，返回值记录后面多少节点                      | [我的提交](https://leetcode.cn/problems/delete-the-middle-node-of-a-linked-list/submissions/497799186/) |
+| [2816. 翻倍以链表形式表示的数字](https://leetcode.cn/problems/double-a-number-represented-as-a-linked-list/description/) | dfs修改下一结点，返回是否进位，最后不能漏掉可能新增头结点的情况            | [我的提交](https://leetcode.cn/problems/double-a-number-represented-as-a-linked-list/submissions/501212327/) |
+| 面试题 02.04. 分割链表(https://leetcode.cn/problems/partition-list-lcci/description/) | dfs修改下一结点，返回是前半部分的start和end | [我的提交](https://leetcode.cn/problems/partition-list-lcci/submissions/534248228/) |
 
 > 2> 链表中利用哈希表
 >
