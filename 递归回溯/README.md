@@ -120,12 +120,13 @@ def backtrack(路径, 选择列表):
 
 > 8> 利用二叉树性质，转换、简化题目问题为可以递归的问题
 > 
-| 题目                                                                    | 说明                                    | 实现                                                                            |
-|-----------------------------------------------------------------------|---------------------------------------|-------------------------------------------------------------------------------|
-| [1530. 好叶子节点对的数量](https://leetcode.cn/problems/number-of-good-leaf-nodes-pairs/description/) | 题意->求解所有树枝节点的合法路径->递归记录每个节点到旗下叶子的路径长度 | [我的提交](https://leetcode.cn/problems/number-of-good-leaf-nodes-pairs/submissions/483683617/) |
-| [1559. 二维网格图中探测环](https://leetcode.cn/problems/detect-cycles-in-2d-grid/description/) | dfs中两个分支之间不会产生相连->dfs找环               | [我的提交](https://leetcode.cn/problems/detect-cycles-in-2d-grid/submissions/483803230/) |
-| [652. 寻找重复的子树](https://leetcode.cn/problems/find-duplicate-subtrees/description/) | 二叉树的序列化                              | [我的提交](https://leetcode.cn/problems/find-duplicate-subtrees/submissions/483213917/) |
-| [2385. 感染二叉树需要的总时间](https://leetcode.cn/problems/amount-of-time-for-binary-tree-to-be-infected/description/) | 二叉树一个节点将树分成三个部分互不相连 -> （dfs 邻居时间的最大值) + 1 | [我的提交](https://leetcode.cn/problems/amount-of-time-for-binary-tree-to-be-infected/submissions/486738592/) |
+| 题目                                                                    | 说明                                                      | 实现                                                                            |
+|-----------------------------------------------------------------------|---------------------------------------------------------|-------------------------------------------------------------------------------|
+| [1530. 好叶子节点对的数量](https://leetcode.cn/problems/number-of-good-leaf-nodes-pairs/description/) | 题意->求解所有树枝节点的合法路径->递归记录每个节点到旗下叶子的路径长度                   | [我的提交](https://leetcode.cn/problems/number-of-good-leaf-nodes-pairs/submissions/483683617/) |
+| [1559. 二维网格图中探测环](https://leetcode.cn/problems/detect-cycles-in-2d-grid/description/) | dfs中两个分支之间不会产生相连->dfs找环                                 | [我的提交](https://leetcode.cn/problems/detect-cycles-in-2d-grid/submissions/483803230/) |
+| [652. 寻找重复的子树](https://leetcode.cn/problems/find-duplicate-subtrees/description/) | 二叉树的序列化                                                 | [我的提交](https://leetcode.cn/problems/find-duplicate-subtrees/submissions/483213917/) |
+| [2385. 感染二叉树需要的总时间](https://leetcode.cn/problems/amount-of-time-for-binary-tree-to-be-infected/description/) | 二叉树一个节点将树分成三个部分互不相连 -> （dfs 邻居时间的最大值) + 1               | [我的提交](https://leetcode.cn/problems/amount-of-time-for-binary-tree-to-be-infected/submissions/486738592/) |
+| [面试题 04.08. 首个共同祖先](https://leetcode.cn/problems/first-common-ancestor-lcci/description/) | dfs返回 当前节点包含的目标数（0~2），找到节点node包含2 && 左子树包含<1 && 右子树包含<1 | [我的提交](https://leetcode.cn/problems/first-common-ancestor-lcci/submissions/534522827/) |
 
 > 9> 递归分治
 >
