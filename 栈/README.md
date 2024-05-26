@@ -35,10 +35,11 @@
 
 > 4> 格式校验， 利用栈的特性不断消除元素,(树的先序遍历==栈)
 >
-| 题目                                                                        | 说明                                              | 实现                                                                           |
-|---------------------------------------------------------------------------|-------------------------------------------------|------------------------------------------------------------------------------|
+| 题目                                                                                                         | 说明                                              | 实现                                                                           |
+|------------------------------------------------------------------------------------------------------------|-------------------------------------------------|------------------------------------------------------------------------------|
 | [331. 验证二叉树的前序序列化](https://leetcode.cn/problems/verify-preorder-serialization-of-a-binary-tree/description/) | 数值节点当作2，#节点当作0，两个0会消除上一个元素，并再入一个0               | [我的提交](https://leetcode.cn/problems/verify-preorder-serialization-of-a-binary-tree/submissions/488584791/) |
-| [388. 文件的最长绝对路径](https://leetcode.cn/problems/longest-absolute-file-path/description/) | \t个数表示层数，curLayer  < 栈顶，循环pop构建树直至curLayer > 栈顶 | [我的提交](https://leetcode.cn/problems/longest-absolute-file-path/submissions/488677676/) |
+| [388. 文件的最长绝对路径](https://leetcode.cn/problems/longest-absolute-file-path/description/)                     | \t个数表示层数，curLayer  < 栈顶，循环pop构建树直至curLayer > 栈顶 | [我的提交](https://leetcode.cn/problems/longest-absolute-file-path/submissions/488677676/) |
+| [LCR 036. 逆波兰表达式求值](https://leetcode.cn/problems/8Zf90G/description/)  | 遇到数字就入栈，遇到符号就出栈两次    | [我的提交](https://leetcode.cn/problems/8Zf90G/submissions/534953396/) |
 
 > 5> 计算表达式，将数值和括号一并入栈讨论
 >
