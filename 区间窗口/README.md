@@ -7,9 +7,10 @@
 
 > 1> 区间重叠问题，排序后分类讨论，用一个变量记录前面最右端rightMax及其对应的索引idx
 > 
-| 题目                                                                            | 说明       | 实现                                                                            |
-|-------------------------------------------------------------------------------|----------|-------------------------------------------------------------------------------|
-| [1288. 删除被覆盖区间](https://leetcode.cn/problems/remove-covered-intervals/description/) | 注意可能重复计算 | [我的提交](https://leetcode.cn/problems/remove-covered-intervals/submissions/479551049/) |
+| 题目                                                                     | 说明        | 实现                                                                            |
+|------------------------------------------------------------------------|-----------|-------------------------------------------------------------------------------|
+| [1288. 删除被覆盖区间](https://leetcode.cn/problems/remove-covered-intervals/description/) | 注意可能重复计算  | [我的提交](https://leetcode.cn/problems/remove-covered-intervals/submissions/479551049/) |
+| [LCR 074. 合并区间](https://leetcode.cn/problems/SsGoHC/description/) | 每轮处理一个区间集 | [我的提交](https://leetcode.cn/problems/SsGoHC/submissions/535267435/) |
 
 > 2> 使用优先堆解决区间问题
 >
