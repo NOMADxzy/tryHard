@@ -70,6 +70,7 @@
 | [1901. 寻找峰值 II](https://leetcode.cn/problems/find-a-peak-element-ii/description/) | 每次都向周围4个中最大的移动                                                      | [我的提交](https://leetcode.cn/problems/find-a-peak-element-ii/submissions/495909101/) |
 | [691. 贴纸拼词](https://leetcode.cn/problems/stickers-to-spell-word/description/) | state记录每个字母剩余个数，选择一个可以使state减小的word，dfs(state) = 1 + dfs(nextState) | [我的提交](https://leetcode.cn/problems/stickers-to-spell-word/submissions/499690857/) |
 | [514. 自由之路](https://leetcode.cn/problems/freedom-trail/description/) | 缓存 （ring位置，key位置）进行状态压缩，预处理记录每个字符出现的位置列表                            | [我的提交](https://leetcode.cn/problems/freedom-trail/submissions/499875669/) |
+| [LCR 085. 括号生成](https://leetcode.cn/problems/IDBivT/description/) | 记录左括号-右括号的数量，每个位置尝试使用'('和')'，递归到后一个位置      | [我的提交](https://leetcode.cn/problems/IDBivT/submissions/536327462/) |
 
 
 > 7> 预处理条件，简化递归过程
