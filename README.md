@@ -2,12 +2,6 @@
 
 ![golang_logo.png](assets/golang_logo.jpg)
 
-## Golang 理论
-
-- [Go语言的GPM调度器是什么？](https://github.com/lifei6671/interview-go/blob/master/base/go-gpm.md)
-- [Goroutine调度策略](https://github.com/lifei6671/interview-go/blob/master/base/go-scheduler.md)
-- [goroutine调度器概述](https://github.com/lifei6671/interview-go/blob/master/base/go-scheduler-base.md)
-
 ## 面试必备算法
 
 - [字符串之实现 Sunday 匹配](https://github.com/lifei6671/interview-go/blob/master/algorithm/docs/match-sunday-string.md)
