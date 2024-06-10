@@ -41,11 +41,12 @@ nums3 = [3, 5 ,8] =》 合并结果: res = [1, 2, 2, 3, 3, 4, 5, 6, 8]
 
 >  多路归并
 > 
-| 题目                                                                           | 说明             | 实现                                                                            |
-|------------------------------------------------------------------------------|----------------|-------------------------------------------------------------------------------|
-| [313. 超级丑数](https://leetcode.cn/problems/super-ugly-number/description/) | 多路归并           | [我的提交](https://leetcode.cn/problems/super-ugly-number/submissions/468697927/) |
-| [786. 第 K 个最小的质数分数](https://leetcode.cn/problems/k-th-smallest-prime-fraction/description/) | 多路归并   | [我的提交](https://leetcode.cn/problems/k-th-smallest-prime-fraction/submissions/468733547/) |
-| [1508. 子数组和排序后的区间和](https://leetcode.cn/problems/range-sum-of-sorted-subarray-sums/description/) | 多路归并 | [我的提交](https://leetcode.cn/problems/range-sum-of-sorted-subarray-sums/submissions/468741186/) |
+| 题目                                                                     | 说明                                | 实现                                                                            |
+|------------------------------------------------------------------------|-----------------------------------|-------------------------------------------------------------------------------|
+| [313. 超级丑数](https://leetcode.cn/problems/super-ugly-number/description/) | 多路归并                              | [我的提交](https://leetcode.cn/problems/super-ugly-number/submissions/468697927/) |
+| [786. 第 K 个最小的质数分数](https://leetcode.cn/problems/k-th-smallest-prime-fraction/description/) | 多路归并                              | [我的提交](https://leetcode.cn/problems/k-th-smallest-prime-fraction/submissions/468733547/) |
+| [1508. 子数组和排序后的区间和](https://leetcode.cn/problems/range-sum-of-sorted-subarray-sums/description/) | 多路归并                              | [我的提交](https://leetcode.cn/problems/range-sum-of-sorted-subarray-sums/submissions/468741186/) |
+| [LCR 061. 查找和最小的 K 对数字](https://leetcode.cn/problems/qn8gGX/description/) | ptr记录每个nums1中的元素匹配到nums2中的序号，m路归并 | [我的提交](https://leetcode.cn/problems/qn8gGX/submissions/538547705/) |
 
 ### 3. 更多练习
 
