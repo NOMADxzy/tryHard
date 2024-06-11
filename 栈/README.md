@@ -50,9 +50,10 @@
 
 > 6> 模拟
 >
-| 题目                                                                        | 说明        | 实现                                                                           |
-|---------------------------------------------------------------------------|-----------|------------------------------------------------------------------------------|
-| [LCR 037. 行星碰撞](https://leetcode.cn/problems/XagZNi/) | 从左到右，模拟碰撞 | [我的提交](https://leetcode.cn/problems/XagZNi/submissions/537975319/) |
+| 题目                                                                        | 说明           | 实现                                                                           |
+|---------------------------------------------------------------------------|--------------|------------------------------------------------------------------------------|
+| [LCR 037. 行星碰撞](https://leetcode.cn/problems/XagZNi/) | 从左到右，模拟碰撞    | [我的提交](https://leetcode.cn/problems/XagZNi/submissions/537975319/) |
+| [LCR 148. 验证图书取出顺序](https://leetcode.cn/problems/zhan-de-ya-ru-dan-chu-xu-lie-lcof/description/) | 遍历takeOut，模拟 | [我的提交](https://leetcode.cn/problems/zhan-de-ya-ru-dan-chu-xu-lie-lcof/submissions/538759720/) |
 |
 
 ### 3. 更多练习
