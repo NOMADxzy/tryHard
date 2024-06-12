@@ -67,11 +67,12 @@ for left<right{
 
 > 3> 数组无须有序，只要中点两边特性不同
 >
-| 题目                                                                                                 | 说明                                                 | 实现                                                                            |
-|----------------------------------------------------------------------------------------------------|----------------------------------------------------|-------------------------------------------------------------------------------|
+| 题目                                                                                                | 说明                                                 | 实现                                                                            |
+|---------------------------------------------------------------------------------------------------|----------------------------------------------------|-------------------------------------------------------------------------------|
 | [153. 寻找旋转排序数组中的最小值](https://leetcode.cn/problems/find-minimum-in-rotated-sorted-array/description/) | 左半部分大于右端点，右半部分小于左端点                                | [我的提交](https://leetcode.cn/problems/find-minimum-in-rotated-sorted-array/submissions/465090277/) |
 | [162. 寻找峰值](https://leetcode.cn/problems/find-peak-element/description/) | 两个大于两边的区间中一定存在峰值                                   | [我的提交](https://leetcode.cn/problems/find-peak-element/submissions/466060281/) |
 | [2333. 最小差值平方和](https://leetcode.cn/problems/minimum-sum-of-squared-difference/description/) | delta按从大到小排序，末尾再加个0，二分查找i，满足i左边的数全降低到delta[i]的花费超额 | [我的提交](https://leetcode.cn/problems/minimum-sum-of-squared-difference/submissions/501184879/) |
+| [LCR 070. 有序数组中的单一元素](https://leetcode.cn/problems/skFtm2/description/) | 某个位置要么是答案，要么左边有奇数个 要么 右边有奇数个   | [我的提交](https://leetcode.cn/problems/skFtm2/submissions/539002788/) |
 
 > 4> 求某一段区间时，分别二分查找区间的left和right点
 >
