@@ -29,6 +29,12 @@
 | [721. 账户合并](https://leetcode.cn/problems/accounts-merge/description/) | 相同性质为：两个集合拥有相同的元素，用一个map记录每个元素第一次出现的位置       | [我的提交](https://leetcode.cn/problems/accounts-merge/submissions/478917176/) |
 | [1722. 执行交换操作后的最小汉明距离](https://leetcode.cn/problems/minimize-hamming-distance-after-swap-operations/description/) | AB交换、BC交换、...EF交换 <-> A、B、C、...、F可以任意交换      | [我的提交](https://leetcode.cn/problems/minimize-hamming-distance-after-swap-operations/submissions/483814512/) |
 
+> 2> 更多变通
+>
+| 题目                                                                   | 说明                                | 实现                                                                            |
+|----------------------------------------------------------------------|-----------------------------------|-------------------------------------------------------------------------------|
+| [面试题 17.07. 婴儿名字](https://leetcode.cn/problems/baby-names-lcci/description/) | 用map代替parents数组，通过字典序 决定union时的方向 | [我的提交](https://leetcode.cn/problems/baby-names-lcci/submissions/540143480/) |
+
 
 ### 3. 更多练习
 **基础**
