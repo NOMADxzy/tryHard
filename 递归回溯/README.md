@@ -105,6 +105,8 @@ def backtrack(路径, 选择列表):
 |-----------------------------------------------------------------------|------------------------------------|-------------------------------------------------------------------------------|
 | [841. 钥匙和房间](https://leetcode.cn/problems/keys-and-rooms/description/) | 深度优先每个房间                           | [我的提交](https://leetcode.cn/problems/keys-and-rooms/submissions/482103164/) |
 | [2707. 字符串中的额外字符](https://leetcode.cn/problems/extra-characters-in-a-string/description/) | 深度优先每个位置，该位置开始匹配每个单词，或直接放弃该位置进入i+1 | [我的提交](https://leetcode.cn/problems/extra-characters-in-a-string/submissions/514977371/) |
+| [LCS 03. 主题空间](https://leetcode.cn/problems/YesdPw/description/) | dfs 每个位置 返回(相邻同主题个数、是否靠近'0') | [我的提交](https://leetcode.cn/problems/YesdPw/submissions/540419923/) |
+
 
 > 7> 预处理条件，使用map形式方便查找`下一合法位置`
 >
