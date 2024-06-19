@@ -62,15 +62,16 @@
 
 > 6> 数学分析，简化问题
 >
-| 题目                                                                         | 说明                                   | 实现                                                                            |
-|----------------------------------------------------------------------------|--------------------------------------|-------------------------------------------------------------------------------|
-| [754. 到达终点数字](https://leetcode.cn/problems/reach-a-number/description/) | 考虑sum-target能被2整除                    | [我的提交](https://leetcode.cn/problems/reach-a-number/submissions/490423313/) |
-| [991. 坏了的计算器](https://leetcode.cn/problems/broken-calculator/description/) | 考虑先*2到大于target 再由大到小减去2的k次方直至得到target | [我的提交](https://leetcode.cn/problems/broken-calculator/submissions/491418210/) |
-| [1432. 改变一个整数能得到的最大差值](https://leetcode.cn/problems/max-difference-you-can-get-from-changing-an-integer/description/) | 分别从高往低是探索，考虑最大和最小，一定注意111不能缩小为100    | [我的提交](https://leetcode.cn/problems/max-difference-you-can-get-from-changing-an-integer/submissions/493357212/) |
-| [1503. 所有蚂蚁掉下来前的最后一刻](https://leetcode.cn/problems/last-moment-before-all-ants-fall-out-of-a-plank/description/) | 等价于交换身份，不发生碰撞                        | [我的提交](https://leetcode.cn/problems/last-moment-before-all-ants-fall-out-of-a-plank/submissions/493627685/) |
-| [1814. 统计一个数组中好对子的数目](https://leetcode.cn/problems/count-nice-pairs-in-an-array/description/) | 等价于 x-rev(x) == y-rev(y)             | [我的提交](https://leetcode.cn/problems/count-nice-pairs-in-an-array/submissions/495172572/) |
-| [2165. 重排数字的最小值](https://leetcode.cn/problems/smallest-value-of-the-rearranged-number/description/) | 只需要统计每种数字的个数，然后贪心的填数字就行了             | [我的提交](https://leetcode.cn/problems/smallest-value-of-the-rearranged-number/submissions/500806976/) |
-| [面试题 01.07. 旋转矩阵](https://leetcode.cn/problems/rotate-matrix-lcci/description/) | 只需遍历左上角的元素， 依次计算旋转后的位置，四个位置循环替换     | [我的提交](https://leetcode.cn/problems/rotate-matrix-lcci/submissions/534003578/) |
+| 题目                                                                         | 说明                                                  | 实现                                                                            |
+|----------------------------------------------------------------------------|-----------------------------------------------------|-------------------------------------------------------------------------------|
+| [754. 到达终点数字](https://leetcode.cn/problems/reach-a-number/description/) | 考虑sum-target能被2整除                                   | [我的提交](https://leetcode.cn/problems/reach-a-number/submissions/490423313/) |
+| [991. 坏了的计算器](https://leetcode.cn/problems/broken-calculator/description/) | 考虑先*2到大于target 再由大到小减去2的k次方直至得到target               | [我的提交](https://leetcode.cn/problems/broken-calculator/submissions/491418210/) |
+| [1432. 改变一个整数能得到的最大差值](https://leetcode.cn/problems/max-difference-you-can-get-from-changing-an-integer/description/) | 分别从高往低是探索，考虑最大和最小，一定注意111不能缩小为100                   | [我的提交](https://leetcode.cn/problems/max-difference-you-can-get-from-changing-an-integer/submissions/493357212/) |
+| [1503. 所有蚂蚁掉下来前的最后一刻](https://leetcode.cn/problems/last-moment-before-all-ants-fall-out-of-a-plank/description/) | 等价于交换身份，不发生碰撞                                       | [我的提交](https://leetcode.cn/problems/last-moment-before-all-ants-fall-out-of-a-plank/submissions/493627685/) |
+| [1814. 统计一个数组中好对子的数目](https://leetcode.cn/problems/count-nice-pairs-in-an-array/description/) | 等价于 x-rev(x) == y-rev(y)                            | [我的提交](https://leetcode.cn/problems/count-nice-pairs-in-an-array/submissions/495172572/) |
+| [2165. 重排数字的最小值](https://leetcode.cn/problems/smallest-value-of-the-rearranged-number/description/) | 只需要统计每种数字的个数，然后贪心的填数字就行了                            | [我的提交](https://leetcode.cn/problems/smallest-value-of-the-rearranged-number/submissions/500806976/) |
+| [面试题 01.07. 旋转矩阵](https://leetcode.cn/problems/rotate-matrix-lcci/description/) | 只需遍历左上角的元素， 依次计算旋转后的位置，四个位置循环替换                     | [我的提交](https://leetcode.cn/problems/rotate-matrix-lcci/submissions/534003578/) |
+| [2871. 将数组分割成最多数目的子数组](https://leetcode.cn/problems/split-array-into-maximum-number-of-subarrays/description/) | A&B 的 结果一定小于 A或B，故可以推出一定是分成若干份 与结果 为0的子数组（最后一份可不为0） | [我的提交](https://leetcode.cn/problems/split-array-into-maximum-number-of-subarrays/submissions/540664858/) |
 
 
 > 7> 模运算问题
