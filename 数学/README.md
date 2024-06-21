@@ -110,8 +110,9 @@
 | 题目                                                         | 说明                                | 实现                                                                            |
 |------------------------------------------------------------|-----------------------------------|-------------------------------------------------------------------------------|
 | [2249. 统计圆内格点数目](https://leetcode.cn/problems/count-lattice-points-inside-a-circle/description/) | 按每行分类，将每个圆在所有行上的截距添加到对应列表中，最后统一处理 | [我的提交](https://leetcode.cn/problems/count-lattice-points-inside-a-circle/submissions/501024130/) |
+| [2411. 按位或最大的最小子数组长度](https://leetcode.cn/problems/smallest-subarrays-with-maximum-bitwise-or/description/) | 按每个二进制位统计在数组各个位置上的出现情况 | [我的提交](https://leetcode.cn/problems/smallest-subarrays-with-maximum-bitwise-or/submissions/541110235/) |
 
-> 11> 假设条件
+> 12> 假设条件
 >
 | 题目                                                         | 说明                           | 实现                                                                            |
 |------------------------------------------------------------|------------------------------|-------------------------------------------------------------------------------|
