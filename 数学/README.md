@@ -87,9 +87,10 @@
 
 > 8> 二进制，模拟加法器
 >
-| 题目                                                                         | 说明                               | 实现                                                                            |
-|----------------------------------------------------------------------------|----------------------------------|-------------------------------------------------------------------------------|
-| [1404. 将二进制表示减到 1 的步骤数](https://leetcode.cn/problems/number-of-steps-to-reduce-a-number-in-binary-representation-to-one/description/) | 从右到左模拟加法器，c表示进位，ans遇'0'加1，遇'1'加2 | [我的提交](https://leetcode.cn/problems/number-of-steps-to-reduce-a-number-in-binary-representation-to-one/submissions/493169292/) |
+| 题目                                                                         | 说明                                       | 实现                                                                            |
+|----------------------------------------------------------------------------|------------------------------------------|-------------------------------------------------------------------------------|
+| [1404. 将二进制表示减到 1 的步骤数](https://leetcode.cn/problems/number-of-steps-to-reduce-a-number-in-binary-representation-to-one/description/) | 从右到左模拟加法器，c表示进位，ans遇'0'加1，遇'1'加2         | [我的提交](https://leetcode.cn/problems/number-of-steps-to-reduce-a-number-in-binary-representation-to-one/submissions/493169292/) |
+| [1680. 连接连续二进制数字](https://leetcode.cn/problems/concatenation-of-consecutive-binary-numbers/description/) | cur记录当前要加的数，w记录当前cur的宽度，acc=acc<<w+cur累积 | [我的提交](https://leetcode.cn/problems/concatenation-of-consecutive-binary-numbers/submissions/541318324/) |
 
 > 9> 数学归纳法：从初始简单情况出发，递推出后面所有情况
 >
