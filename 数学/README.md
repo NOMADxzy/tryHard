@@ -94,10 +94,12 @@
 
 > 9> 数学归纳法：从初始简单情况出发，递推出后面所有情况
 >
-| 题目                                                              | 说明                                                | 实现                                                                            |
-|-----------------------------------------------------------------|---------------------------------------------------|-------------------------------------------------------------------------------|
-| [1798. 你能构造出连续值的最大数目](https://leetcode.cn/problems/maximum-number-of-consecutive-values-you-can-make/description/) | 贪心的从小到大排序，归纳法：初始{0}连续， 前i个的和连续 -> 前i+1和也连续，否则终止循环 | [我的提交](https://leetcode.cn/problems/maximum-number-of-consecutive-values-you-can-make/submissions/495128436/) |
-| [1798. 你能构造出连续值的最大数目](https://leetcode.cn/problems/number-of-ways-to-buy-pens-and-pencils/description/) | 贪心的从小到大排序，归纳法：初始{0}连续， 前i个的和连续 -> 前i+1和也连续，否则终止循环 | [我的提交](https://leetcode.cn/problems/maximum-number-of-consecutive-values-you-can-make/submissions/495128436/) |
+| 题目                                                              | 说明                                                         | 实现                                                                            |
+|-----------------------------------------------------------------|------------------------------------------------------------|-------------------------------------------------------------------------------|
+| [1798. 你能构造出连续值的最大数目](https://leetcode.cn/problems/maximum-number-of-consecutive-values-you-can-make/description/) | 贪心的从小到大排序，归纳法：初始{0}连续， 前i个的和连续 -> 前i+1和也连续，否则终止循环          | [我的提交](https://leetcode.cn/problems/maximum-number-of-consecutive-values-you-can-make/submissions/495128436/) |
+| [1798. 你能构造出连续值的最大数目](https://leetcode.cn/problems/number-of-ways-to-buy-pens-and-pencils/description/) | 贪心的从小到大排序，归纳法：初始{0}连续， 前i个的和连续 -> 前i+1和也连续，否则终止循环          | [我的提交](https://leetcode.cn/problems/maximum-number-of-consecutive-values-you-can-make/submissions/495128436/) |
+| [89. 格雷编码](https://leetcode.cn/problems/gray-code/description/) | 从最简单的[0,]出发，每次先统一最二进制高位加个1，再反转，最后拼到当前数组的后面，就得到了一个新的符合题意的数组 | [我的提交](https://leetcode.cn/problems/gray-code/submissions/541483086/) |
+
 
 > 10> 异或运算：可以任意调换顺序、任何数异或0都是本身、任何数异或本身都是0
 >
