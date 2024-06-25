@@ -104,6 +104,7 @@
 |------------------------------------------------------------|--------------------------------------------|-------------------------------------------------------------------------------|
 | [2425. 所有数对的异或和](https://leetcode.cn/problems/bitwise-xor-of-all-pairings/description/) | 对方长度是偶数则最终表达式中有本数组的所有元素                    | [我的提交](https://leetcode.cn/problems/bitwise-xor-of-all-pairings/submissions/500083980/) |
 | [2240. 买钢笔和铅笔的方案数](https://leetcode.cn/problems/minimize-xor/description/) | 依次选择各个item，dp[i]表示 有i数量钱时购买任意数量前k个item的方案数 | [我的提交](https://leetcode.cn/problems/number-of-ways-to-buy-pens-and-pencils/submissions/500810358/) |
+| [1915. 最美子字符串的数目](https://leetcode.cn/problems/number-of-wonderful-substrings/description/) | 容斥原理，用一个10位二进制表示当前累计奇偶状态 | [我的提交](https://leetcode.cn/problems/number-of-wonderful-substrings/submissions/541989620/) |
 
 > 11> 分类讨论
 >
