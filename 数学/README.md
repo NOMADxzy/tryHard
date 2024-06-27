@@ -122,6 +122,7 @@
 | 题目                                                         | 说明                           | 实现                                                                            |
 |------------------------------------------------------------|------------------------------|-------------------------------------------------------------------------------|
 | [2683. 相邻值的按位异或](https://leetcode.cn/problems/neighboring-bitwise-xor/description/) | 先假设第一位为0依次推出所有位，再看最后一个条件是否成立 | [我的提交](https://leetcode.cn/problems/neighboring-bitwise-xor/submissions/540917634/) |
+| [3191. 使二进制数组全部等于 1 的最少操作次数 I](https://leetcode.cn/problems/minimum-operations-to-make-binary-array-elements-equal-to-one-i/description/) | 先假设第一位为0, 三位三位操作，依次推出所有位，看最后三个位是否合法 | [我的提交](https://leetcode.cn/problems/minimum-operations-to-make-binary-array-elements-equal-to-one-i/submissions/542439722/) |
 
 
 ### 3. 更多练习
