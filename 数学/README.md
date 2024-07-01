@@ -24,7 +24,7 @@
 | [1734. 解码异或后的排列](https://leetcode.cn/problems/decode-xored-permutation/description/) | 偶数和其加1值的异或结果为1，故题中所有数异或结果为1或0，给第一个数初值0，求出所有后续的数，再将所有数都异或真实firstVal | [我的提交](https://leetcode.cn/problems/decode-xored-permutation/submissions/494590270/) |
 | [LCR 005. 最大单词长度乘积](https://leetcode.cn/problems/aseY1I/description/) | 每个二进制位映射一个字母，每个单词的状态均可表示，求所有与运算为0的两个单词 | [我的提交](https://leetcode.cn/problems/aseY1I/submissions/542661437/) |
 | [1239. 串联字符串的最大长度](https://leetcode.cn/problems/maximum-length-of-a-concatenated-string-with-unique-characters/description/) | 每个单词一个特征，然后使用dfs | [我的提交](https://leetcode.cn/problems/maximum-length-of-a-concatenated-string-with-unique-characters/submissions/542862110/) |
-
+| [2397. 被列覆盖的最多行数](https://leetcode.cn/problems/maximum-rows-covered-by-columns/description/) | mask（二进制形式）表示选择的列，与每行x 与运算，结果小于x表示该行没有被覆盖 | [我的提交](https://leetcode.cn/problems/maximum-rows-covered-by-columns/submissions/543294922/) |
 
 > 2> 素数查找，最小堆
 > ①埃筛法
