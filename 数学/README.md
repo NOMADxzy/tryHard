@@ -22,7 +22,9 @@
 | [458. 可怜的小猪](https://leetcode.cn/problems/poor-pigs/description/) | 共k个时段内检测出结果的信息向量长度 = buckets 的 k+1进制数长度                            | [我的提交](https://leetcode.cn/problems/poor-pigs/submissions/488982309/) |
 | [1558. 得到目标数组的最少函数调用次数](https://leetcode.cn/problems/minimum-numbers-of-function-calls-to-make-target-array/description/) | 减次数 = 二进制1的个数之和，除次数 = 二进制最高位数                                      | [我的提交](https://leetcode.cn/problems/minimum-numbers-of-function-calls-to-make-target-array/solutions/403707/de-dao-mu-biao-shu-zu-de-zui-shao-han-shu-diao-y-2/) |
 | [1734. 解码异或后的排列](https://leetcode.cn/problems/decode-xored-permutation/description/) | 偶数和其加1值的异或结果为1，故题中所有数异或结果为1或0，给第一个数初值0，求出所有后续的数，再将所有数都异或真实firstVal | [我的提交](https://leetcode.cn/problems/decode-xored-permutation/submissions/494590270/) |
-
+| [LCR 005. 最大单词长度乘积](https://leetcode.cn/problems/aseY1I/description/) | 每个二进制位映射一个字母，每个单词的状态均可表示，求所有与运算为0的两个单词 | [我的提交](https://leetcode.cn/problems/aseY1I/submissions/542661437/) |
+| [1239. 串联字符串的最大长度](https://leetcode.cn/problems/maximum-length-of-a-concatenated-string-with-unique-characters/description/) | 每个单词一个特征，然后使用dfs | [我的提交](https://leetcode.cn/problems/maximum-length-of-a-concatenated-string-with-unique-characters/submissions/542862110/) |
+| [2397. 被列覆盖的最多行数](https://leetcode.cn/problems/maximum-rows-covered-by-columns/description/) | mask（二进制形式）表示选择的列，与每行x 与运算，结果小于x表示该行没有被覆盖 | [我的提交](https://leetcode.cn/problems/maximum-rows-covered-by-columns/submissions/543294922/) |
 
 > 2> 素数查找，最小堆
 > ①埃筛法
@@ -91,6 +93,8 @@
 |----------------------------------------------------------------------------|------------------------------------------|-------------------------------------------------------------------------------|
 | [1404. 将二进制表示减到 1 的步骤数](https://leetcode.cn/problems/number-of-steps-to-reduce-a-number-in-binary-representation-to-one/description/) | 从右到左模拟加法器，c表示进位，ans遇'0'加1，遇'1'加2         | [我的提交](https://leetcode.cn/problems/number-of-steps-to-reduce-a-number-in-binary-representation-to-one/submissions/493169292/) |
 | [1680. 连接连续二进制数字](https://leetcode.cn/problems/concatenation-of-consecutive-binary-numbers/description/) | cur记录当前要加的数，w记录当前cur的宽度，acc=acc<<w+cur累积 | [我的提交](https://leetcode.cn/problems/concatenation-of-consecutive-binary-numbers/submissions/541318324/) |
+| [3133. 数组最后一个元素的最小值](https://leetcode.cn/problems/minimum-array-end/description/) | x所有为1的位固定，尝试使那些为0的位变为1，从高到低尝试 | [我的提交](https://leetcode.cn/problems/minimum-array-end/submissions/542226475/) |
+
 
 > 9> 数学归纳法：从初始简单情况出发，递推出后面所有情况
 >
@@ -106,6 +110,7 @@
 |------------------------------------------------------------|--------------------------------------------|-------------------------------------------------------------------------------|
 | [2425. 所有数对的异或和](https://leetcode.cn/problems/bitwise-xor-of-all-pairings/description/) | 对方长度是偶数则最终表达式中有本数组的所有元素                    | [我的提交](https://leetcode.cn/problems/bitwise-xor-of-all-pairings/submissions/500083980/) |
 | [2240. 买钢笔和铅笔的方案数](https://leetcode.cn/problems/minimize-xor/description/) | 依次选择各个item，dp[i]表示 有i数量钱时购买任意数量前k个item的方案数 | [我的提交](https://leetcode.cn/problems/number-of-ways-to-buy-pens-and-pencils/submissions/500810358/) |
+| [1915. 最美子字符串的数目](https://leetcode.cn/problems/number-of-wonderful-substrings/description/) | 容斥原理，用一个10位二进制表示当前累计奇偶状态 | [我的提交](https://leetcode.cn/problems/number-of-wonderful-substrings/submissions/541989620/) |
 
 > 11> 分类讨论
 >
@@ -113,12 +118,20 @@
 |------------------------------------------------------------|-----------------------------------|-------------------------------------------------------------------------------|
 | [2249. 统计圆内格点数目](https://leetcode.cn/problems/count-lattice-points-inside-a-circle/description/) | 按每行分类，将每个圆在所有行上的截距添加到对应列表中，最后统一处理 | [我的提交](https://leetcode.cn/problems/count-lattice-points-inside-a-circle/submissions/501024130/) |
 | [2411. 按位或最大的最小子数组长度](https://leetcode.cn/problems/smallest-subarrays-with-maximum-bitwise-or/description/) | 按每个二进制位统计在数组各个位置上的出现情况 | [我的提交](https://leetcode.cn/problems/smallest-subarrays-with-maximum-bitwise-or/submissions/541110235/) |
+| [2401. 最长优雅子数组](https://leetcode.cn/problems/longest-nice-subarray/description/) | 滑动窗口，统计每个二进制位上的出现情况 | [我的提交](https://leetcode.cn/problems/longest-nice-subarray/submissions/543547666/) |
 
 > 12> 假设条件
 >
 | 题目                                                         | 说明                           | 实现                                                                            |
 |------------------------------------------------------------|------------------------------|-------------------------------------------------------------------------------|
 | [2683. 相邻值的按位异或](https://leetcode.cn/problems/neighboring-bitwise-xor/description/) | 先假设第一位为0依次推出所有位，再看最后一个条件是否成立 | [我的提交](https://leetcode.cn/problems/neighboring-bitwise-xor/submissions/540917634/) |
+| [3191. 使二进制数组全部等于 1 的最少操作次数 I](https://leetcode.cn/problems/minimum-operations-to-make-binary-array-elements-equal-to-one-i/description/) | 先假设第一位为0, 三位三位操作，依次推出所有位，看最后三个位是否合法 | [我的提交](https://leetcode.cn/problems/minimum-operations-to-make-binary-array-elements-equal-to-one-i/submissions/542439722/) |
+
+> 13> 位变换转移
+>
+| 题目                                                         | 说明                           | 实现                                                                            |
+|------------------------------------------------------------|------------------------------|-------------------------------------------------------------------------------|
+| [2546. 执行逐位运算使字符串相等](00->00, 10(01)->11, 11->10(01)) | 先假设第一位为0依次推出所有位，再看最后一个条件是否成立 | [我的提交](https://leetcode.cn/problems/apply-bitwise-operations-to-make-strings-equal/submissions/543841547/) |
 
 
 ### 3. 更多练习
