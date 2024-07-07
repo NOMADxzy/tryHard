@@ -26,6 +26,9 @@
 | [1239. 串联字符串的最大长度](https://leetcode.cn/problems/maximum-length-of-a-concatenated-string-with-unique-characters/description/) | 每个单词一个特征，然后使用dfs                                                   | [我的提交](https://leetcode.cn/problems/maximum-length-of-a-concatenated-string-with-unique-characters/submissions/542862110/) |
 | [2397. 被列覆盖的最多行数](https://leetcode.cn/problems/maximum-rows-covered-by-columns/description/)                                | mask（二进制形式）表示选择的列，与每行x 与运算，结果小于x表示该行没有被覆盖                          | [我的提交](https://leetcode.cn/problems/maximum-rows-covered-by-columns/submissions/543294922/) |
 | [3097. 或值至少为 K 的最短子数组 II](https://leetcode.cn/problems/shortest-subarray-with-or-at-least-k-ii/description/)                                      | 用一个32位的数组表示当前累计或运算状态，滑动窗口     | [我的提交](https://leetcode.cn/problems/shortest-subarray-with-or-at-least-k-ii/submissions/544790578/) |
+[2397. 被列覆盖的最多行数](https://leetcode.cn/problems/maximum-rows-covered-by-columns/description/) | mask（二进制形式）表示选择的列，与每行x 与运算，结果小于x表示该行没有被覆盖 | [我的提交](https://leetcode.cn/problems/maximum-rows-covered-by-columns/submissions/543294922/) |
+| [LCR 177. 撞色搭配](https://leetcode.cn/problems/shu-zu-zhong-shu-zi-chu-xian-de-ci-shu-lcof/description/) | AB异或结果不为0，取最后一个1这一位，可以将数组分成两个部分，分别求总异或结果 | [我的提交](https://leetcode.cn/problems/shu-zu-zhong-shu-zi-chu-xian-de-ci-shu-lcof/submissions/544416992/) |
+
 
 > 2> 素数查找，最小堆
 > ①埃筛法
