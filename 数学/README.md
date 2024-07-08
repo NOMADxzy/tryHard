@@ -97,7 +97,8 @@
 |----------------------------------------------------------------------------|------------------------------------------|-------------------------------------------------------------------------------|
 | [1404. 将二进制表示减到 1 的步骤数](https://leetcode.cn/problems/number-of-steps-to-reduce-a-number-in-binary-representation-to-one/description/) | 从右到左模拟加法器，c表示进位，ans遇'0'加1，遇'1'加2         | [我的提交](https://leetcode.cn/problems/number-of-steps-to-reduce-a-number-in-binary-representation-to-one/submissions/493169292/) |
 | [1680. 连接连续二进制数字](https://leetcode.cn/problems/concatenation-of-consecutive-binary-numbers/description/) | cur记录当前要加的数，w记录当前cur的宽度，acc=acc<<w+cur累积 | [我的提交](https://leetcode.cn/problems/concatenation-of-consecutive-binary-numbers/submissions/541318324/) |
-| [3133. 数组最后一个元素的最小值](https://leetcode.cn/problems/minimum-array-end/description/) | x所有为1的位固定，尝试使那些为0的位变为1，从高到低尝试 | [我的提交](https://leetcode.cn/problems/minimum-array-end/submissions/542226475/) |
+| [3133. 数组最后一个元素的最小值](https://leetcode.cn/problems/minimum-array-end/description/) | x所有为1的位固定，尝试使那些为0的位变为1，从高到低尝试            | [我的提交](https://leetcode.cn/problems/minimum-array-end/submissions/542226475/) |
+| [2571. 将整数减少到零需要的最少操作数](https://leetcode.cn/problems/minimum-operations-to-reduce-an-integer-to-0/description/) | 连续超过2个1可以进行加1，只有一个1进行减1，直至为0             | [我的提交](https://leetcode.cn/problems/minimum-operations-to-reduce-an-integer-to-0/submissions/545013600/) |
 
 
 > 9> 数学归纳法：从初始简单情况出发，递推出后面所有情况
