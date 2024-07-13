@@ -79,6 +79,7 @@
 | [2165. 重排数字的最小值](https://leetcode.cn/problems/smallest-value-of-the-rearranged-number/description/) | 只需要统计每种数字的个数，然后贪心的填数字就行了                            | [我的提交](https://leetcode.cn/problems/smallest-value-of-the-rearranged-number/submissions/500806976/) |
 | [面试题 01.07. 旋转矩阵](https://leetcode.cn/problems/rotate-matrix-lcci/description/) | 只需遍历左上角的元素， 依次计算旋转后的位置，四个位置循环替换                     | [我的提交](https://leetcode.cn/problems/rotate-matrix-lcci/submissions/534003578/) |
 | [2871. 将数组分割成最多数目的子数组](https://leetcode.cn/problems/split-array-into-maximum-number-of-subarrays/description/) | A&B 的 结果一定小于 A或B，故可以推出一定是分成若干份 与结果 为0的子数组（最后一份可不为0） | [我的提交](https://leetcode.cn/problems/split-array-into-maximum-number-of-subarrays/submissions/540664858/) |
+| [2680. 最大或值](https://leetcode.cn/problems/maximum-or/description/) | 贪心思想，所有左移操作一定是集中在一个数上的，因为增益在最高位的1上时才能达到最大值                 | [我的提交](https://leetcode.cn/problems/maximum-or/submissions/546370957/) |
 
 
 > 7> 模运算问题
