@@ -61,7 +61,8 @@
 | [188. 买卖股票的最佳时机 IV](https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-iv/description/)                   | 划分成持有股票和不持有两个自状态，对k和i进行                                        | [我的提交](https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-iv/submissions/487402940/)                   |
 | [1223. 掷骰子模拟](https://leetcode.cn/problems/dice-roll-simulation/description/)                                       | 划分成6个数结尾，每个结尾再划分结尾连续相同数量（1~rollMax），分别进行状态转移                   | [我的提交](https://leetcode.cn/problems/dice-roll-simulation/submissions/492484131/)                                 |
 | [LCP 19. 秋叶收藏集](https://leetcode.cn/problems/UlBDOe/description/)                                        | 每个位置i前的字符串变成r,ry,ryr这三种形式 所需的最小次数， 三个子状态分别进行状态转移               | [我的提交](https://leetcode.cn/problems/UlBDOe/submissions/516508968/)                                               |
-| [2320. 统计放置房子的方式数](https://leetcode.cn/problems/count-number-of-ways-to-place-houses/description/) | 每个位置四个子状态分别进行状态转移      | [我的提交](https://leetcode.cn/problems/count-number-of-ways-to-place-houses/submissions/549427884/)                 |
+| [2320. 统计放置房子的方式数](https://leetcode.cn/problems/count-number-of-ways-to-place-houses/description/) | 每个位置四个子状态分别进行状态转移                                              | [我的提交](https://leetcode.cn/problems/count-number-of-ways-to-place-houses/submissions/549427884/)                 |
+| [2786. 访问数组中的位置使分数最大](https://leetcode.cn/problems/visit-array-positions-to-maximize-score/description/) | 每个位置两个子状态                                              | [我的提交](https://leetcode.cn/problems/count-number-of-ways-to-place-houses/submissions/549427884/)                 |
 
 
 > 4> 可对状态进行分类（26个字母等）、对数据进行排序等，从而大大减少时间
@@ -137,6 +138,7 @@
 | [2054. 两个最好的不重叠活动](https://leetcode.cn/problems/two-best-non-overlapping-events/description/)                                        | 分成选择1个和选择2个的最大收益两个子状态分别根据最先满足endtime<starttime的结果转移                                | [我的提交](https://leetcode.cn/problems/two-best-non-overlapping-events/submissions/497138632/) |
 | [410. 分割数组的最大值](https://leetcode.cn/problems/split-array-largest-sum/description/)                                         | 划分为k个数组的最优值可以由：前面若干划分为k-1个 + 后面若干个为一组 的情况转变而来                                      | [我的提交](https://leetcode.cn/problems/split-array-largest-sum/submissions/497148529/) |
 | [2266. 统计打字方案数](https://leetcode.cn/problems/count-number-of-texts/description/)                                          | 新状态 = 前面某个状态 + 最后一个字符，只需考虑dp[i] 可否由  dp[i-1], dp[i-2], dp[i-3], dp[i-4]转换而来        | [我的提交](https://leetcode.cn/problems/count-number-of-texts/submissions/501173585/) |
+| [2786. 访问数组中的位置使分数最大](https://leetcode.cn/problems/visit-array-positions-to-maximize-score/description/) | 当前位置，由前面奇数、偶数结尾的位置跳过来 得到   | [我的提交](https://leetcode.cn/problems/visit-array-positions-to-maximize-score/submissions/550230015/)                 |
 
 
 > 10> 我称之为状态扩散，从某个状态按规则扩散到其余新状态
