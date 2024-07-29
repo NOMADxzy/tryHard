@@ -129,6 +129,7 @@
 | [2401. 最长优雅子数组](https://leetcode.cn/problems/longest-nice-subarray/description/) | 滑动窗口，统计每个二进制位上的出现情况               | [我的提交](https://leetcode.cn/problems/longest-nice-subarray/submissions/543547666/) |
 | [2275. 按位与结果大于零的最长组合](https://leetcode.cn/problems/largest-combination-with-bitwise-and-greater-than-zero/description/) | 分类考虑每个二进制位，即计算数组中该位为1的个数，然后求最大值   | [我的提交](https://leetcode.cn/problems/largest-combination-with-bitwise-and-greater-than-zero/submissions/545907948/) |
 | [面试题 05.08. 绘制直线](https://leetcode.cn/problems/draw-line-lcci/description/) | 只有三类：第一类后面全1、第二类为全1、第三类前面全1       | [我的提交](https://leetcode.cn/problems/draw-line-lcci/submissions/546126819/) |
+| [2222. 选择建筑的方案数](https://leetcode.cn/problems/number-of-ways-to-select-buildings/description/) | 每个位置为中点的方案数之和                     | [我的提交](https://leetcode.cn/problems/number-of-ways-to-select-buildings/submissions/550762817/) |
 
 > 12> 假设条件
 >
