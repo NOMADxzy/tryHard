@@ -24,24 +24,24 @@
 
 > 1> 最需要原则，元素选择问题，贪婪的选择某个最需要被选择的元素
 > 
-| 题目                                                                                | 说明                                                                          | 实现                                                                           |
-|-----------------------------------------------------------------------------------|-----------------------------------------------------------------------------|------------------------------------------------------------------------------|
-| [621. 任务调度器](https://leetcode.cn/problems/task-scheduler/description/)            | 当前剩下最多的任务最需要被调度                                                             | [我的提交](https://leetcode.cn/problems/task-scheduler/submissions/478746885/) |
-| [670. 最大交换](https://leetcode.cn/problems/maximum-swap/description/)               | 最靠左的元素最需要被增大，故从左到右遍历到i位置，i右边最大的位置大于i则结果为交换i和该最大的位置                          | [我的提交](https://leetcode.cn/problems/maximum-swap/submissions/471160121/) |
-| [678. 有效的括号字符串](https://leetcode.cn/problems/valid-parenthesis-string/description/) | 左括号最需要被消除，两个栈存放左括号和星号，每次遍历到右括号，优先消除左括号，没有左括号时再消除星号                          | [我的提交](https://leetcode.cn/problems/valid-parenthesis-string/submissions/471177162/) |
-| [738. 单调递增的数字](https://leetcode.cn/problems/monotone-increasing-digits/)          | 左边元素最需要选大的，从左往右遍历到i位置，i后全变为9，i前变为单增的最大形式                                    | [我的提交](https://leetcode.cn/problems/valid-parenthesis-string/submissions/471177162/) |
-| [767. 重构字符串](https://leetcode.cn/problems/reorganize-string/description/)         | 记录当前所有字母的数量，最多的元素（不和上一个相同）是最需要被选择的元素                                        | [我的提交](https://leetcode.cn/problems/reorganize-string/submissions/471209764/) |
-| [870. 优势洗牌](https://leetcode.cn/problems/advantage-shuffle/description/)          | nums1中最小的元素最需要超越对方的数，双指针                                                    | [我的提交](https://leetcode.cn/problems/advantage-shuffle/submissions/471365063/) |
-| [881. 救生艇](https://leetcode.cn/problems/boats-to-save-people/description/)        | 体重最重的人最需要充分利用船                                                              | [我的提交](https://leetcode.cn/problems/boats-to-save-people/submissions/471367754/) |
-| [630. 课程表 III](https://leetcode.cn/problems/course-schedule-iii/description/)     | 时间越短的课程越优先，按照结束时间从小到大排序并遍历                                                  | [我的提交](https://leetcode.cn/problems/course-schedule-iii/submissions/485409704/) |
-| [407. 接雨水 II](https://leetcode.cn/problems/trapping-rain-water-ii/description/)   | 木桶效应，先接最短边周围的水，再更新木桶边                                                       | [我的提交](https://leetcode.cn/problems/trapping-rain-water-ii/submissions/488936221/) |
-| [948. 令牌放置](https://leetcode.cn/problems/bag-of-tokens/description/)             | 贪心的从小到大翻开token，从大到小闭合token                                                  | [我的提交](https://leetcode.cn/problems/bag-of-tokens/submissions/490914671/) |
-| [1111. 有效括号的嵌套深度](https://leetcode.cn/problems/bag-of-tokens/description/    | 贪心的将左括号分配给累积左括号更小的一边                                                        | [我的提交](https://leetcode.cn/problems/maximum-nesting-depth-of-two-valid-parentheses-strings/submissions/492209285/) |
-| [1717. 删除子字符串的最大得分](https://leetcode.cn/problems/avoid-flood-in-the-city/description/    | 保持x>y（交换）, 用cnta和cntb记录已有的连续ab数量，优先匹配ab，总匹配数为min(cnta, cntb)                | [我的提交](https://leetcode.cn/problems/maximum-score-from-removing-substrings/submissions/494440624/) |
-| [330. 按要求补齐数组](https://leetcode.cn/problems/patching-array/description/   | 与1798相同思想，数组当前元素 > preMax，一定是补充preMax+1，因为其后的所有元素都无法构成preMax+1这个数           | [我的提交](https://leetcode.cn/problems/patching-array/submissions/495132223/) |
-| [2410. 运动员和训练师的最大匹配数](https://leetcode.cn/problems/maximum-matching-of-players-with-trainers/description/ | 一定是选择运动员最低能力的k个，因如果存在更低的运动员i没被选上，则可以用i替换已经选择的任意一个，故排序后依次从小到大进行双指针匹配         | [我的提交](https://leetcode.cn/problems/maximum-matching-of-players-with-trainers/submissions/504531725/) |
-| [2576. 求出最多标记下标](https://leetcode.cn/problems/find-the-maximum-number-of-marked-indices/description/   | 一定是选择数值最大的的n/2个作为较大者，因如果存在更大的运动员i没被选上较大者，则可以用i替换已经选择的任意一个，故排序后依次从小到大进行双指针匹配 | [我的提交](https://leetcode.cn/problems/find-the-maximum-number-of-marked-indices/submissions/505264017/) |
-| [2375. 根据模式串构造最小数字](https://leetcode.cn/problems/construct-smallest-number-from-di-string/description/   | 前i个位置一定是前i个数字组成的，依次遍历所有位置， 遇到I就全部出栈，遇到D就入栈                                  | [我的提交](https://leetcode.cn/problems/construct-smallest-number-from-di-string/submissions/520421247/) |
+| 题目                                                                                                         | 说明                                                                          | 实现                                                                           |
+|------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------|------------------------------------------------------------------------------|
+| [621. 任务调度器](https://leetcode.cn/problems/task-scheduler/description/)                                     | 当前剩下最多的任务最需要被调度                                                             | [我的提交](https://leetcode.cn/problems/task-scheduler/submissions/478746885/) |
+| [670. 最大交换](https://leetcode.cn/problems/maximum-swap/description/)                                        | 最靠左的元素最需要被增大，故从左到右遍历到i位置，i右边最大的位置大于i则结果为交换i和该最大的位置                          | [我的提交](https://leetcode.cn/problems/maximum-swap/submissions/471160121/) |
+| [678. 有效的括号字符串](https://leetcode.cn/problems/valid-parenthesis-string/description/)                        | 左括号最需要被消除，两个栈存放左括号和星号，每次遍历到右括号，优先消除左括号，没有左括号时再消除星号                          | [我的提交](https://leetcode.cn/problems/valid-parenthesis-string/submissions/471177162/) |
+| [738. 单调递增的数字](https://leetcode.cn/problems/monotone-increasing-digits/)                                   | 左边元素最需要选大的，从左往右遍历到i位置，i后全变为9，i前变为单增的最大形式                                    | [我的提交](https://leetcode.cn/problems/valid-parenthesis-string/submissions/471177162/) |
+| [767. 重构字符串](https://leetcode.cn/problems/reorganize-string/description/)                                  | 记录当前所有字母的数量，最多的元素（不和上一个相同）是最需要被选择的元素                                        | [我的提交](https://leetcode.cn/problems/reorganize-string/submissions/471209764/) |
+| [870. 优势洗牌](https://leetcode.cn/problems/advantage-shuffle/description/)                                   | nums1中最小的元素最需要超越对方的数，双指针                                                    | [我的提交](https://leetcode.cn/problems/advantage-shuffle/submissions/471365063/) |
+| [881. 救生艇](https://leetcode.cn/problems/boats-to-save-people/description/)                                 | 体重最重的人最需要充分利用船                                                              | [我的提交](https://leetcode.cn/problems/boats-to-save-people/submissions/471367754/) |
+| [630. 课程表 III](https://leetcode.cn/problems/course-schedule-iii/description/)                              | 时间越短的课程越优先，按照结束时间从小到大排序并遍历                                                  | [我的提交](https://leetcode.cn/problems/course-schedule-iii/submissions/485409704/) |
+| [407. 接雨水 II](https://leetcode.cn/problems/trapping-rain-water-ii/description/)                            | 木桶效应，先接最短边周围的水，再更新木桶边                                                       | [我的提交](https://leetcode.cn/problems/trapping-rain-water-ii/submissions/488936221/) |
+| [948. 令牌放置](https://leetcode.cn/problems/bag-of-tokens/description/)                                       | 贪心的从小到大翻开token，从大到小闭合token                                                  | [我的提交](https://leetcode.cn/problems/bag-of-tokens/submissions/490914671/) |
+| [1111. 有效括号的嵌套深度](https://leetcode.cn/problems/bag-of-tokens/description/)                                 | 贪心的将左括号分配给累积左括号更小的一边                                                        | [我的提交](https://leetcode.cn/problems/maximum-nesting-depth-of-two-valid-parentheses-strings/submissions/492209285/) |
+| [1717. 删除子字符串的最大得分](https://leetcode.cn/problems/avoid-flood-in-the-city/description/)                     | 保持x>y（交换）, 用cnta和cntb记录已有的连续ab数量，优先匹配ab，总匹配数为min(cnta, cntb)                | [我的提交](https://leetcode.cn/problems/maximum-score-from-removing-substrings/submissions/494440624/) |
+| [330. 按要求补齐数组](https://leetcode.cn/problems/patching-array/description/)                                   | 与1798相同思想，数组当前元素 > preMax，一定是补充preMax+1，因为其后的所有元素都无法构成preMax+1这个数           | [我的提交](https://leetcode.cn/problems/patching-array/submissions/495132223/) |
+| [2410. 运动员和训练师的最大匹配数](https://leetcode.cn/problems/maximum-matching-of-players-with-trainers/description/) | 一定是选择运动员最低能力的k个，因如果存在更低的运动员i没被选上，则可以用i替换已经选择的任意一个，故排序后依次从小到大进行双指针匹配         | [我的提交](https://leetcode.cn/problems/maximum-matching-of-players-with-trainers/submissions/504531725/) |
+| [2576. 求出最多标记下标](https://leetcode.cn/problems/find-the-maximum-number-of-marked-indices/description/)      | 一定是选择数值最大的的n/2个作为较大者，因如果存在更大的运动员i没被选上较大者，则可以用i替换已经选择的任意一个，故排序后依次从小到大进行双指针匹配 | [我的提交](https://leetcode.cn/problems/find-the-maximum-number-of-marked-indices/submissions/505264017/) |
+| [2375. 根据模式串构造最小数字](https://leetcode.cn/problems/construct-smallest-number-from-di-string/description/)    | 前i个位置一定是前i个数字组成的，依次遍历所有位置， 遇到I就全部出栈，遇到D就入栈                                  | [我的提交](https://leetcode.cn/problems/construct-smallest-number-from-di-string/submissions/520421247/) |
 
 > 2> 递归回溯，每次做局部最优选择，注意使用状态压缩防止重复搜索
 >
@@ -80,6 +80,12 @@
 | 题目                                                              | 说明                                 | 实现                                                                            |
 |-----------------------------------------------------------------|------------------------------------|-------------------------------------------------------------------------------|
 | [1405. 最长快乐字符串](https://leetcode.cn/problems/longest-happy-string/description/) | 贪心规则：最多的字符最需要被取，字符数量超过其余的取2个，否则取1个 | [我的提交](https://leetcode.cn/problems/longest-happy-string/submissions/493194366/) |
+
+> 7> 依次贪心
+>
+| 题目                                                              | 说明             | 实现                                                                            |
+|-----------------------------------------------------------------|----------------|-------------------------------------------------------------------------------|
+| [2522. 将字符串分割成值不超过 K 的子字符串](https://leetcode.cn/problems/partition-string-into-substrings-with-values-at-most-k/description/) | 从 左到右，贪心的取到不能再满足的子串 | [我的提交](https://leetcode.cn/problems/longest-happy-string/submissions/493194366/) |
 
 
 ### 3. 更多练习
