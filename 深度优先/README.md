@@ -49,7 +49,8 @@
 | [2192. 有向无环图中一个节点的所有祖先](https://leetcode.cn/problems/all-ancestors-of-a-node-in-a-directed-acyclic-graph/description/) | pres数组记录所有前驱节点，dfs返回i的祖先，节点i的祖先 = dfs(i前驱节点) + i前驱节点 | [我的提交](https://leetcode.cn/problems/all-ancestors-of-a-node-in-a-directed-acyclic-graph/submissions/531910708/)  |
 | [LCR 119. 最长连续序列](https://leetcode.cn/problems/WhsWhI/description/?envType=study-plan-v2&envId=coding-interviews-special) | 哈希表记录出现与否，dfs(i)=dfs(i-1)+dfs(i+1)+1                 | [我的提交](https://leetcode.cn/problems/WhsWhI/submissions/536505147/?envType=study-plan-v2&envId=coding-interviews-special)  |
 | [LCR 050. 路径总和 III](https://leetcode.cn/problems/6eUYwP/description/)        | dfs, 记录每个节点为起点的路径为各个值的数量，递归                          | [我的提交](https://leetcode.cn/problems/6eUYwP/submissions/538098526/)  |
-| [LCR 113. 课程表 II](https://leetcode.cn/problems/QA2IGt/description/)        | dfs, 尝试访问每个节点的后继，入度为0代表可以访问                         | [我的提交](https://leetcode.cn/problems/QA2IGt/submissions/539867549/)  |
+| [LCR 113. 课程表 II](https://leetcode.cn/problems/QA2IGt/description/)        | dfs, 尝试访问每个节点的后继，入度为0代表可以访问                          | [我的提交](https://leetcode.cn/problems/QA2IGt/submissions/539867549/)  |
+| [2673. 使二叉树所有路径值相等的最小代价](https://leetcode.cn/problems/make-costs-of-paths-equal-in-a-binary-tree/description/)        | dfs, 记录左右子树下的总值，差值就是左右节点要调整的值，递归向上传递                 | [我的提交](https://leetcode.cn/problems/make-costs-of-paths-equal-in-a-binary-tree/submissions/551691624/)  |
 
 > 4> 去重
 >
