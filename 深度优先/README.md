@@ -51,6 +51,7 @@
 | [LCR 050. 路径总和 III](https://leetcode.cn/problems/6eUYwP/description/)        | dfs, 记录每个节点为起点的路径为各个值的数量，递归                          | [我的提交](https://leetcode.cn/problems/6eUYwP/submissions/538098526/)  |
 | [LCR 113. 课程表 II](https://leetcode.cn/problems/QA2IGt/description/)        | dfs, 尝试访问每个节点的后继，入度为0代表可以访问                          | [我的提交](https://leetcode.cn/problems/QA2IGt/submissions/539867549/)  |
 | [2673. 使二叉树所有路径值相等的最小代价](https://leetcode.cn/problems/make-costs-of-paths-equal-in-a-binary-tree/description/)        | dfs, 记录左右子树下的总值，差值就是左右节点要调整的值，递归向上传递                 | [我的提交](https://leetcode.cn/problems/make-costs-of-paths-equal-in-a-binary-tree/submissions/551691624/)  |
+| [3040. 相同分数的最大操作数目 II](https://leetcode.cn/problems/maximum-number-of-operations-with-the-same-score-ii/description/)        | dfs, (起点,终点,目标值)，递归从外向里搜寻可进行的步骤数，取最大的                | [我的提交](https://leetcode.cn/problems/maximum-number-of-operations-with-the-same-score-ii/submissions/552367309/)  |
 
 > 4> 去重
 >
