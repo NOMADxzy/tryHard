@@ -168,6 +168,7 @@
 | [1986. 完成任务的最少工作时间段](https://leetcode.cn/problems/minimum-number-of-work-sessions-to-finish-the-tasks/description/) | 子集型状态压缩                                         | [我的提交](https://leetcode.cn/problems/minimum-number-of-work-sessions-to-finish-the-tasks/submissions/496511309/) |
 | [2305. 公平分发饼干](https://leetcode.cn/problems/fair-distribution-of-cookies/description/) | 子集型状态压缩                                         | [我的提交](https://leetcode.cn/problems/fair-distribution-of-cookies/submissions/504424437/) |
 | [2746. 字符串连接删减字母](https://leetcode.cn/problems/decremental-string-concatenation/description/) | 当前acc的第一个字符、最后一个字符、当前数组中的位置 组成了一个三维状态，利用状态压缩dfs | [我的提交](https://leetcode.cn/problems/decremental-string-concatenation/submissions/515005785/) |
+| [3218. 切蛋糕的最小总开销 I](https://leetcode.cn/problems/minimum-cost-for-cutting-cake-i/description/) | 横向、纵向的起始位置，作为key，利用状态压缩dfs                      | [我的提交](https://leetcode.cn/problems/minimum-cost-for-cutting-cake-i/submissions/553057055/) |
 
 > 13> 倒序动态规划
 >
