@@ -25,6 +25,7 @@
 | [60. 排列序列](https://leetcode.cn/problems/permutation-sequence/description/) | 从左到右递归累计排名                          | [我的提交](https://leetcode.cn/problems/permutation-sequence/submissions/485525438/) |
 | [233. 数字 1 的个数](https://leetcode.cn/problems/number-of-digit-one/description/) | 使用 +(-)pos*10 + pre1sum 作为key存储中间结果 | [我的提交](https://leetcode.cn/problems/number-of-digit-one/submissions/487833449/) |
 | [600. 不含连续1的非负整数](https://leetcode.cn/problems/non-negative-integers-without-consecutive-ones/description/) | 只要不限制数字的长度 就可以无视前导0 直接dfs           | [我的提交](https://leetcode.cn/problems/non-negative-integers-without-consecutive-ones/submissions/499424741/) |
+| [3129. 找出所有稳定的二进制数组 I](https://leetcode.cn/problems/find-all-possible-stable-binary-arrays-i/description/) | dfs, 累计1，累计0的个数，剩余1，剩余0的个数          | [我的提交](https://leetcode.cn/problems/find-all-possible-stable-binary-arrays-i/submissions/554207032/) |
 
 > 2> 前序、中序、后序遍历，二叉搜索树
 >
