@@ -81,6 +81,7 @@
 | [2871. 将数组分割成最多数目的子数组](https://leetcode.cn/problems/split-array-into-maximum-number-of-subarrays/description/) | A&B 的 结果一定小于 A或B，故可以推出一定是分成若干份 与结果 为0的子数组（最后一份可不为0） | [我的提交](https://leetcode.cn/problems/split-array-into-maximum-number-of-subarrays/submissions/540664858/) |
 | [2680. 最大或值](https://leetcode.cn/problems/maximum-or/description/) | 贪心思想，所有左移操作一定是集中在一个数上的，因为增益在最高位的1上时才能达到最大值          | [我的提交](https://leetcode.cn/problems/maximum-or/submissions/546370957/) |
 | [2712. 使所有字符相等的最小成本](https://leetcode.cn/problems/minimum-cost-to-make-all-characters-equal/description/) | 向左的操作和向右的操作一定不重叠，否则可以转化为不重叠的，故单独对向左和向右操作进行动态规划      | [我的提交](https://leetcode.cn/problems/minimum-cost-to-make-all-characters-equal/submissions/552160901/) |
+| [LCR 185. 统计结果概率](https://leetcode.cn/problems/nge-tou-zi-de-dian-shu-lcof/description/) | 前i个色子的结果 可以 由前i-1个色子的结果推导出来      | [我的提交](https://leetcode.cn/problems/nge-tou-zi-de-dian-shu-lcof/submissions/555133701/) |
 
 
 > 7> 模运算问题
