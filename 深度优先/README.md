@@ -18,14 +18,15 @@
 > 用一个 pos 表示当前处理到数字的第多少位，pos到len(target)时结束递归
 > 
 > 
-| 题目                                                                   | 说明                                  | 实现                                                                            |
-|----------------------------------------------------------------------|-------------------------------------|-------------------------------------------------------------------------------|
-| [788. 旋转数字](https://leetcode.cn/problems/rotated-digits/description/) | dp时用preValid表示前面是否已经含有2569          | [我的提交](https://leetcode.cn/problems/rotated-digits/description/) |
-| [2376. 统计特殊整数](https://leetcode.cn/problems/count-special-integers/description/) | 使用一个mark，第i位标记i是否被使用，从而压缩状态         | [我的提交](https://leetcode.cn/problems/count-special-integers/submissions/473515507/) |
-| [60. 排列序列](https://leetcode.cn/problems/permutation-sequence/description/) | 从左到右递归累计排名                          | [我的提交](https://leetcode.cn/problems/permutation-sequence/submissions/485525438/) |
+| 题目                                                                   | 说明                              | 实现                                                                            |
+|----------------------------------------------------------------------|---------------------------------|-------------------------------------------------------------------------------|
+| [788. 旋转数字](https://leetcode.cn/problems/rotated-digits/description/) | dp时用preValid表示前面是否已经含有2569      | [我的提交](https://leetcode.cn/problems/rotated-digits/description/) |
+| [2376. 统计特殊整数](https://leetcode.cn/problems/count-special-integers/description/) | 使用一个mark，第i位标记i是否被使用，从而压缩状态     | [我的提交](https://leetcode.cn/problems/count-special-integers/submissions/473515507/) |
+| [60. 排列序列](https://leetcode.cn/problems/permutation-sequence/description/) | 从左到右递归累计排名                      | [我的提交](https://leetcode.cn/problems/permutation-sequence/submissions/485525438/) |
 | [233. 数字 1 的个数](https://leetcode.cn/problems/number-of-digit-one/description/) | 使用 +(-)pos*10 + pre1sum 作为key存储中间结果 | [我的提交](https://leetcode.cn/problems/number-of-digit-one/submissions/487833449/) |
-| [600. 不含连续1的非负整数](https://leetcode.cn/problems/non-negative-integers-without-consecutive-ones/description/) | 只要不限制数字的长度 就可以无视前导0 直接dfs           | [我的提交](https://leetcode.cn/problems/non-negative-integers-without-consecutive-ones/submissions/499424741/) |
-| [3129. 找出所有稳定的二进制数组 I](https://leetcode.cn/problems/find-all-possible-stable-binary-arrays-i/description/) | dfs, 累计1，累计0的个数，剩余1，剩余0的个数          | [我的提交](https://leetcode.cn/problems/find-all-possible-stable-binary-arrays-i/submissions/554207032/) |
+| [600. 不含连续1的非负整数](https://leetcode.cn/problems/non-negative-integers-without-consecutive-ones/description/) | 只要不限制数字的长度 就可以无视前导0 直接dfs       | [我的提交](https://leetcode.cn/problems/non-negative-integers-without-consecutive-ones/submissions/499424741/) |
+| [3129. 找出所有稳定的二进制数组 I](https://leetcode.cn/problems/find-all-possible-stable-binary-arrays-i/description/) | dfs, 累计1，累计0的个数，剩余1，剩余0的个数      | [我的提交](https://leetcode.cn/problems/find-all-possible-stable-binary-arrays-i/submissions/554207032/) |
+| [面试题 17.06. 2出现的次数](https://leetcode.cn/problems/number-of-2s-in-range-lcci/description/) | 从左到右dfs, （当前节点，累计2的个数，limit）    | [我的提交](https://leetcode.cn/problems/number-of-2s-in-range-lcci/submissions/557427802/) |
 
 > 2> 前序、中序、后序遍历，二叉搜索树
 >
