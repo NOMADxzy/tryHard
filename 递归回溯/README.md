@@ -135,6 +135,7 @@ def backtrack(路径, 选择列表):
 | 题目                                                                    | 说明                                      | 实现                                                                            |
 |-----------------------------------------------------------------------|-----------------------------------------|-------------------------------------------------------------------------------|
 | [面试题 08.14. 布尔运算](https://leetcode.cn/problems/boolean-evaluation-lcci/description/) | cnt0，cnt1分别记录表达式为0/1的方法数，划分左右两个子区间 递归求解 | [我的提交](https://leetcode.cn/problems/boolean-evaluation-lcci/submissions/518477379/) |
+| [LCR 134. Pow(x, n)](https://leetcode.cn/problems/shu-zhi-de-zheng-shu-ci-fang-lcof/description/) | dfs(x,2n) = dfs(x,n)*dfs(x,n)，递归计算      | [我的提交](https://leetcode.cn/problems/shu-zhi-de-zheng-shu-ci-fang-lcof/submissions/557707183/) |
 |
 
 ### 3. 更多练习
