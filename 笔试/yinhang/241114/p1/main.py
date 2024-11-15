@@ -1,4 +1,4 @@
-from functools import cmp_to_key
+# n的数组，每次选前x个大于0的数，统一减去一个min(arr[:x])，求重复若干次后求减去的数总和
 
 n = int(input())
 arr = list(map(int, input().split()))
