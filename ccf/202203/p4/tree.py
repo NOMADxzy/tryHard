@@ -44,7 +44,7 @@ class SegmentTree:
             r //= 2
         return self.tree[cur_max_idx] if self.tree[cur_max_idx][0]>0 else [0, -1]
 
-d = {'key': []}F
+d = {'key': []}
 
 for _ in range(100):
     d['key'].append(0)
